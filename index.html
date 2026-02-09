@@ -9,7 +9,6 @@
         body { 
             background: #121212; 
             color: #e0e0e0; 
-            /* Courier New is the classic "clean but characterful" choice */
             font-family: "Courier New", Courier, monospace; 
             margin: 0; 
             padding: 0; 
@@ -22,25 +21,26 @@
         /* PERMANENT HEADER */
         header {
             width: 100%;
-            padding: 80px 0; /* More breathing room for the bigger title */
+            max-width: 800px; /* Constraints header to match comic width */
+            padding: 40px 20px; /* Balanced spacing */
             text-align: center;
-            border-bottom: 1px solid #222;
-            margin-bottom: 30px;
+            box-sizing: border-box;
         }
-        header h1 { 
-            margin: 0; 
-            font-size: 4.5rem; /* Significantly larger title */
-            letter-spacing: -2px; /* Tighter letter spacing for a modern look */
-            color: #fff; 
-            text-transform: uppercase;
-            font-weight: 900;
+
+        /* THE LOGO STYLING */
+        .logo {
+            width: 100%;      /* Scales with the header width */
+            max-width: 800px; /* Ensures it never exceeds the panels */
+            height: auto;
+            display: block;
+            margin: 0 auto;
         }
 
         /* THE MASTER CONTAINER */
         .comic-container { 
             width: 100%;
             max-width: 800px; 
-            padding: 0 20px; /* Padding only on sides for mobile safety */
+            padding: 0 20px; 
             box-sizing: border-box;
             min-height: 50vh;
         }
@@ -56,7 +56,7 @@
             width: 100%; 
             height: auto; 
             display: block; 
-            border-radius: 2px; /* Sharper corners for a cleaner look */
+            border-radius: 2px; 
         }
 
         /* Text Blocks: Fixed width to match images exactly */
@@ -66,7 +66,7 @@
             font-size: 1.2rem;
             color: #ccc;
             margin: 30px 0;
-            width: 100%; /* Spans the full 800px container */
+            width: 100%; 
             word-wrap: break-word;
         }
 
@@ -84,13 +84,13 @@
             color: #fff;
             padding: 10px 25px;
             text-decoration: none;
-            border-radius: 0px; /* Sharp edges for the buttons */
+            border-radius: 0px; 
             margin: 0 10px;
             font-size: 1rem;
             font-weight: bold;
             transition: 0.3s;
             display: inline-block;
-            border: 2px solid #fff; /* High contrast outline buttons */
+            border: 2px solid #fff; 
             font-family: "Courier New", Courier, monospace;
         }
         .nav-btn:hover { 
@@ -111,7 +111,7 @@
 <body>
 
     <header>
-        <h1>DEAXS ADVENTURE</h1>
+        <img src="assets/media/logo.png" alt="Deaxs Adventure" class="logo">
     </header>
 
     <main class="comic-container" id="main-content">
