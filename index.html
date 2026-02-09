@@ -1,58 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mixed Media Reader</title>
+    <title>Deaxs Adventure</title>
     <style>
-        body { background: #121212; color: #e0e0e0; font-family: 'Georgia', serif; margin: 0; padding: 0; }
-        .container { 
-            max-width: 800px; /* The master width for everything */
-            margin: 0 auto; 
-            padding: 40px 20px; 
+        /* THE THEME: Dark and Clean */
+        body { 
+            background: #121212; 
+            color: #e0e0e0; 
+            font-family: 'Georgia', serif; 
+            margin: 0; 
+            padding: 0; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+
+        /* PERMANENT HEADER */
+        header {
+            width: 100%;
+            padding: 40px 0;
+            text-align: center;
+            border-bottom: 1px solid #333;
+            margin-bottom: 20px;
+        }
+        header h1 { margin: 0; font-size: 2.5rem; color: #fff; }
+
+        /* THE MASTER CONTAINER (Fixed width for the comic) */
+        .comic-container { 
+            width: 100%;
+            max-width: 800px; /* Standard webcomic width */
+            padding: 20px;
             box-sizing: border-box;
         }
-        .content-block { width: 100%; margin-bottom: 30px; }
-        
-        /* Forces images/videos to match container exactly */
-        img, video { width: 100%; height: auto; display: block; }
-        
-        /* Justified text equal to image length */
+
+        /* MIXED MEDIA BLOCKS */
+        .content-block { 
+            width: 100%; 
+            margin-bottom: 40px; 
+            animation: fadeIn 0.8s ease-in;
+        }
+
+        /* Images and Videos: Scale to exactly 800px (or window size) */
+        img, video { 
+            width: 100%; 
+            height: auto; 
+            display: block; 
+            border-radius: 4px;
+        }
+
+        /* Text Blocks: Justified to match image width */
         .text-block { 
             text-align: justify; 
-            line-height: 1.6; 
-            font-size: 1.1rem;
-            word-spacing: -1px; /* Helps justification look tighter */
+            line-height: 1.8; 
+            font-size: 1.2rem;
+            color: #ccc;
+            margin: 20px 0;
         }
+
+        /* PERMANENT FOOTER NAVIGATION */
+        footer {
+            width: 100%;
+            max-width: 800px;
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid #333;
+            margin-top: 20px;
+        }
+        .nav-btn {
+            background: #333;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .nav-btn:hover { background: #007bff; }
+
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
     </style>
 </head>
 <body>
-    <div class="container" id="main-content">
-        </div>
+
+    <header>
+        <h1>DEAXS ADVENTURE</h1>
+    </header>
+
+    <main class="comic-container" id="main-content">
+        <p style="text-align:center;">Loading adventure...</p>
+    </main>
+
+    <footer>
+        <a href="#" class="nav-btn">« First</a>
+        <a href="#" class="nav-btn">‹ Prev</a>
+        <a href="#" class="nav-btn">Next ›</a>
+    </footer>
 
     <script>
-        async function loadContent() {
-            const res = await fetch('assets/data.json');
-            const data = await res.json();
+        async function loadComic() {
             const container = document.getElementById('main-content');
-            
-            data.blocks.forEach(block => {
-                const div = document.createElement('div');
-                div.className = "content-block";
+            try {
+                // Fetch data.json with a timestamp to bypass caching
+                const res = await fetch(`assets/data.json?t=${Date.now()}`);
+                if (!res.ok) throw new Error("Could not load data.json");
                 
-                if (block.type === 'image') {
-                    div.innerHTML = `<img src="${block.value}">`;
-                } else if (block.type === 'video') {
-                    div.innerHTML = `<video controls><source src="${block.value}" type="video/mp4"></video>`;
-                } else if (block.type === 'text') {
-                    div.className += " text-block";
-                    div.innerText = block.value;
+                const data = await res.json();
+                
+                // Clear the "Loading..." text
+                container.innerHTML = "";
+
+                if (!data.blocks || data.blocks.length === 0) {
+                    container.innerHTML = "<p style='text-align:center;'>No pages have been uploaded yet.</p>";
+                    return;
                 }
-                
-                container.appendChild(div);
-            });
+
+                data.blocks.forEach(block => {
+                    const div = document.createElement('div');
+                    div.className = "content-block";
+
+                    if (block.type === 'image') {
+                        div.innerHTML = `<img src="${block.value}" alt="Comic Page">`;
+                    } 
+                    else if (block.type === 'video') {
+                        div.innerHTML = `<video controls><source src="${block.value}" type="video/mp4">Your browser does not support the video tag.</video>`;
+                    } 
+                    else if (block.type === 'text') {
+                        div.className += " text-block";
+                        div.innerText = block.value;
+                    }
+
+                    container.appendChild(div);
+                });
+            } catch (err) {
+                console.error(err);
+                container.innerHTML = "<p style='color:red;'>Error loading comic content. Check console (F12) for details.</p>";
+            }
         }
-        window.onload = loadContent;
+
+        // Run the loader
+        window.onload = loadComic;
     </script>
 </body>
 </html>
