@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: scinio/deaxsadventure
+  branch: main
+  base_url: https://deaxsadventure.com
+  auth_endpoint: api/auth
+
+media_folder: "assets/comics"
+public_folder: "/assets/comics"
+
+collections:
+  - name: "comics"
+    label: "Comic Pages"
+    folder: "assets/comics"
+    create: true
+    slug: "page{{index}}"
+    fields:
+      - { label: "Page Number", name: "title", widget: "string" }
+      - { label: "Comic Image", name: "image", widget: "image" }
+      - { label: "Upload Date", name: "date", widget: "datetime" }

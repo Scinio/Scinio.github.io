@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deaxs Adventure</title>
+    <style>
+        :root { 
+            --bg: #121212; 
+            --text: #e0e0e0; 
+            --accent: #3d3d3d; 
+        }
+        body { 
+            background-color: var(--bg); 
+            color: var(--text); 
+            font-family: sans-serif; 
+            margin: 0; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .reader-container { 
+            max-width: 800px; 
+            width: 100%; 
+            padding: 20px; 
+            text-align: center;
+        }
+        .comic-image { 
+            width: 100%; 
+            height: auto; 
+            border: 2px solid var(--accent);
+            display: block;
+            margin: 0 auto;
+        }
+        .controls { 
+            margin-top: 20px; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            width: 100%; 
+        }
+        button { 
+            background: var(--accent); 
+            color: white; 
+            border: none; 
+            padding: 10px 25px; 
+            cursor: pointer; 
+            font-size: 1rem; 
+        }
+        button:disabled { 
+            opacity: 0.3; 
+            cursor: not-allowed; 
+        }
+        #page-indicator {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="reader-container">
+        <h1 id="comic-title">Deax's Adventure</h1>
+        <img id="display-page" class="comic-image" src="" alt="Loading comic...">
+        
+        <div class="controls">
+            <button id="prev-btn" onclick="updatePage(-1)">Previous</button>
+            <span id="page-indicator">Page 1</span>
+            <button id="next-btn" onclick="updatePage(1)">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const pages = [
+            "assets/comics/page1.jpg",
+            "assets/comics/page2.jpg"
+        ];
+        
+        let currentIndex = 0;
+
+        function updatePage(step) {
+            currentIndex += step;
+            
+            const img = document.getElementById('display-page');
+            const indicator = document.getElementById('page-indicator');
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            
+            img.src = pages[currentIndex];
+            indicator.innerText = `Page ${currentIndex + 1}`;
+            
+            prevBtn.disabled = (currentIndex === 0);
+            nextBtn.disabled = (currentIndex === pages.length - 1);
+        }
+
+        window.onload = () => {
+            if (pages.length > 0) {
+                updatePage(0);
+            } else {
+                document.getElementById('display-page').alt = "No comic pages found.";
+            }
+        };
+    </script>
+</body>
+</html>
