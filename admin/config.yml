@@ -3,7 +3,6 @@ backend:
   repo: scinio/deaxsadventure
   branch: main
   base_url: https://api.netlify.com
-  auth_endpoint: auth
 
 media_folder: "assets/comics"
 public_folder: "/assets/comics"
