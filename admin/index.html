@@ -1,11 +1,113 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Content Manager</title>
-  </head>
-  <body>
-    <script src="https://cdn.jsdelivr.net/npm/decap-cms@3.3.3/dist/decap-cms.js"></script>
-  </body>
+<head>
+    <title>Comic Admin</title>
+    <style>
+        body { background: #121212; color: white; font-family: sans-serif; text-align: center; padding: 50px; }
+        .hidden { display: none; }
+        .box { background: #1e1e1e; padding: 30px; border-radius: 8px; max-width: 400px; margin: auto; border: 1px solid #333; }
+        input, button { width: 100%; padding: 12px; margin: 10px 0; border-radius: 5px; border: 1px solid #3d3d3d; box-sizing: border-box; }
+        button { background: #007bff; color: white; font-weight: bold; cursor: pointer; border: none; }
+        button:disabled { background: #444; }
+        #status { margin-top: 20px; font-size: 0.9rem; color: #aaa; }
+    </style>
+</head>
+<body>
+    <div class="box" id="login-zone">
+        <h2>Admin Access</h2>
+        <input type="password" id="pass-input" placeholder="Admin Password">
+        <input type="password" id="token-input" placeholder="GitHub Token">
+        <button onclick="checkLogin()">Login</button>
+    </div>
+
+    <div class="box hidden" id="upload-zone">
+        <h2>Upload Comic Page</h2>
+        <input type="file" id="file-input" accept="image/*">
+        <button id="upload-btn" onclick="handleUpload()">Upload & Publish</button>
+        <p id="status"></p>
+    </div>
+
+    <script>
+        const REPO = "scinio/deaxsadventure";
+        const PASS = "YOUR_PASSWORD_HERE"; 
+        let GITHUB_TOKEN = "";
+
+        function checkLogin() {
+            const passInput = document.getElementById('pass-input').value;
+            const tokenInput = document.getElementById('token-input').value;
+
+            if (passInput === PASS && tokenInput.startsWith("github_pat_")) {
+                GITHUB_TOKEN = tokenInput;
+                document.getElementById('login-zone').classList.add('hidden');
+                document.getElementById('upload-zone').classList.remove('hidden');
+            } else {
+                alert("Invalid Password or Token format");
+            }
+        }
+
+        async function handleUpload() {
+            const fileInput = document.getElementById('file-input');
+            const status = document.getElementById('status');
+            const btn = document.getElementById('upload-btn');
+            
+            if (!fileInput.files[0]) return alert("Please select a file");
+
+            btn.disabled = true;
+            status.innerText = "Uploading image...";
+
+            const file = fileInput.files[0];
+            const reader = new FileReader();
+
+            reader.onload = async () => {
+                const content = reader.result.split(',')[1];
+                const fileName = `page_${Date.now()}.jpg`;
+                const filePath = `assets/comics/${fileName}`;
+
+                try {
+                    const imgResponse = await fetch(`https://api.github.com/repos/${REPO}/contents/${filePath}`, {
+                        method: 'PUT',
+                        headers: { 'Authorization': `token ${GITHUB_TOKEN}`, 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ message: `Add ${fileName}`, content: content })
+                    });
+
+                    if (!imgResponse.ok) throw new Error("Image upload failed");
+
+                    status.innerText = "Updating comic list...";
+                    await updateDataJson(filePath);
+
+                    status.innerText = "Successfully published!";
+                    fileInput.value = "";
+                } catch (err) {
+                    status.innerText = "Error: " + err.message;
+                } finally {
+                    btn.disabled = false;
+                }
+            };
+            reader.readAsDataURL(file);
+        }
+
+        async function updateDataJson(newImagePath) {
+            const dataUrl = `https://api.github.com/repos/${REPO}/contents/assets/data.json`;
+            
+            const getRes = await fetch(dataUrl, {
+                headers: { 'Authorization': `token ${GITHUB_TOKEN}` }
+            });
+            
+            const fileData = await getRes.json();
+            const currentJson = JSON.parse(atob(fileData.content));
+            
+            currentJson.pages.push({ image: newImagePath });
+
+            await fetch(dataUrl, {
+                method: 'PUT',
+                headers: { 'Authorization': `token ${GITHUB_TOKEN}`, 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    message: "Update data.json",
+                    content: btoa(JSON.stringify(currentJson, null, 2)),
+                    sha: fileData.sha
+                })
+            });
+        }
+    </script>
+</body>
 </html>
