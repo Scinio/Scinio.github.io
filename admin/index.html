@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Comic Admin - Mixed Media</title>
+    <title>Comic Admin - Token Access</title>
     <style>
         body { background: #121212; color: white; font-family: sans-serif; text-align: center; padding: 20px; }
         .hidden { display: none; }
         .box { background: #1e1e1e; padding: 25px; border-radius: 8px; max-width: 650px; margin: 20px auto; border: 1px solid #333; }
         input, button, textarea, select { width: 100%; padding: 12px; margin: 10px 0; border-radius: 5px; border: 1px solid #3d3d3d; box-sizing: border-box; }
-        textarea { height: 100px; resize: vertical; }
+        textarea { height: 100px; resize: vertical; background: #2a2a2a; color: white; }
         button { background: #007bff; color: white; font-weight: bold; cursor: pointer; border: none; }
-        .page-card { background: #2a2a2a; padding: 15px; border-radius: 6px; margin-bottom: 10px; text-align: left; border-left: 5px solid #007bff; }
-        .swap-zone { display: flex; gap: 10px; background: #252525; padding: 15px; border-radius: 8px; justify-content: center; }
-        .swap-zone input { width: 70px; }
-        .type-tag { font-size: 0.7rem; background: #444; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; }
+        button:hover { background: #0056b3; }
+        .page-card { background: #2a2a2a; padding: 15px; border-radius: 6px; margin-bottom: 10px; text-align: left; border-left: 5px solid #007bff; display: flex; justify-content: space-between; align-items: center; }
+        .swap-zone { display: flex; gap: 10px; background: #252525; padding: 15px; border-radius: 8px; justify-content: center; align-items: center; }
+        .swap-zone input { width: 70px; margin: 0; }
+        .type-tag { font-size: 0.7rem; background: #444; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; margin-left: 10px; }
+        #status { font-weight: bold; margin: 15px 0; }
     </style>
 </head>
 <body>
+
     <div class="box" id="login-zone">
-        <h2>Admin Login</h2>
-        <input type="password" id="pass-input" placeholder="Password">
-        <input type="password" id="token-input" placeholder="GitHub Token">
-        <button onclick="checkLogin()">Login</button>
+        <h2>Enter GitHub Token to Begin</h2>
+        <input type="password" id="token-input" placeholder="github_pat_...">
+        <button onclick="checkLogin()">Access Manager</button>
     </div>
 
     <div id="upload-zone" class="hidden">
@@ -29,30 +31,32 @@
             <select id="content-type">
                 <option value="image">Image</option>
                 <option value="text">Text Block</option>
-                <option value="video">Video File</option>
+                <option value="video">Video File (MP4)</option>
             </select>
             <div id="file-input-wrapper">
                 <input type="file" id="file-input" accept="image/*,video/mp4">
             </div>
-            <textarea id="text-input" class="hidden" placeholder="Enter text here..."></textarea>
-            <button onclick="handleAdd()">Add to List</button>
+            <textarea id="text-input" class="hidden" placeholder="Enter justified text here..."></textarea>
+            <button onclick="handleAdd()">Add to Workbench</button>
+            <div id="status"></div>
         </div>
 
         <div class="box">
+            <h2>Workbench & Reordering</h2>
             <div class="swap-zone">
-                <input type="number" id="swap-a" placeholder="ID">
-                <button onclick="executeSwap()" style="width:auto">Swap With</button>
-                <input type="number" id="swap-b" placeholder="ID">
+                <span>Swap #</span>
+                <input type="number" id="swap-a">
+                <span>with #</span>
+                <input type="number" id="swap-b">
+                <button onclick="executeSwap()" style="width:auto">Swap</button>
             </div>
-            <div id="page-list"></div>
-            <button style="background:#28a745" onclick="saveData()">Save Changes to Website</button>
-            <p id="status"></p>
+            <div id="page-list" style="margin-top: 20px;"></div>
+            <button style="background:#28a745; font-size: 1.2rem;" onclick="saveData()">Save All Changes to Website</button>
         </div>
     </div>
 
     <script>
         const REPO = "scinio/deaxsadventure";
-        const PASS = "YOUR_PASSWORD_HERE"; 
         let GITHUB_TOKEN = "";
         let currentBlocks = [];
         let dataFileSha = "";
@@ -60,40 +64,50 @@
         document.getElementById('content-type').onchange = (e) => {
             document.getElementById('file-input-wrapper').classList.toggle('hidden', e.target.value === 'text');
             document.getElementById('text-input').classList.toggle('hidden', e.target.value !== 'text');
-            if(e.target.value === 'video') document.getElementById('file-input').accept = "video/mp4";
-            if(e.target.value === 'image') document.getElementById('file-input').accept = "image/*";
         };
 
-        function checkLogin() {
-            const p = document.getElementById('pass-input').value;
-            const t = document.getElementById('token-input').value;
-            if (p === PASS && t.startsWith("github_pat_")) {
+        async function checkLogin() {
+            const t = document.getElementById('token-input').value.trim();
+            if (t.startsWith("github_pat_")) {
                 GITHUB_TOKEN = t;
                 document.getElementById('login-zone').classList.add('hidden');
                 document.getElementById('upload-zone').classList.remove('hidden');
-                loadData();
-            } else { alert("Error"); }
+                await loadData();
+            } else { alert("Please enter a valid GitHub Personal Access Token."); }
         }
 
         async function loadData() {
-            const res = await fetch(`https://api.github.com/repos/${REPO}/contents/assets/data.json?t=${Date.now()}`, {
-                headers: { 'Authorization': `token ${GITHUB_TOKEN}` }
-            });
-            const data = await res.json();
-            dataFileSha = data.sha;
-            currentBlocks = JSON.parse(atob(data.content)).blocks || [];
-            render();
+            const status = document.getElementById('status');
+            try {
+                const res = await fetch(`https://api.github.com/repos/${REPO}/contents/assets/data.json?t=${Date.now()}`, {
+                    headers: { 'Authorization': `token ${GITHUB_TOKEN}` }
+                });
+                if (res.status === 404) {
+                    currentBlocks = [];
+                    return render();
+                }
+                const data = await res.json();
+                dataFileSha = data.sha;
+                const decoded = JSON.parse(atob(data.content));
+                currentBlocks = decoded.blocks || [];
+                render();
+            } catch (err) {
+                console.error(err);
+                status.innerText = "Starting with empty list.";
+            }
         }
 
         function render() {
             const container = document.getElementById('page-list');
-            container.innerHTML = "";
+            container.innerHTML = currentBlocks.length ? "" : "No content added yet.";
             currentBlocks.forEach((b, i) => {
                 const div = document.createElement('div');
                 div.className = "page-card";
-                const content = b.type === 'text' ? b.value.substring(0,30)+'...' : b.value;
-                div.innerHTML = `<strong>#${i+1}</strong> <span class="type-tag">${b.type}</span><br>${content} 
-                <button onclick="remove(${i})" style="width:auto; float:right; background:red; padding:2px 8px;">X</button>`;
+                const displayValue = b.type === 'text' ? b.value.substring(0, 40) + "..." : b.value.split('/').pop();
+                div.innerHTML = `
+                    <div><strong>#${i+1}</strong> <span class="type-tag">${b.type}</span><br><small>${displayValue}</small></div>
+                    <button onclick="remove(${i})" style="width:auto; background:#dc3545; padding:5px 10px;">Delete</button>
+                `;
                 container.appendChild(div);
             });
         }
@@ -101,27 +115,33 @@
         async function handleAdd() {
             const type = document.getElementById('content-type').value;
             const status = document.getElementById('status');
+            
             if (type === 'text') {
-                currentBlocks.push({ type: 'text', value: document.getElementById('text-input').value });
+                const val = document.getElementById('text-input').value;
+                if(!val) return;
+                currentBlocks.push({ type: 'text', value: val });
                 render();
+                document.getElementById('text-input').value = "";
             } else {
                 const file = document.getElementById('file-input').files[0];
                 if (!file) return;
-                status.innerText = "Uploading file...";
+                status.innerText = "⏳ Uploading file to GitHub...";
                 const reader = new FileReader();
                 reader.onload = async () => {
                     const content = reader.result.split(',')[1];
-                    const fileName = `item_${Date.now()}_${file.name}`;
-                    const path = `assets/media/${fileName}`;
+                    const path = `assets/media/item_${Date.now()}_${file.name.replace(/\s+/g, '_')}`;
                     const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
                         method: 'PUT',
                         headers: { 'Authorization': `token ${GITHUB_TOKEN}`, 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ message: `Upload ${type}`, content: content })
+                        body: JSON.stringify({ message: `Add ${type}`, content: content })
                     });
                     if (res.ok) {
                         currentBlocks.push({ type: type, value: path });
                         render();
-                        status.innerText = "Uploaded!";
+                        status.innerText = "✅ File added to workbench.";
+                    } else {
+                        const err = await res.json();
+                        alert("Upload failed: " + err.message);
                     }
                 };
                 reader.readAsDataURL(file);
@@ -129,27 +149,38 @@
         }
 
         function executeSwap() {
-            const a = parseInt(document.getElementById('swap-a').value)-1;
-            const b = parseInt(document.getElementById('swap-b').value)-1;
-            if(currentBlocks[a] && currentBlocks[b]) {
-                const t = currentBlocks[a]; currentBlocks[a] = currentBlocks[b]; currentBlocks[b] = t;
+            const a = parseInt(document.getElementById('swap-a').value) - 1;
+            const b = parseInt(document.getElementById('swap-b').value) - 1;
+            if (currentBlocks[a] && currentBlocks[b]) {
+                const temp = currentBlocks[a];
+                currentBlocks[a] = currentBlocks[b];
+                currentBlocks[b] = temp;
                 render();
             }
         }
 
-        function remove(i) { currentBlocks.splice(i,1); render(); }
+        function remove(i) {
+            if(confirm("Remove this block?")) { currentBlocks.splice(i, 1); render(); }
+        }
 
         async function saveData() {
+            const status = document.getElementById('status');
+            status.innerText = "💾 Saving order to GitHub...";
             const res = await fetch(`https://api.github.com/repos/${REPO}/contents/assets/data.json`, {
                 method: 'PUT',
                 headers: { 'Authorization': `token ${GITHUB_TOKEN}`, 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    message: "Update Content",
+                    message: "Update site content",
                     content: btoa(JSON.stringify({ blocks: currentBlocks }, null, 2)),
                     sha: dataFileSha
                 })
             });
-            if(res.ok) { alert("Saved!"); const d = await res.json(); dataFileSha = d.content.sha; }
+            if (res.ok) {
+                alert("Success! Site updated.");
+                const d = await res.json();
+                dataFileSha = d.content.sha;
+                status.innerText = "";
+            } else { alert("Save failed. Check your token permissions."); }
         }
     </script>
 </body>
