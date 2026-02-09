@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deaxs Adventure</title>
     <style>
-        /* THE THEME: Clean & Modern Sans-Serif */
+        /* THE THEME: Classic Typewriter Modern */
         body { 
             background: #121212; 
             color: #e0e0e0; 
-            /* Clean, modern font stack */
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            /* Courier New is the classic "clean but characterful" choice */
+            font-family: "Courier New", Courier, monospace; 
             margin: 0; 
             padding: 0; 
             display: flex; 
@@ -22,25 +22,25 @@
         /* PERMANENT HEADER */
         header {
             width: 100%;
-            padding: 50px 0;
+            padding: 80px 0; /* More breathing room for the bigger title */
             text-align: center;
             border-bottom: 1px solid #222;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
         header h1 { 
             margin: 0; 
-            font-size: 2rem; 
-            letter-spacing: 2px;
+            font-size: 4.5rem; /* Significantly larger title */
+            letter-spacing: -2px; /* Tighter letter spacing for a modern look */
             color: #fff; 
             text-transform: uppercase;
-            font-weight: 700;
+            font-weight: 900;
         }
 
         /* THE MASTER CONTAINER */
         .comic-container { 
             width: 100%;
             max-width: 800px; 
-            padding: 20px;
+            padding: 0 20px; /* Padding only on sides for mobile safety */
             box-sizing: border-box;
             min-height: 50vh;
         }
@@ -48,7 +48,7 @@
         /* MIXED MEDIA BLOCKS */
         .content-block { 
             width: 100%; 
-            margin-bottom: 40px; 
+            margin-bottom: 50px; 
             animation: fadeIn 0.8s ease-in;
         }
 
@@ -56,57 +56,56 @@
             width: 100%; 
             height: auto; 
             display: block; 
-            border-radius: 6px;
+            border-radius: 2px; /* Sharper corners for a cleaner look */
         }
 
-        /* Text Blocks: Simplified and clean */
+        /* Text Blocks: Fixed width to match images exactly */
         .text-block { 
-            text-align: left; /* Changed from justify for a more natural modern feel */
+            text-align: left;
             line-height: 1.8; 
-            font-size: 1.1rem;
-            color: #bbb;
-            margin: 25px 0;
-            max-width: 90%;
-            margin-left: auto;
-            margin-right: auto;
+            font-size: 1.2rem;
+            color: #ccc;
+            margin: 30px 0;
+            width: 100%; /* Spans the full 800px container */
+            word-wrap: break-word;
         }
 
         /* PERMANENT FOOTER NAVIGATION */
         footer {
             width: 100%;
             max-width: 800px;
-            padding: 40px 0;
+            padding: 60px 0;
             text-align: center;
             border-top: 1px solid #222;
-            margin-top: 20px;
+            margin-top: 40px;
         }
         .nav-btn {
-            background: #252525;
+            background: transparent;
             color: #fff;
-            padding: 10px 20px;
+            padding: 10px 25px;
             text-decoration: none;
-            border-radius: 4px;
-            margin: 0 8px;
-            font-size: 0.9rem;
-            font-weight: 600;
-            transition: 0.2s ease;
+            border-radius: 0px; /* Sharp edges for the buttons */
+            margin: 0 10px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: 0.3s;
             display: inline-block;
-            border: 1px solid #333;
+            border: 2px solid #fff; /* High contrast outline buttons */
+            font-family: "Courier New", Courier, monospace;
         }
         .nav-btn:hover { 
-            background: #007bff; 
-            border-color: #007bff;
+            background: #fff; 
+            color: #121212;
         }
 
         .page-indicator {
-            font-size: 0.85rem;
-            color: #666;
-            margin: 0 15px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            font-size: 0.9rem;
+            color: #555;
+            margin: 0 20px;
+            vertical-align: middle;
         }
 
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
     </style>
 </head>
 <body>
@@ -116,7 +115,7 @@
     </header>
 
     <main class="comic-container" id="main-content">
-        <p style="text-align:center; color: #444;">Loading page content...</p>
+        <p style="text-align:center; color: #444;">[ LOADING DATA ]</p>
     </main>
 
     <footer id="nav-footer"></footer>
@@ -136,7 +135,7 @@
                 container.innerHTML = "";
 
                 if (!data.pages || !data.pages[currentPage]) {
-                    container.innerHTML = "<p style='text-align:center;'>This page is currently empty.</p>";
+                    container.innerHTML = "<p style='text-align:center;'>[ EMPTY PAGE ]</p>";
                     return;
                 }
 
@@ -147,7 +146,7 @@
                     div.className = "content-block";
 
                     if (block.type === 'image') {
-                        div.innerHTML = `<img src="${block.value}" alt="Comic Panel">`;
+                        div.innerHTML = `<img src="${block.value}" alt="Panel">`;
                     } 
                     else if (block.type === 'video') {
                         div.innerHTML = `<video controls><source src="${block.value}" type="video/mp4"></video>`;
@@ -167,15 +166,15 @@
                 const prevNum = parseInt(currentPage) - 1;
 
                 footer.innerHTML = `
-                    ${currentPage !== "1" ? `<a href="?p=1" class="nav-btn">First</a>` : ''}
-                    ${prevNum > 0 ? `<a href="?p=${prevNum}" class="nav-btn">Prev</a>` : ''}
-                    <span class="page-indicator">Page ${currentPage} of ${totalPages}</span>
-                    ${data.pages[nextNum.toString()] ? `<a href="?p=${nextNum}" class="nav-btn">Next</a>` : ''}
+                    ${currentPage !== "1" ? `<a href="?p=1" class="nav-btn">FIRST</a>` : ''}
+                    ${prevNum > 0 ? `<a href="?p=${prevNum}" class="nav-btn">PREV</a>` : ''}
+                    <span class="page-indicator">PG. ${currentPage} / ${totalPages}</span>
+                    ${data.pages[nextNum.toString()] ? `<a href="?p=${nextNum}" class="nav-btn">NEXT</a>` : ''}
                 `;
 
             } catch (err) {
                 console.error(err);
-                container.innerHTML = "<p style='color:#666;'>Error loading content.</p>";
+                container.innerHTML = "<p style='color:#666; text-align:center;'>[ ERROR LOADING CONTENT ]</p>";
             }
         }
 
