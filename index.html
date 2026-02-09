@@ -64,20 +64,36 @@
         
         <div class="controls">
             <button id="prev-btn" onclick="updatePage(-1)">Previous</button>
-            <span id="page-indicator">Page 1</span>
+            <span id="page-indicator">Loading...</span>
             <button id="next-btn" onclick="updatePage(1)">Next</button>
         </div>
     </div>
 
     <script>
-        const pages = [
-            "assets/comics/page1.jpg",
-            "assets/comics/page2.jpg"
-        ];
-        
+        let pages = [];
         let currentIndex = 0;
 
+        async function loadComicData() {
+            try {
+                const response = await fetch('assets/data.json');
+                const data = await response.json();
+                pages = data.pages.map(item => item.image);
+                
+                if (pages.length > 0) {
+                    updatePage(0);
+                } else {
+                    document.getElementById('display-page').alt = "No comic pages found.";
+                    document.getElementById('page-indicator').innerText = "0 / 0";
+                }
+            } catch (error) {
+                console.error("Error loading JSON:", error);
+                document.getElementById('display-page').alt = "Error loading comic list.";
+            }
+        }
+
         function updatePage(step) {
+            if (pages.length === 0) return;
+
             currentIndex += step;
             
             const img = document.getElementById('display-page');
@@ -86,19 +102,13 @@
             const nextBtn = document.getElementById('next-btn');
             
             img.src = pages[currentIndex];
-            indicator.innerText = `Page ${currentIndex + 1}`;
+            indicator.innerText = `Page ${currentIndex + 1} of ${pages.length}`;
             
             prevBtn.disabled = (currentIndex === 0);
             nextBtn.disabled = (currentIndex === pages.length - 1);
         }
 
-        window.onload = () => {
-            if (pages.length > 0) {
-                updatePage(0);
-            } else {
-                document.getElementById('display-page').alt = "No comic pages found.";
-            }
-        };
+        window.onload = loadComicData;
     </script>
 </body>
 </html>
