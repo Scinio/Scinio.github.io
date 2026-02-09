@@ -1,112 +1,155 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Comic Admin</title>
+    <title>Comic Admin - Mixed Media</title>
     <style>
-        body { background: #121212; color: white; font-family: sans-serif; text-align: center; padding: 50px; }
+        body { background: #121212; color: white; font-family: sans-serif; text-align: center; padding: 20px; }
         .hidden { display: none; }
-        .box { background: #1e1e1e; padding: 30px; border-radius: 8px; max-width: 400px; margin: auto; border: 1px solid #333; }
-        input, button { width: 100%; padding: 12px; margin: 10px 0; border-radius: 5px; border: 1px solid #3d3d3d; box-sizing: border-box; }
+        .box { background: #1e1e1e; padding: 25px; border-radius: 8px; max-width: 650px; margin: 20px auto; border: 1px solid #333; }
+        input, button, textarea, select { width: 100%; padding: 12px; margin: 10px 0; border-radius: 5px; border: 1px solid #3d3d3d; box-sizing: border-box; }
+        textarea { height: 100px; resize: vertical; }
         button { background: #007bff; color: white; font-weight: bold; cursor: pointer; border: none; }
-        button:disabled { background: #444; }
-        #status { margin-top: 20px; font-size: 0.9rem; color: #aaa; }
+        .page-card { background: #2a2a2a; padding: 15px; border-radius: 6px; margin-bottom: 10px; text-align: left; border-left: 5px solid #007bff; }
+        .swap-zone { display: flex; gap: 10px; background: #252525; padding: 15px; border-radius: 8px; justify-content: center; }
+        .swap-zone input { width: 70px; }
+        .type-tag { font-size: 0.7rem; background: #444; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; }
     </style>
 </head>
 <body>
     <div class="box" id="login-zone">
-        <h2>Admin Access</h2>
-        <input type="password" id="pass-input" placeholder="Admin Password">
+        <h2>Admin Login</h2>
+        <input type="password" id="pass-input" placeholder="Password">
         <input type="password" id="token-input" placeholder="GitHub Token">
         <button onclick="checkLogin()">Login</button>
     </div>
 
-    <div class="box hidden" id="upload-zone">
-        <h2>Upload Comic Page</h2>
-        <input type="file" id="file-input" accept="image/*">
-        <button id="upload-btn" onclick="handleUpload()">Upload & Publish</button>
-        <p id="status"></p>
+    <div id="upload-zone" class="hidden">
+        <div class="box">
+            <h2>Add Content Block</h2>
+            <select id="content-type">
+                <option value="image">Image</option>
+                <option value="text">Text Block</option>
+                <option value="video">Video File</option>
+            </select>
+            <div id="file-input-wrapper">
+                <input type="file" id="file-input" accept="image/*,video/mp4">
+            </div>
+            <textarea id="text-input" class="hidden" placeholder="Enter text here..."></textarea>
+            <button onclick="handleAdd()">Add to List</button>
+        </div>
+
+        <div class="box">
+            <div class="swap-zone">
+                <input type="number" id="swap-a" placeholder="ID">
+                <button onclick="executeSwap()" style="width:auto">Swap With</button>
+                <input type="number" id="swap-b" placeholder="ID">
+            </div>
+            <div id="page-list"></div>
+            <button style="background:#28a745" onclick="saveData()">Save Changes to Website</button>
+            <p id="status"></p>
+        </div>
     </div>
 
     <script>
         const REPO = "scinio/deaxsadventure";
         const PASS = "YOUR_PASSWORD_HERE"; 
         let GITHUB_TOKEN = "";
+        let currentBlocks = [];
+        let dataFileSha = "";
+
+        document.getElementById('content-type').onchange = (e) => {
+            document.getElementById('file-input-wrapper').classList.toggle('hidden', e.target.value === 'text');
+            document.getElementById('text-input').classList.toggle('hidden', e.target.value !== 'text');
+            if(e.target.value === 'video') document.getElementById('file-input').accept = "video/mp4";
+            if(e.target.value === 'image') document.getElementById('file-input').accept = "image/*";
+        };
 
         function checkLogin() {
-            const passInput = document.getElementById('pass-input').value;
-            const tokenInput = document.getElementById('token-input').value;
-
-            if (passInput === PASS && tokenInput.startsWith("github_pat_")) {
-                GITHUB_TOKEN = tokenInput;
+            const p = document.getElementById('pass-input').value;
+            const t = document.getElementById('token-input').value;
+            if (p === PASS && t.startsWith("github_pat_")) {
+                GITHUB_TOKEN = t;
                 document.getElementById('login-zone').classList.add('hidden');
                 document.getElementById('upload-zone').classList.remove('hidden');
+                loadData();
+            } else { alert("Error"); }
+        }
+
+        async function loadData() {
+            const res = await fetch(`https://api.github.com/repos/${REPO}/contents/assets/data.json?t=${Date.now()}`, {
+                headers: { 'Authorization': `token ${GITHUB_TOKEN}` }
+            });
+            const data = await res.json();
+            dataFileSha = data.sha;
+            currentBlocks = JSON.parse(atob(data.content)).blocks || [];
+            render();
+        }
+
+        function render() {
+            const container = document.getElementById('page-list');
+            container.innerHTML = "";
+            currentBlocks.forEach((b, i) => {
+                const div = document.createElement('div');
+                div.className = "page-card";
+                const content = b.type === 'text' ? b.value.substring(0,30)+'...' : b.value;
+                div.innerHTML = `<strong>#${i+1}</strong> <span class="type-tag">${b.type}</span><br>${content} 
+                <button onclick="remove(${i})" style="width:auto; float:right; background:red; padding:2px 8px;">X</button>`;
+                container.appendChild(div);
+            });
+        }
+
+        async function handleAdd() {
+            const type = document.getElementById('content-type').value;
+            const status = document.getElementById('status');
+            if (type === 'text') {
+                currentBlocks.push({ type: 'text', value: document.getElementById('text-input').value });
+                render();
             } else {
-                alert("Invalid Password or Token format");
+                const file = document.getElementById('file-input').files[0];
+                if (!file) return;
+                status.innerText = "Uploading file...";
+                const reader = new FileReader();
+                reader.onload = async () => {
+                    const content = reader.result.split(',')[1];
+                    const fileName = `item_${Date.now()}_${file.name}`;
+                    const path = `assets/media/${fileName}`;
+                    const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
+                        method: 'PUT',
+                        headers: { 'Authorization': `token ${GITHUB_TOKEN}`, 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ message: `Upload ${type}`, content: content })
+                    });
+                    if (res.ok) {
+                        currentBlocks.push({ type: type, value: path });
+                        render();
+                        status.innerText = "Uploaded!";
+                    }
+                };
+                reader.readAsDataURL(file);
             }
         }
 
-        async function handleUpload() {
-            const fileInput = document.getElementById('file-input');
-            const status = document.getElementById('status');
-            const btn = document.getElementById('upload-btn');
-            
-            if (!fileInput.files[0]) return alert("Please select a file");
-
-            btn.disabled = true;
-            status.innerText = "Uploading image...";
-
-            const file = fileInput.files[0];
-            const reader = new FileReader();
-
-            reader.onload = async () => {
-                const content = reader.result.split(',')[1];
-                const fileName = `page_${Date.now()}.jpg`;
-                const filePath = `assets/comics/${fileName}`;
-
-                try {
-                    const imgResponse = await fetch(`https://api.github.com/repos/${REPO}/contents/${filePath}`, {
-                        method: 'PUT',
-                        headers: { 'Authorization': `token ${GITHUB_TOKEN}`, 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ message: `Add ${fileName}`, content: content })
-                    });
-
-                    if (!imgResponse.ok) throw new Error("Image upload failed");
-
-                    status.innerText = "Updating comic list...";
-                    await updateDataJson(filePath);
-
-                    status.innerText = "Successfully published!";
-                    fileInput.value = "";
-                } catch (err) {
-                    status.innerText = "Error: " + err.message;
-                } finally {
-                    btn.disabled = false;
-                }
-            };
-            reader.readAsDataURL(file);
+        function executeSwap() {
+            const a = parseInt(document.getElementById('swap-a').value)-1;
+            const b = parseInt(document.getElementById('swap-b').value)-1;
+            if(currentBlocks[a] && currentBlocks[b]) {
+                const t = currentBlocks[a]; currentBlocks[a] = currentBlocks[b]; currentBlocks[b] = t;
+                render();
+            }
         }
 
-        async function updateDataJson(newImagePath) {
-            const dataUrl = `https://api.github.com/repos/${REPO}/contents/assets/data.json`;
-            
-            const getRes = await fetch(dataUrl, {
-                headers: { 'Authorization': `token ${GITHUB_TOKEN}` }
-            });
-            
-            const fileData = await getRes.json();
-            const currentJson = JSON.parse(atob(fileData.content));
-            
-            currentJson.pages.push({ image: newImagePath });
+        function remove(i) { currentBlocks.splice(i,1); render(); }
 
-            await fetch(dataUrl, {
+        async function saveData() {
+            const res = await fetch(`https://api.github.com/repos/${REPO}/contents/assets/data.json`, {
                 method: 'PUT',
                 headers: { 'Authorization': `token ${GITHUB_TOKEN}`, 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    message: "Update data.json",
-                    content: btoa(JSON.stringify(currentJson, null, 2)),
-                    sha: fileData.sha
+                    message: "Update Content",
+                    content: btoa(JSON.stringify({ blocks: currentBlocks }, null, 2)),
+                    sha: dataFileSha
                 })
             });
+            if(res.ok) { alert("Saved!"); const d = await res.json(); dataFileSha = d.content.sha; }
         }
     </script>
 </body>

@@ -1,114 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deaxs Adventure</title>
+    <title>Mixed Media Reader</title>
     <style>
-        :root { 
-            --bg: #121212; 
-            --text: #e0e0e0; 
-            --accent: #3d3d3d; 
+        body { background: #121212; color: #e0e0e0; font-family: 'Georgia', serif; margin: 0; padding: 0; }
+        .container { 
+            max-width: 800px; /* The master width for everything */
+            margin: 0 auto; 
+            padding: 40px 20px; 
+            box-sizing: border-box;
         }
-        body { 
-            background-color: var(--bg); 
-            color: var(--text); 
-            font-family: sans-serif; 
-            margin: 0; 
-            display: flex; 
-            flex-direction: column; 
-            align-items: center; 
-        }
-        .reader-container { 
-            max-width: 800px; 
-            width: 100%; 
-            padding: 20px; 
-            text-align: center;
-        }
-        .comic-image { 
-            width: 100%; 
-            height: auto; 
-            border: 2px solid var(--accent);
-            display: block;
-            margin: 0 auto;
-        }
-        .controls { 
-            margin-top: 20px; 
-            display: flex; 
-            justify-content: space-between; 
-            align-items: center;
-            width: 100%; 
-        }
-        button { 
-            background: var(--accent); 
-            color: white; 
-            border: none; 
-            padding: 10px 25px; 
-            cursor: pointer; 
-            font-size: 1rem; 
-        }
-        button:disabled { 
-            opacity: 0.3; 
-            cursor: not-allowed; 
-        }
-        #page-indicator {
-            font-weight: bold;
+        .content-block { width: 100%; margin-bottom: 30px; }
+        
+        /* Forces images/videos to match container exactly */
+        img, video { width: 100%; height: auto; display: block; }
+        
+        /* Justified text equal to image length */
+        .text-block { 
+            text-align: justify; 
+            line-height: 1.6; 
+            font-size: 1.1rem;
+            word-spacing: -1px; /* Helps justification look tighter */
         }
     </style>
 </head>
 <body>
-
-    <div class="reader-container">
-        <h1 id="comic-title">Deax's Adventure</h1>
-        <img id="display-page" class="comic-image" src="" alt="Loading comic...">
-        
-        <div class="controls">
-            <button id="prev-btn" onclick="updatePage(-1)">Previous</button>
-            <span id="page-indicator">Loading...</span>
-            <button id="next-btn" onclick="updatePage(1)">Next</button>
+    <div class="container" id="main-content">
         </div>
-    </div>
 
     <script>
-        let pages = [];
-        let currentIndex = 0;
-
-        async function loadComicData() {
-            try {
-                const response = await fetch('assets/data.json');
-                const data = await response.json();
-                pages = data.pages.map(item => item.image);
+        async function loadContent() {
+            const res = await fetch('assets/data.json');
+            const data = await res.json();
+            const container = document.getElementById('main-content');
+            
+            data.blocks.forEach(block => {
+                const div = document.createElement('div');
+                div.className = "content-block";
                 
-                if (pages.length > 0) {
-                    updatePage(0);
-                } else {
-                    document.getElementById('display-page').alt = "No comic pages found.";
-                    document.getElementById('page-indicator').innerText = "0 / 0";
+                if (block.type === 'image') {
+                    div.innerHTML = `<img src="${block.value}">`;
+                } else if (block.type === 'video') {
+                    div.innerHTML = `<video controls><source src="${block.value}" type="video/mp4"></video>`;
+                } else if (block.type === 'text') {
+                    div.className += " text-block";
+                    div.innerText = block.value;
                 }
-            } catch (error) {
-                console.error("Error loading JSON:", error);
-                document.getElementById('display-page').alt = "Error loading comic list.";
-            }
+                
+                container.appendChild(div);
+            });
         }
-
-        function updatePage(step) {
-            if (pages.length === 0) return;
-
-            currentIndex += step;
-            
-            const img = document.getElementById('display-page');
-            const indicator = document.getElementById('page-indicator');
-            const prevBtn = document.getElementById('prev-btn');
-            const nextBtn = document.getElementById('next-btn');
-            
-            img.src = pages[currentIndex];
-            indicator.innerText = `Page ${currentIndex + 1} of ${pages.length}`;
-            
-            prevBtn.disabled = (currentIndex === 0);
-            nextBtn.disabled = (currentIndex === pages.length - 1);
-        }
-
-        window.onload = loadComicData;
+        window.onload = loadContent;
     </script>
 </body>
 </html>
