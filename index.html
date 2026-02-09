@@ -30,9 +30,10 @@
         /* THE MASTER CONTAINER (Fixed width for the comic) */
         .comic-container { 
             width: 100%;
-            max-width: 800px; /* Standard webcomic width */
+            max-width: 800px; 
             padding: 20px;
             box-sizing: border-box;
+            min-height: 50vh;
         }
 
         /* MIXED MEDIA BLOCKS */
@@ -42,7 +43,6 @@
             animation: fadeIn 0.8s ease-in;
         }
 
-        /* Images and Videos: Scale to exactly 800px (or window size) */
         img, video { 
             width: 100%; 
             height: auto; 
@@ -50,7 +50,6 @@
             border-radius: 4px;
         }
 
-        /* Text Blocks: Justified to match image width */
         .text-block { 
             text-align: justify; 
             line-height: 1.8; 
@@ -77,6 +76,7 @@
             margin: 0 10px;
             font-weight: bold;
             transition: 0.3s;
+            display: inline-block;
         }
         .nav-btn:hover { background: #007bff; }
 
@@ -93,31 +93,37 @@
         <p style="text-align:center;">Loading adventure...</p>
     </main>
 
-    <footer>
-        <a href="#" class="nav-btn">« First</a>
-        <a href="#" class="nav-btn">‹ Prev</a>
-        <a href="#" class="nav-btn">Next ›</a>
-    </footer>
+    <footer id="nav-footer">
+        </footer>
 
     <script>
         async function loadComic() {
             const container = document.getElementById('main-content');
+            const footer = document.getElementById('nav-footer');
+            
+            // 1. Get current page from URL (e.g., ?p=2). Default to "1"
+            const urlParams = new URLSearchParams(window.location.search);
+            let currentPage = urlParams.get('p') || "1";
+
             try {
-                // Fetch data.json with a timestamp to bypass caching
                 const res = await fetch(`assets/data.json?t=${Date.now()}`);
                 if (!res.ok) throw new Error("Could not load data.json");
                 
                 const data = await res.json();
                 
-                // Clear the "Loading..." text
+                // Clear loading text
                 container.innerHTML = "";
 
-                if (!data.blocks || data.blocks.length === 0) {
-                    container.innerHTML = "<p style='text-align:center;'>No pages have been uploaded yet.</p>";
+                // 2. Check if the "pages" structure exists
+                if (!data.pages || !data.pages[currentPage]) {
+                    container.innerHTML = "<p style='text-align:center;'>This page hasn't been created yet.</p>";
                     return;
                 }
 
-                data.blocks.forEach(block => {
+                // 3. Get the blocks for THIS specific page
+                const currentBlocks = data.pages[currentPage];
+
+                currentBlocks.forEach(block => {
                     const div = document.createElement('div');
                     div.className = "content-block";
 
@@ -125,7 +131,7 @@
                         div.innerHTML = `<img src="${block.value}" alt="Comic Page">`;
                     } 
                     else if (block.type === 'video') {
-                        div.innerHTML = `<video controls><source src="${block.value}" type="video/mp4">Your browser does not support the video tag.</video>`;
+                        div.innerHTML = `<video controls><source src="${block.value}" type="video/mp4"></video>`;
                     } 
                     else if (block.type === 'text') {
                         div.className += " text-block";
@@ -134,13 +140,25 @@
 
                     container.appendChild(div);
                 });
+
+                // 4. Update Navigation Buttons
+                const totalPages = Object.keys(data.pages).length;
+                const nextNum = parseInt(currentPage) + 1;
+                const prevNum = parseInt(currentPage) - 1;
+
+                footer.innerHTML = `
+                    ${currentPage !== "1" ? `<a href="?p=1" class="nav-btn">« First</a>` : ''}
+                    ${prevNum > 0 ? `<a href="?p=${prevNum}" class="nav-btn">‹ Prev</a>` : ''}
+                    <span style="margin: 0 10px;">Page ${currentPage} of ${totalPages}</span>
+                    ${data.pages[nextNum] ? `<a href="?p=${nextNum}" class="nav-btn">Next ›</a>` : ''}
+                `;
+
             } catch (err) {
                 console.error(err);
-                container.innerHTML = "<p style='color:red;'>Error loading comic content. Check console (F12) for details.</p>";
+                container.innerHTML = "<p style='color:red;'>Error loading content.</p>";
             }
         }
 
-        // Run the loader
         window.onload = loadComic;
     </script>
 </body>
