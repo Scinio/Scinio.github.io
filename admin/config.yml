@@ -2,8 +2,8 @@ backend:
   name: github
   repo: scinio/deaxsadventure
   branch: main
-  base_url: https://deaxsadventure.com
-  auth_endpoint: api/auth
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 
 media_folder: "assets/comics"
 public_folder: "/assets/comics"
