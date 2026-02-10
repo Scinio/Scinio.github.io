@@ -1,272 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Deaxs Admin - Multi-Page Manager</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deaxs Workbench</title>
     <style>
-        body { background: #121212; color: white; font-family: sans-serif; text-align: center; padding: 20px; }
-        .hidden { display: none; }
-        .box { background: #1e1e1e; padding: 25px; border-radius: 8px; max-width: 650px; margin: 20px auto; border: 1px solid #333; }
-        
-        input, button, textarea, select { width: 100%; padding: 12px; margin: 10px 0; border-radius: 5px; border: 1px solid #3d3d3d; box-sizing: border-box; }
-        textarea { height: 100px; background: #2a2a2a; color: white; border: 1px solid #444; }
-        
-        button { background: #007bff; color: white; font-weight: bold; cursor: pointer; border: none; }
+        body { background: #1a1a1a; color: #fff; font-family: sans-serif; padding: 20px; }
+        .panel { max-width: 600px; margin: auto; background: #2a2a2a; padding: 20px; border-radius: 8px; }
+        select, input, textarea, button { width: 100%; margin: 10px 0; padding: 10px; box-sizing: border-box; border-radius: 4px; border: none; }
+        textarea { height: 150px; font-family: monospace; }
+        button { background: #007bff; color: #fff; cursor: pointer; font-weight: bold; }
         button:hover { background: #0056b3; }
-
-        /* The polished card look */
-        .page-card { 
-            background: #2a2a2a; 
-            padding: 15px; 
-            border-radius: 6px; 
-            margin-bottom: 10px; 
-            text-align: left; 
-            border-left: 5px solid #007bff; 
-            display: flex; 
-            justify-content: space-between; 
-            align-items: center; 
-        }
-
-        /* The little IMAGE/TEXT/VIDEO badges */
-        .type-tag { 
-            font-size: 0.7rem; 
-            background: #444; 
-            padding: 2px 6px; 
-            border-radius: 3px; 
-            text-transform: uppercase; 
-            margin-left: 10px; 
-            color: #007bff;
-            font-weight: bold;
-        }
-
-        /* The Swap UI */
-        .swap-zone { 
-            display: flex; 
-            gap: 10px; 
-            background: #252525; 
-            padding: 15px; 
-            border-radius: 8px; 
-            justify-content: center; 
-            align-items: center; 
-            margin-bottom: 20px;
-        }
-        .swap-zone input { width: 70px; margin: 0; background: #121212; color: white; border: 1px solid #444; }
-
-        #status { font-weight: bold; margin: 15px 0; color: #ffca28; }
-        .delete-btn { width: auto; background: #dc3545; padding: 5px 15px; }
+        .hidden { display: none; }
+        .status { font-size: 0.8rem; color: #888; text-align: center; }
     </style>
 </head>
 <body>
 
-    <div class="box" id="login-zone">
-        <h2>GitHub Token Access</h2>
-        <input type="password" id="token-input" placeholder="Token">
-        <button onclick="checkLogin()">Access Workbench</button>
-    </div>
+    <div class="panel">
+        <h2>DEAXS WORKBENCH</h2>
+        
+        <label>Page Number:</label>
+        <input type="number" id="page-num" value="1">
 
-    <div id="upload-zone" class="hidden">
-        <div class="box">
-            <h2>Select Page to Edit</h2>
-            <select id="page-selector" onchange="switchPage()"></select>
-            <button onclick="addNewPage()" style="background:#6c757d;">+ Create New Page</button>
+        <label>Block Type:</label>
+        <select id="block-type" onchange="toggleInputs()">
+            <option value="image">Image Panel</option>
+            <option value="video">Video Panel</option>
+            <option value="text">Standard Text</option>
+            <option value="dialogue">Dialogue Box (Discord Style)</option>
+        </select>
+
+        <div id="media-group">
+            <label>Filename (from assets/media/):</label>
+            <input type="text" id="media-input" placeholder="e.g. panel1.png">
         </div>
 
-        <div class="box">
-            <h2 id="editing-title">Editing Page 1</h2>
-            <select id="content-type">
-                <option value="image">Image</option>
-                <option value="text">Text Block</option>
-                <option value="video">Video (MP4)</option>
-            </select>
-            <div id="file-input-wrapper">
-                <input type="file" id="file-input" accept="image/*,video/mp4">
-            </div>
-            <textarea id="text-input" class="hidden" placeholder="Format: #HEXCODE|Your text here... (Example: #007bff|Hello!)"></textarea>
-            <button onclick="handleAdd()">Add to Current Page</button>
-            <div id="status"></div>
+        <div id="text-group" class="hidden">
+            <label>Content:</label>
+            <textarea id="text-input" placeholder="Use [Name|#Hex] for colors. Enter for new lines."></textarea>
         </div>
 
-        <div class="box">
-            <h2>Workbench Order</h2>
-            
-            <div class="swap-zone">
-                <span>Swap Index</span>
-                <input type="number" id="swap-a" placeholder="1">
-                <span>with</span>
-                <input type="number" id="swap-b" placeholder="2">
-                <button onclick="executeSwap()" style="width:auto; margin:0;">Go</button>
-            </div>
-
-            <div id="page-list"></div>
-            <hr style="border: 0; border-top: 1px solid #333; margin: 20px 0;">
-            <button style="background:#28a745; font-size: 1.2rem;" onclick="saveData()">🚀 SAVE ALL PAGES TO LIVE SITE</button>
-        </div>
+        <button onclick="saveToData()">ADD TO PAGE</button>
+        <p class="status">Copy the code below into your assets/data.json file manually.</p>
+        
+        <textarea id="output" readonly placeholder="JSON Output will appear here..."></textarea>
     </div>
 
     <script>
-        const REPO = "Scinio/Scinio.github.io";
-        let GITHUB_TOKEN = "";
-        let allPages = { "1": [] }; 
-        let activePage = "1";
-        let dataFileSha = "";
+        function toggleInputs() {
+            const type = document.getElementById('block-type').value;
+            const mediaGroup = document.getElementById('media-group');
+            const textGroup = document.getElementById('text-group');
 
-        // Toggle text vs file input
-        document.getElementById('content-type').onchange = (e) => {
-            document.getElementById('file-input-wrapper').classList.toggle('hidden', e.target.value === 'text');
-            document.getElementById('text-input').classList.toggle('hidden', e.target.value !== 'text');
-        };
-
-        async function checkLogin() {
-            GITHUB_TOKEN = document.getElementById('token-input').value.trim();
-            if (!GITHUB_TOKEN) return alert("Please enter a token.");
-            document.getElementById('login-zone').classList.add('hidden');
-            document.getElementById('upload-zone').classList.remove('hidden');
-            await loadData();
-        }
-
-        async function loadData() {
-            try {
-                const res = await fetch(`https://api.github.com/repos/${REPO}/contents/assets/data.json?t=${Date.now()}`, {
-                    headers: { 'Authorization': `token ${GITHUB_TOKEN}` }
-                });
-                if (res.ok) {
-                    const data = await res.json();
-                    dataFileSha = data.sha;
-                    const decoded = JSON.parse(decodeURIComponent(escape(atob(data.content))));
-                    allPages = decoded.pages || { "1": [] };
-                }
-                updateSelector();
-                render();
-            } catch (err) { 
-                console.log("New structure initiated."); 
-                updateSelector(); 
-            }
-        }
-
-        function updateSelector() {
-            const selector = document.getElementById('page-selector');
-            selector.innerHTML = "";
-            Object.keys(allPages).sort((a,b) => a-b).forEach(num => {
-                const opt = document.createElement('option');
-                opt.value = num;
-                opt.innerText = "Page " + num;
-                selector.appendChild(opt);
-            });
-            selector.value = activePage;
-        }
-
-        function switchPage() {
-            activePage = document.getElementById('page-selector').value;
-            document.getElementById('editing-title').innerText = `Editing Page ${activePage}`;
-            render();
-        }
-
-        function addNewPage() {
-            const newPageNum = Object.keys(allPages).length + 1;
-            allPages[newPageNum] = [];
-            activePage = newPageNum.toString();
-            updateSelector();
-            switchPage();
-        }
-
-        function render() {
-            const container = document.getElementById('page-list');
-            container.innerHTML = "";
-            const blocks = allPages[activePage] || [];
-            if (blocks.length === 0) container.innerHTML = "<p style='color:#666'>No content on this page yet.</p>";
-            
-            blocks.forEach((b, i) => {
-                const div = document.createElement('div');
-                div.className = "page-card";
-                const label = b.type === 'text' ? b.value.substring(0, 30) + "..." : b.value.split('/').pop();
-                div.innerHTML = `
-                    <div><strong>#${i+1}</strong> <span class="type-tag">${b.type}</span><br><small>${label}</small></div>
-                    <button class="delete-btn" onclick="remove(${i})">Delete</button>
-                `;
-                container.appendChild(div);
-            });
-        }
-
-        function executeSwap() {
-            const a = parseInt(document.getElementById('swap-a').value) - 1;
-            const b = parseInt(document.getElementById('swap-b').value) - 1;
-            const blocks = allPages[activePage];
-            if (blocks[a] && blocks[b]) {
-                [blocks[a], blocks[b]] = [blocks[b], blocks[a]];
-                render();
-            } else { alert("Invalid index"); }
-        }
-
-        function remove(i) {
-            if(confirm("Delete this item?")) {
-                allPages[activePage].splice(i, 1);
-                render();
-            }
-        }
-
-        async function handleAdd() {
-            const type = document.getElementById('content-type').value;
-            const status = document.getElementById('status');
-            
-            if (type === 'text') {
-                const val = document.getElementById('text-input').value;
-                if(!val) return alert("Enter some text first.");
-                allPages[activePage].push({ type: 'text', value: val });
-                render();
-                document.getElementById('text-input').value = "";
+            if (type === 'text' || type === 'dialogue') {
+                mediaGroup.classList.add('hidden');
+                textGroup.classList.remove('hidden');
             } else {
-                const file = document.getElementById('file-input').files[0];
-                if (!file) return alert("Please select a file.");
-                
-                status.innerText = "⏳ Uploading file to GitHub...";
-                const reader = new FileReader();
-                reader.onload = async () => {
-                    const content = reader.result.split(',')[1];
-                    const fileName = `item_${Date.now()}_${file.name.replace(/\s+/g, '_')}`;
-                    const path = `assets/media/${fileName}`;
-
-                    const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
-                        method: 'PUT',
-                        headers: { 'Authorization': `token ${GITHUB_TOKEN}` },
-                        body: JSON.stringify({ message: `Upload ${fileName}`, content: content })
-                    });
-
-                    if (res.ok) {
-                        allPages[activePage].push({ type: type, value: path });
-                        render();
-                        status.innerText = "✅ Uploaded to page " + activePage;
-                    } else { alert("Upload failed."); }
-                };
-                reader.readAsDataURL(file);
+                mediaGroup.classList.remove('hidden');
+                textGroup.classList.add('hidden');
             }
         }
 
-        async function saveData() {
-            const status = document.getElementById('status');
-            status.innerText = "💾 Saving all pages to data.json...";
+        async function saveToData() {
+            const pageNum = document.getElementById('page-num').value;
+            const type = document.getElementById('block-type').value;
+            const output = document.getElementById('output');
+            
+            let val = "";
+            if (type === 'text' || type === 'dialogue') {
+                val = document.getElementById('text-input').value;
+            } else {
+                val = "assets/media/" + document.getElementById('media-input').value;
+            }
+
+            // Fetch existing data to append
             try {
-                const jsonString = JSON.stringify({ pages: allPages }, null, 2);
-                const base64Content = btoa(unescape(encodeURIComponent(jsonString)));
+                const res = await fetch('assets/data.json');
+                const data = await res.json();
+                
+                if (!data.pages[pageNum]) data.pages[pageNum] = [];
+                data.pages[pageNum].push({ type: type, value: val });
 
-                const res = await fetch(`https://api.github.com/repos/${REPO}/contents/assets/data.json`, {
-                    method: 'PUT',
-                    headers: { 'Authorization': `token ${GITHUB_TOKEN}`, 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        message: "Global Page Update",
-                        content: base64Content,
-                        sha: dataFileSha
-                    })
-                });
-
-                if (res.ok) {
-                    const d = await res.json();
-                    dataFileSha = d.content.sha;
-                    alert("🎉 SITE UPDATED! All pages are now live.");
-                    status.innerText = "";
-                } else {
-                    const err = await res.json();
-                    alert("Save failed: " + err.message);
-                }
-            } catch (e) { alert("Save Error: " + e.message); }
+                output.value = JSON.stringify(data, null, 4);
+                alert("New block added! Copy the JSON below into your data.json file.");
+            } catch (e) {
+                alert("Could not load assets/data.json. Make sure the file exists!");
+            }
         }
     </script>
 </body>
