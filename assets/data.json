@@ -155,6 +155,48 @@
         "type": "text",
         "value": "Ok that didn't take quite as long as you were hoping for. It seems you'll just have to wait a bit longer for the spiders to fix whatever issue your shitty PC is having.\n\nYou wonder if the spiders will want something in return for their work. Like, do they want to be paid? What currency would the spiders want? Ok stop fucking thinking about this it's probably making you dumber."
       }
+    ],
+    "7": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770687126721_19.png"
+      },
+      {
+        "type": "text",
+        "value": "Finally the spiders are finished fixing your soon-to-be-replaced LENOVO SHITBOX PC. Looks like they aren't asking for anything in return, meaning your daydreams about spider money were completely pointless. Alright, let's see if this thing is actually functional."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770687142017_20.png"
+      },
+      {
+        "type": "text",
+        "value": "Now you get to see your beautiful desktop again! It may not be the most organized desktop ever, but you know where everything is and that's good enough. \n\nIt looks like one of your buddies is trying to contact you on discord. Now open the goddamn app!!!"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770687356066_21.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[isabelfruit|#D33682] began chatting with [LOCKY★P|#DC322F]\n\n[isabelfruit: HAPPY BIRTHDAY DUDE :D|#D33682]\n\n[isabelfruit: what're you doing for your big day|#D33682]\n\n[LOCKY★P: nothing lol|#DC322F]\n\n[LOCKY★P: just spent like an hour waiting for my shitbox to turn on|#DC322F]\n\n[isabelfruit: you shouldve just asked for a new pc for your birthday silly|#D33682]\n\n[LOCKY★P: yeah but im stubborn as long as this thing turns on im going to use it|#DC322F]\n\n[isabelfruit: fair fair|#D33682]\n\n[isabelfruit: well hey while we're talking|#D33682]\n\n[isabelfruit: did you check your porch?|#D33682]\n\n[isabelfruit: i left a pipebo|#D33682]\n\n[isabelfruit: PACKAGE i mean package :]|#D33682]\n\n[isabelfruit: its got a neat gift in there for you|#D33682]\n\n[isabelfruit: you should open it in a crowded area itll be awesome|#D33682]\n\n[LOCKY★P: you dont need to convince me its a pipebomb i already believe you LOL|#DC322F]\n\n[LOCKY★P: anyway thanks for the gift in advance :)|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688120444_22.gif"
+      },
+      {
+        "type": "text",
+        "value": "You go to your door to leave your room and grab your newly delivered pipebomb present, but the door won't budge. It seems there is something big and heavy blocking it on the other side. You think it's the package your friend sent you. This means somebody must have moved it from outside to in front of your door. While that seems very considerate of them, you can't leave your damn room now."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688145717_23.gif"
+      },
+      {
+        "type": "text",
+        "value": "Your intuition tells you to escape through the window. Unfortunately, you don't have one of those! Wow, this room really has fucking nothing in it. Maybe if you weren't a silly nerd you could have built a window with your bare hands. That sounds too hard actually never mind.\n\nHow will you escape your room?"
+      }
     ]
   }
 }
