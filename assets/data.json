@@ -555,6 +555,12 @@
         "type": "text",
         "value": ">Do some shit with the metal slab.\n\nYou press a button on the back of the metal slab and a new button pops out. What is the point of this? Why not just make the first button do whatever this button does? Actually, what does this button do?\n\nYou already know what this button does because it gets explained the the RSIDNT trailer! This button will allow one of your friends to control your version of the game. You cannot press it yet because you haven't even chose a friend to play with yet.\n\nWhich friend will you contact first?"
       }
+    ],
+    "15": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770759801428_deaxs_adventure_pose.png"
+      }
     ]
   }
 }
