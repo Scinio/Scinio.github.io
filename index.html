@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deaxs Adventure</title>
-    <link rel="icon" type="image/png" href="assets/media/favicon.png">
+    <link rel="icon" type="image/png" href="assets/media/icon.png">
     
     <style>
         /* THE THEME */
@@ -164,9 +164,16 @@
                 });
 
                 function parseColors(text) {
-                    // Replaces [Name|#Hex] with colored spans
-                    return text.replace(/\[(.*?)\|(.*?)\]/g, (match, name, color) => {
-                        return `<span style="color:${color.trim()}; font-weight:bold;">${name}</span>`;
+                    // UPDATED: Handles [Text|Color|Highlight] OR [Text|Color]
+                    return text.replace(/\[(.*?)\|(.*?)(?:\|(.*?))?\]/g, (match, name, color, highlight) => {
+                        let style = `color:${color.trim()}; font-weight:bold;`;
+                        
+                        // If a highlight color is provided, add background styles
+                        if (highlight) {
+                            style += `background-color:${highlight.trim()}; padding: 0 4px; border-radius: 2px;`;
+                        }
+                        
+                        return `<span style="${style}">${name}</span>`;
                     });
                 }
 
