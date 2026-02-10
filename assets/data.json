@@ -1,6 +1,23 @@
 {
   "pages": {
-    "1": [],
+    "1": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770685991891_1.png"
+      },
+      {
+        "type": "text",
+        "value": "A young Discord user stares at their server. It just so happens that today, the 5th of October, 2021, is this young person's birthday. Though it was sixteen years ago they were given life, it is only today that they will be given a nickname!"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686129053_2.gif"
+      },
+      {
+        "type": "text",
+        "value": "What will the nickname of this young person be?"
+      }
+    ],
     "2": [
       {
         "type": "text",
