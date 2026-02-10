@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deaxs Adventure</title>
-    <link rel="icon" type="image/png" href="assets/media/favicon.png">
-    
+    <link rel="icon" type="image/png" href="assets/media/icon.png">
     <style>
         body { 
             background: #121212; 
@@ -56,6 +55,7 @@
             border-radius: 2px; 
         }
 
+        /* Support for Multiline Standard Text */
         .text-block { 
             text-align: left;
             line-height: 1.8; 
@@ -64,9 +64,10 @@
             margin: 30px 0;
             width: 100%; 
             word-wrap: break-word;
-            white-space: pre-wrap; 
+            white-space: pre-wrap; /* THIS ALLOWS MULTILINE */
         }
 
+        /* Discord-style Dialogue Block */
         .dialogue-box {
             background: #2f3136; 
             border: 1px solid #202225;
@@ -77,7 +78,7 @@
             box-sizing: border-box;
             font-family: "Consolas", "Monaco", "Courier New", monospace; 
             color: #dcddde;
-            white-space: pre-wrap; 
+            white-space: pre-wrap; /* THIS ALLOWS MULTILINE */
             font-size: 1.1rem;
         }
 
@@ -89,7 +90,6 @@
             border-top: 1px solid #222;
             margin-top: 40px;
         }
-
         .nav-btn {
             background: transparent;
             color: #fff;
@@ -100,11 +100,10 @@
             font-weight: bold;
             transition: 0.3s;
             display: inline-block;
-            margin: 0 10px;
         }
-
         .nav-btn:hover { background: #fff; color: #121212; }
-        .page-indicator { font-size: 0.9rem; color: #555; margin: 0 20px; vertical-align: middle; }
+
+        .page-indicator { font-size: 0.9rem; color: #555; margin: 0 20px; }
 
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
     </style>
@@ -115,9 +114,7 @@
         <img src="assets/media/logo.png" alt="Deaxs Adventure" class="logo">
     </header>
 
-    <main class="comic-container" id="main-content">
-        <p style="text-align:center; color: #444;">[ LOADING DATA ]</p>
-    </main>
+    <main class="comic-container" id="main-content"></main>
 
     <footer id="nav-footer"></footer>
 
@@ -149,22 +146,32 @@
                         div.innerHTML = `<video controls><source src="${block.value}" type="video/mp4"></video>`;
                     } 
                     else if (block.type === 'text') {
-                        div.className += " text-block";
-                        div.innerHTML = parseColors(block.value);
-                    }
-                    else if (block.type === 'dialogue') {
-                        div.className += " dialogue-box";
-                        div.innerHTML = parseColors(block.value);
+                        let textVal = block.value;
+
+                        // 1. Determine if it's a Dialogue Box
+                        if (textVal.startsWith('`')) {
+                            div.className += " dialogue-box";
+                            textVal = textVal.substring(1); 
+                        } else {
+                            div.className += " text-block";
+                        }
+
+                        // 2. Handle Hex Color (#HEX|Text)
+                        if (textVal.startsWith('#') && textVal.includes('|')) {
+                            const pipeIndex = textVal.indexOf('|');
+                            const hex = textVal.substring(0, pipeIndex);
+                            const content = textVal.substring(pipeIndex + 1);
+                            
+                            div.style.color = hex;
+                            div.innerText = content;
+                        } else {
+                            div.innerText = textVal;
+                        }
                     }
                     container.appendChild(div);
                 });
 
-                function parseColors(text) {
-                    return text.replace(/\[(.*?)\|(.*?)\]/g, (match, name, color) => {
-                        return `<span style="color:${color}; font-weight:bold;">${name}</span>`;
-                    });
-                }
-
+                // Pagination
                 const pageKeys = Object.keys(data.pages).sort((a,b) => a-b);
                 const totalPages = pageKeys.length;
                 const nextNum = parseInt(currentPage) + 1;
