@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deaxs Adventure</title>
     <style>
-        /* THE THEME: Classic Typewriter Modern */
         body { 
             background: #121212; 
             color: #e0e0e0; 
@@ -18,25 +17,22 @@
             line-height: 1.6;
         }
 
-        /* PERMANENT HEADER */
         header {
             width: 100%;
-            max-width: 800px; /* Constraints header to match comic width */
-            padding: 40px 20px; /* Balanced spacing */
+            max-width: 800px;
+            padding: 40px 20px;
             text-align: center;
             box-sizing: border-box;
         }
 
-        /* THE LOGO STYLING */
         .logo {
-            width: 100%;      /* Scales with the header width */
-            max-width: 800px; /* Ensures it never exceeds the panels */
+            width: 100%;
+            max-width: 800px;
             height: auto;
             display: block;
             margin: 0 auto;
         }
 
-        /* THE MASTER CONTAINER */
         .comic-container { 
             width: 100%;
             max-width: 800px; 
@@ -45,7 +41,6 @@
             min-height: 50vh;
         }
 
-        /* MIXED MEDIA BLOCKS */
         .content-block { 
             width: 100%; 
             margin-bottom: 50px; 
@@ -59,7 +54,7 @@
             border-radius: 2px; 
         }
 
-        /* Text Blocks: Fixed width to match images exactly */
+        /* Support for Multiline Standard Text */
         .text-block { 
             text-align: left;
             line-height: 1.8; 
@@ -68,9 +63,24 @@
             margin: 30px 0;
             width: 100%; 
             word-wrap: break-word;
+            white-space: pre-wrap; /* THIS ALLOWS MULTILINE */
         }
 
-        /* PERMANENT FOOTER NAVIGATION */
+        /* Discord-style Dialogue Block */
+        .dialogue-box {
+            background: #2f3136; 
+            border: 1px solid #202225;
+            border-radius: 4px;
+            padding: 20px;
+            margin: 25px 0;
+            width: 100%;
+            box-sizing: border-box;
+            font-family: "Consolas", "Monaco", "Courier New", monospace; 
+            color: #dcddde;
+            white-space: pre-wrap; /* THIS ALLOWS MULTILINE */
+            font-size: 1.1rem;
+        }
+
         footer {
             width: 100%;
             max-width: 800px;
@@ -84,26 +94,15 @@
             color: #fff;
             padding: 10px 25px;
             text-decoration: none;
-            border-radius: 0px; 
-            margin: 0 10px;
-            font-size: 1rem;
+            border: 2px solid #fff; 
+            font-family: "Courier New", Courier, monospace;
             font-weight: bold;
             transition: 0.3s;
             display: inline-block;
-            border: 2px solid #fff; 
-            font-family: "Courier New", Courier, monospace;
         }
-        .nav-btn:hover { 
-            background: #fff; 
-            color: #121212;
-        }
+        .nav-btn:hover { background: #fff; color: #121212; }
 
-        .page-indicator {
-            font-size: 0.9rem;
-            color: #555;
-            margin: 0 20px;
-            vertical-align: middle;
-        }
+        .page-indicator { font-size: 0.9rem; color: #555; margin: 0 20px; }
 
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
     </style>
@@ -114,9 +113,7 @@
         <img src="assets/media/logo.png" alt="Deaxs Adventure" class="logo">
     </header>
 
-    <main class="comic-container" id="main-content">
-        <p style="text-align:center; color: #444;">[ LOADING DATA ]</p>
-    </main>
+    <main class="comic-container" id="main-content"></main>
 
     <footer id="nav-footer"></footer>
 
@@ -129,8 +126,6 @@
 
             try {
                 const res = await fetch(`assets/data.json?t=${Date.now()}`);
-                if (!res.ok) throw new Error("Could not load data.json");
-                
                 const data = await res.json();
                 container.innerHTML = "";
 
@@ -139,9 +134,7 @@
                     return;
                 }
 
-                const currentBlocks = data.pages[currentPage];
-
-                currentBlocks.forEach(block => {
+                data.pages[currentPage].forEach(block => {
                     const div = document.createElement('div');
                     div.className = "content-block";
 
@@ -152,14 +145,32 @@
                         div.innerHTML = `<video controls><source src="${block.value}" type="video/mp4"></video>`;
                     } 
                     else if (block.type === 'text') {
-                        div.className += " text-block";
-                        div.innerText = block.value;
-                    }
+                        let textVal = block.value;
 
+                        // 1. Determine if it's a Dialogue Box
+                        if (textVal.startsWith('`')) {
+                            div.className += " dialogue-box";
+                            textVal = textVal.substring(1); 
+                        } else {
+                            div.className += " text-block";
+                        }
+
+                        // 2. Handle Hex Color (#HEX|Text)
+                        if (textVal.startsWith('#') && textVal.includes('|')) {
+                            const pipeIndex = textVal.indexOf('|');
+                            const hex = textVal.substring(0, pipeIndex);
+                            const content = textVal.substring(pipeIndex + 1);
+                            
+                            div.style.color = hex;
+                            div.innerText = content;
+                        } else {
+                            div.innerText = textVal;
+                        }
+                    }
                     container.appendChild(div);
                 });
 
-                // Update Navigation
+                // Pagination
                 const pageKeys = Object.keys(data.pages).sort((a,b) => a-b);
                 const totalPages = pageKeys.length;
                 const nextNum = parseInt(currentPage) + 1;
@@ -171,13 +182,10 @@
                     <span class="page-indicator">PG. ${currentPage} / ${totalPages}</span>
                     ${data.pages[nextNum.toString()] ? `<a href="?p=${nextNum}" class="nav-btn">NEXT</a>` : ''}
                 `;
-
             } catch (err) {
-                console.error(err);
-                container.innerHTML = "<p style='color:#666; text-align:center;'>[ ERROR LOADING CONTENT ]</p>";
+                container.innerHTML = "<p style='text-align:center;'>[ ERROR LOADING ]</p>";
             }
         }
-
         window.onload = loadComic;
     </script>
 </body>
