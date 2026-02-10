@@ -110,6 +110,29 @@
         .nav-btn:hover { background: #fff; color: #121212; }
         .page-indicator { font-size: 0.9rem; color: #555; margin: 0 20px; vertical-align: middle; }
 
+        /* Jump to Page Input */
+        .jump-container {
+            margin-top: 25px;
+            color: #666;
+            font-size: 0.8rem;
+        }
+
+        .jump-input {
+            background: #1e1e1e;
+            border: 1px solid #333;
+            color: white;
+            padding: 5px;
+            width: 50px;
+            text-align: center;
+            font-family: "Courier New", Courier, monospace;
+            outline: none;
+            border-radius: 3px;
+        }
+
+        .jump-input:focus {
+            border-color: #fff;
+        }
+
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
     </style>
 </head>
@@ -126,6 +149,16 @@
     <footer id="nav-footer"></footer>
 
     <script>
+        // Jump to page function
+        function jumpToPage(event) {
+            if (event.key === "Enter") {
+                const page = event.target.value;
+                if (page) {
+                    window.location.search = `?p=${page}`;
+                }
+            }
+        }
+
         async function loadComic() {
             const container = document.getElementById('main-content');
             const footer = document.getElementById('nav-footer');
@@ -164,15 +197,11 @@
                 });
 
                 function parseColors(text) {
-                    // UPDATED: Handles [Text|Color|Highlight] OR [Text|Color]
                     return text.replace(/\[(.*?)\|(.*?)(?:\|(.*?))?\]/g, (match, name, color, highlight) => {
                         let style = `color:${color.trim()}; font-weight:bold;`;
-                        
-                        // If a highlight color is provided, add background styles
                         if (highlight) {
                             style += `background-color:${highlight.trim()}; padding: 0 4px; border-radius: 2px;`;
                         }
-                        
                         return `<span style="${style}">${name}</span>`;
                     });
                 }
@@ -187,6 +216,10 @@
                     ${prevNum > 0 ? `<a href="?p=${prevNum}" class="nav-btn">PREV</a>` : ''}
                     <span class="page-indicator">PG. ${currentPage} / ${totalPages}</span>
                     ${data.pages[nextNum.toString()] ? `<a href="?p=${nextNum}" class="nav-btn">NEXT</a>` : ''}
+                    
+                    <div class="jump-container">
+                        GOTO PAGE: <input type="number" class="jump-input" placeholder="..." onkeypress="jumpToPage(event)">
+                    </div>
                 `;
             } catch (err) {
                 container.innerHTML = "<p style='text-align:center;'>[ ERROR LOADING ]</p>";
