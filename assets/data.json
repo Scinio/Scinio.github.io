@@ -619,11 +619,11 @@
     "17": [
       {
         "type": "text",
-        "value": "[S] Sync."
+        "value": "[[S] Sync.|#00AFEF]"
       },
       {
         "type": "video",
-        "value": "assets/media/item_1770763082675_72-sync.mp4"
+        "value": "assets/media/item_1770764411933_72-sync.mp4"
       }
     ]
   }
