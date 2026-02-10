@@ -23,13 +23,15 @@
     <div class="box">
         <h2>DEAXS WORKBENCH</h2>
         
+        <textarea id="json-input" placeholder="PASTE EXISTING DATA.JSON HERE FIRST"></textarea>
+
         <input type="number" id="page-num" placeholder="Page Number" value="1">
 
         <select id="block-type" onchange="toggleInputs()">
             <option value="image">Image Panel</option>
             <option value="video">Video Panel</option>
             <option value="text">Standard Text</option>
-            <option value="dialogue">Dialogue Box (Code Block)</option>
+            <option value="dialogue">Dialogue Box</option>
         </select>
 
         <div id="media-group">
@@ -37,12 +39,12 @@
         </div>
 
         <div id="text-group" class="hidden">
-            <textarea id="text-input" placeholder="Enter text here... Use [Name|#Hex]: for colors."></textarea>
+            <textarea id="text-input" placeholder="Content... Use [Name|#Hex]: for colors."></textarea>
         </div>
 
-        <button onclick="saveToData()">ADD TO PAGE</button>
+        <button onclick="generateJSON()">GENERATE UPDATED JSON</button>
         
-        <textarea id="output" readonly placeholder="JSON Output..."></textarea>
+        <textarea id="json-output" readonly placeholder="UPDATED JSON OUTPUT..."></textarea>
     </div>
 
     <script>
@@ -60,30 +62,40 @@
             }
         }
 
-        async function saveToData() {
+        function generateJSON() {
+            const jsonInput = document.getElementById('json-input').value;
             const pageNum = document.getElementById('page-num').value;
             const type = document.getElementById('block-type').value;
-            const output = document.getElementById('output');
+            const mediaVal = document.getElementById('media-input').value;
+            const textVal = document.getElementById('text-input').value;
+            const output = document.getElementById('json-output');
+
+            let data;
             
-            let val = "";
-            if (type === 'text' || type === 'dialogue') {
-                val = document.getElementById('text-input').value;
-            } else {
-                val = "assets/media/" + document.getElementById('media-input').value;
-            }
-
             try {
-                const res = await fetch('assets/data.json?t=' + Date.now());
-                const data = await res.json();
-                
-                if (!data.pages[pageNum]) data.pages[pageNum] = [];
-                data.pages[pageNum].push({ type: type, value: val });
-
-                output.value = JSON.stringify(data, null, 4);
-                alert("Added! Copy the JSON below.");
+                // Parse the existing JSON provided by the user
+                data = JSON.parse(jsonInput);
             } catch (e) {
-                alert("Error: Ensure assets/data.json exists in your repo.");
+                alert("Invalid JSON in the top box! Please paste your current data.json first.");
+                return;
             }
+
+            // Determine value based on type
+            let finalVal = (type === 'text' || type === 'dialogue') ? textVal : "assets/media/" + mediaVal;
+
+            // Add the data to the correct page
+            if (!data.pages[pageNum]) {
+                data.pages[pageNum] = [];
+            }
+            
+            data.pages[pageNum].push({
+                type: type,
+                value: finalVal
+            });
+
+            // Output the new JSON
+            output.value = JSON.stringify(data, null, 4);
+            alert("New block added! Copy the bottom box and update your file.");
         }
     </script>
 </body>
