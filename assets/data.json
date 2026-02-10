@@ -2,44 +2,558 @@
   "pages": {
     "1": [
       {
+        "type": "image",
+        "value": "assets/media/item_1770685991891_1.png"
+      },
+      {
         "type": "text",
-        "value": "A young Discord user stares at their server. It just so happens that today, the 5th of October, 2021, is this young person's birthday. Though it was sixteen years ago they were given life, it is only today that they will be given a nickname!\n\nWhat will the nickname of this young person be?"
+        "value": "A young Discord user stares at their server. It just so happens that today, the 5th of October, 2021, is this young person's birthday. Though it was sixteen years ago they were given life, it is only today that they will be given a nickname!"
       },
       {
         "type": "image",
-        "value": "assets/media/item_1770640837830_deaxsroom.png"
+        "value": "assets/media/item_1770686129053_2.gif"
       },
       {
-        "type": "dialogue",
-        "value": "[MisterDoughnut|#d4af37] began chatting with [isabelfruit|#D2042D]\n\n[MisterDoughnut: Is deaxs in the Threshold now?|#d4af37]\n\n[MisterDoughnut: i mean i assume they are because their entire damn house is gone|#d4af37]\n\n[isabelfruit: yeah you are gonna have to message me back later|#D2042D]\n\n[isabelfruit: there is so much shit going on|#D2042D]\n\n[isabelfruit: why dont you play teh game with penny for a bit|#D2042D]\n\n[isabelfruit|#D2042D] stopped chatting with [MisterDoughnut|#d4af37]\n\n[MisterDoughnut: Fine.|#d4af37]"
-      },
-      {
-        "type": "dialogue",
-        "value": "[Kid Named Lasdav|inherit|#FFFFFF]"
+        "type": "text",
+        "value": "What will the nickname of this young person be?"
       }
     ],
     "2": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686240233_3.gif"
+      },
       {
         "type": "text",
         "value": ">Examine room."
       },
       {
         "type": "image",
-        "value": "assets/media/item_1770641173512_deaxsnamelockyp.gif"
+        "value": "assets/media/item_1770686265637_4.png"
       },
       {
         "type": "text",
         "value": "Anyway, your nickname is LOCKY★P, but your real name is DEAXS. You enjoy playing VIDEO GAMES such as SUPER MARIO BROS and SONIC THE HEDGEHOG on your NINTENDO SWITCH. Sometimes, you like playing games with your buddies on your LENOVO SHITBOX PC. Occasionally, you see spiders crawl out of said PC.\n\nYou sleep with the LAMP on because you're scared of the dark. You got a WELCOME MAT on your last birthday. You think it's stupid, as it is facing THE WRONG FUCKING WAY. You only buy calendars just so you can circle October 5th, then you throw them away. Well, it is your BIRTHDAY. Why not find something fun to do?\n\nWhat will you do?"
-      },
-      {
-        "type": "image",
-        "value": "assets/media/item_1770641190263_image.png"
       }
     ],
     "3": [
       {
+        "type": "image",
+        "value": "assets/media/item_1770686499956_5.gif"
+      },
+      {
         "type": "text",
-        "value": "#000000|Test Text"
+        "value": ">Put lamp shade on head\n\nYou are now looking through two shades instead of one. You would look in a mirror to see if this makes you look any cooler, but you can't see shit. You also do not have any mirrors in this room. Maybe you could ask for one for your next birthday."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686538075_6.gif"
+      },
+      {
+        "type": "text",
+        "value": "You are not sure if this will even be useful, but you decide to put the lamp shade into your INVENTORY anyway. It should look familiar, so it needs no explanation."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686568098_7.png"
+      },
+      {
+        "type": "text",
+        "value": "Now that you've discovered your INVENTORY, is there anything else that you would like to put in there?"
+      }
+    ],
+    "4": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686666044_8.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Put the rest of the lamp in your INVENTORY.\n\nWell, can't take the shade without the lamp, can you? What else will you use to light up the dark if you need to sleep somewhere else? Although now that you've separated the shade from the lamp itself, you'll need to somehow put them back together."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686693192_9.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Craft regular lamp.\n\nUsing your crafting grid in your undisclosed reference of an inventory, you fuse together the lamp shade and the lamp body to craft a perfect regular lamp. Or you would have, if you didn't put the lamp shade on upside down. Oh well, now you just have a large and inconvenient flashlight. You put the INCONVENIENT FLASHLIGHT in your inventory."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686712232_10.png"
+      },
+      {
+        "type": "text",
+        "value": "In any case, you are getting bored and would like to do something on your LENOVO SHITBOX PC. Maybe you could talk to your buddies or play a game.\n\nYou've had this piece of shit for a while now, and it is starting to piss you off. It used to be alright, but now it runs slower than something that doesn't even have legs. It is more useful as a housing unit for spiders than a computer at this point.\n\nIt is taking an unusually long amount of time to turn on. What will you do?"
+      }
+    ],
+    "5": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686748507_11.png"
+      },
+      {
+        "type": "text",
+        "value": ">Plead with the spiders.\n\nSpiders cannot understand English. Your pleading means nothing. The PC is still not turning on."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686788582_12.gif"
+      },
+      {
+        "type": "text",
+        "value": "Obviously they wouldn't be able to understand you, and you are not sure why you tried that. You decide to try using sign language instead. Somehow, the spiders seem to understand sign language.\n\nYou sign to them, \"turn the fucking computer on,\" and they sign back saying it's going to take about 5 minutes until this piece of trash is fully operational again."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686808312_13.png"
+      },
+      {
+        "type": "text",
+        "value": "It seems like you will need to occupy yourself with something else while the spiders are hard at work. You are not exactly sure what they are doing to make the computer turn on, but you trust them because they live inside of it.\n\nIn the meantime, you could EXAMINE something else in your room. What will you examine?"
+      }
+    ],
+    "6": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686957397_14.png"
+      },
+      {
+        "type": "text",
+        "value": "You can't seem to decide whether you want to examine the posters or the calendar! This is quite the predicament. This can only be solved one way..."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686975424_15.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Flip coin.\n\nIt looks like the coin landed on tails, which means you are going to examine the calendar. (And you GUESS you'll examine the welcome mat too, since you had also considered that as an option.)"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770687020041_16.png"
+      },
+      {
+        "type": "text",
+        "value": ">Examine calendar.\n\nAs mentioned previously, you don't find the calendar to be particularly useful. You circle today and you get rid of it. While you could circle other days, you just don't see a reason to. Perhaps you will forgo the use of the calendar all together.\n\nNow how about you examine the WELCOME MAT?"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770687049290_17.png"
+      },
+      {
+        "type": "text",
+        "value": ">Examine welcome mat.\n\nYou check under the welcome mat. What's that? There's a KEY under the welcome mat? Oh yes, but it's not just any key. It's a PIANO KEY. You don't know how this will be of any use whatsoever, but you decide to stash it away in your inventory anyway."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770687065213_18.gif"
+      },
+      {
+        "type": "text",
+        "value": "Ok that didn't take quite as long as you were hoping for. It seems you'll just have to wait a bit longer for the spiders to fix whatever issue your shitty PC is having.\n\nYou wonder if the spiders will want something in return for their work. Like, do they want to be paid? What currency would the spiders want? Ok stop fucking thinking about this it's probably making you dumber."
+      }
+    ],
+    "7": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770687126721_19.png"
+      },
+      {
+        "type": "text",
+        "value": "Finally the spiders are finished fixing your soon-to-be-replaced LENOVO SHITBOX PC. Looks like they aren't asking for anything in return, meaning your daydreams about spider money were completely pointless. Alright, let's see if this thing is actually functional."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770687142017_20.png"
+      },
+      {
+        "type": "text",
+        "value": "Now you get to see your beautiful desktop again! It may not be the most organized desktop ever, but you know where everything is and that's good enough. \n\nIt looks like one of your buddies is trying to contact you on discord. Now open the goddamn app!!!"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770687356066_21.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[isabelfruit|#D33682] began chatting with [LOCKY★P|#DC322F]\n\n[isabelfruit: HAPPY BIRTHDAY DUDE :D|#D33682]\n\n[isabelfruit: what're you doing for your big day|#D33682]\n\n[LOCKY★P: nothing lol|#DC322F]\n\n[LOCKY★P: just spent like an hour waiting for my shitbox to turn on|#DC322F]\n\n[isabelfruit: you shouldve just asked for a new pc for your birthday silly|#D33682]\n\n[LOCKY★P: yeah but im stubborn as long as this thing turns on im going to use it|#DC322F]\n\n[isabelfruit: fair fair|#D33682]\n\n[isabelfruit: well hey while we're talking|#D33682]\n\n[isabelfruit: did you check your porch?|#D33682]\n\n[isabelfruit: i left a pipebo|#D33682]\n\n[isabelfruit: PACKAGE i mean package :]|#D33682]\n\n[isabelfruit: its got a neat gift in there for you|#D33682]\n\n[isabelfruit: you should open it in a crowded area itll be awesome|#D33682]\n\n[LOCKY★P: you dont need to convince me its a pipebomb i already believe you LOL|#DC322F]\n\n[LOCKY★P: anyway thanks for the gift in advance :)|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688120444_22.gif"
+      },
+      {
+        "type": "text",
+        "value": "You go to your door to leave your room and grab your newly delivered pipebomb present, but the door won't budge. It seems there is something big and heavy blocking it on the other side. You think it's the package your friend sent you. This means somebody must have moved it from outside to in front of your door. While that seems very considerate of them, you can't leave your damn room now."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688145717_23.gif"
+      },
+      {
+        "type": "text",
+        "value": "Your intuition tells you to escape through the window. Unfortunately, you don't have one of those! Wow, this room really has fucking nothing in it. Maybe if you weren't a silly nerd you could have built a window with your bare hands. That sounds too hard actually never mind.\n\nHow will you escape your room?"
+      }
+    ],
+    "8": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688284151_24.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Use your LOCKY POWERS to punch a LOCKY HOLE in the wall\n\nYou decide you like this idea most, as it seems the least fraudulent. \n\nOk now what the hell are LOCKY POWERS. You don't even know what that means, but you think it sounds really funny. Now, let's see what you've got."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688304598_25.gif"
+      },
+      {
+        "type": "text",
+        "value": "WOW. You can't believe that actually worked. The fuck are these walls made out of? That was WAY cooler than turning into a piece of paper.\n\nYou hope nobody gets mad at you for punching a giant LOCKY HOLE in the LOCKY WALL. I mean, they can't really get that mad at you. You know, with it being your birthday and all."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688321457_26.png"
+      },
+      {
+        "type": "text",
+        "value": "You really just jumped out the newly formed window with no regard for your own safety. Unbelievable. Anyway, it's kind of a muddy day out, isn't it? That shouldn't be a problem, considering you were about to head back inside.\n\nWait..."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688343810_27.png"
+      },
+      {
+        "type": "text",
+        "value": "What the hell is that stupid looking block of text in the sky?"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688358591_28.gif"
+      },
+      {
+        "type": "text",
+        "value": "WHAT IN THE FUCK IS THAT?????"
+      }
+    ],
+    "9": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688425093_29.png"
+      },
+      {
+        "type": "text",
+        "value": "You are just going to choose to ignore that thing.\n\nYou made it to the front door. It is always unlocked, so you will definitely be able to enter through here. This is also where the package was supposed to be, meaning the object blocking your door is 100% the gift.\n\nOnce you do through the door, you will enter the MUD ROOM."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688440548_30.png"
+      },
+      {
+        "type": "text",
+        "value": ">Enter the MUD ROOM.\n\nLook at that, the windows on the outside are not visible from the inside. What the hell. More importantly, there is a BACKPACK in here. Maybe you should put it on. It could be very useful."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688457634_31.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Equip the BACKPACK.\n\nSee? You knew putting on the backpack was a good idea. It has expanded your inventory by adding nine more slots. You are now able to store twice as many items in your inventory. Unsurprisingly, the INCONVENIENT FLASHLIGHT and the PIANO KEY are still in your inventory."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688673924_32.gif"
+      },
+      {
+        "type": "text",
+        "value": "After wearing the backpack for five seconds, it disappeared. It's a feature, all good backpacks today have it. \n\nYou will now enter the KITCHEN."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770689086167_33.png"
+      },
+      {
+        "type": "text",
+        "value": ">Enter the KITCHEN\n\nThere are so many different things you could inventorize within this oddly familiar kitchen. What will you add to your inventory?"
+      }
+    ],
+    "10": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688997188_34.png"
+      },
+      {
+        "type": "text",
+        "value": "Apparently, this LUNCHBOX is the closest thing resembling food in the entire damn kitchen. But theoretically, if there was a COUGHING BABY you wouldn't eat it. You don't eat babies, especially if they are sick."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770689014474_35.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Put LUNCHBOX into your inventory.\n\nYou wonder how long it will take to fill your entire inventory full of useless objects. You aren't even sure if it will ever get that full. You are also choosing to ignore the weird logo on this lunchbox."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770689030031_36.gif"
+      },
+      {
+        "type": "text",
+        "value": "You decide to get to your room as quickly as possible, as to not make your friend wait. Also nice picture wow."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770689046390_37.png"
+      },
+      {
+        "type": "text",
+        "value": "Whoa, that is one big pipe bomb. This time it will surely kill you. Anyway, let's open this bitch. Also nice face wow.\n\nHow will you open it?"
+      }
+    ],
+    "11": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770689226116_38.png"
+      },
+      {
+        "type": "text",
+        "value": ">Just open it fucking normally dumbass.\n\nYou decide to \"just open it fucking normally dumbass\", whatever that means. It's not like you wanted to do any other silly option anyway.\n\nYou are so surprised by what you see in the box! Just kidding, you have no idea what the hell you are looking at."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770689238592_39.png"
+      },
+      {
+        "type": "text",
+        "value": "Although whatever it is, it seems to be related the the game called \"RSIDNT\" that just was also included in the box. You were going to mark this on your calendar too, since all your buddies have been discussing its much anticipated release. But to be truthful, you never thought it looked all that interesting. You add the game to your inventory."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770689251988_40.png"
+      },
+      {
+        "type": "text",
+        "value": "Now THIS THING is what you don't understand. It just looks like a giant slab of metal. You will have to ask your buddy what it is supposed to do after you get it into your room."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770689301339_41.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Move THIS THING into your room.\n\nTHIS THING is really heavy. Anyway, why are you standing on it? Get off of it, it could be radioactive or something! \n\nLook at that! Your buddy is messaging you."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770689441428_42.png"
+      },
+      {
+        "type": "text",
+        "value": ">Answer your buddy."
+      },
+      {
+        "type": "dialogue",
+        "value": "[isabelfruit|#D33682] began chatting with [LOCKY★P|#DC322F]\n\n[isabelfruit: what is taking you so long|#D33682]\n\n[isabelfruit: its a huge fucking package|#D33682]\n\n[LOCKY★P: dont worry i found it|#DC322F]\n\n[LOCKY★P: someone moved it in front of my door|#DC322F]\n\n[LOCKY★P: so i had to use my locky powers|#DC322F]\n\n[LOCKY★P: it was pretty cool|#DC322F]\n\n[LOCKY★P: kinda disappointed it wasnt a pipebomb|#DC322F]\n\n[isabelfruit: yeah i usually have some extras lying around but not this time|#D33682]\n\n[LOCKY★P: so what am i supposed to do with this big metal slab of junk?|#DC322F]\n\n[isabelfruit: i will explain in a sec|#D33682]\n\n[isabelfruit: but first you have to put teh game in your pc|#D33682]\n\n[isabelfruit: and make sure you have roblox installed|#D33682]\n\n[LOCKY★P: ok|#DC322F]"
+      }
+    ],
+    "12": [
+      {
+        "type": "text",
+        "value": "[S] Prepare RSIDNT."
+      },
+      {
+        "type": "video",
+        "value": "assets/media/item_1770689691133_43.mp4"
+      }
+    ],
+    "13": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770689916345_44.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[LOCKY★P|#DC322F] began chatting with [isabelfruit|#D33682]\n\n[LOCKY★P: ok i installed RSIDNT|#DC322F]\n\n[LOCKY★P: i also had to install roblox again because i haven't played it in 10 seconds|#DC322F]\n\n[LOCKY★P: what do i do now?|#DC322F]\n\n[isabelfruit: so first you need to walk over to the thing i sent you and press the button on the back of it|#D33682]\n\n[LOCKY★P: alright|#DC322F]\n\n[isabelfruit: then some shit is gonna pop out|#D33682]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770690015152_45.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[LOCKY★P: what now? do i press the big red button?|#DC322F]\n\n[isabelfruit: its a pink button|#D33682]\n\n[LOCKY★P: its literally red|#DC322F]\n\n[isabelfruit: alright well mine was pink|#D33682]\n\n[LOCKY★P: weird|#DC322F]\n\n[LOCKY★P: wait|#DC322F]\n\n[LOCKY★P: you have one of the big metal slab things too?|#DC322F]\n\n[isabelfruit: yeah but dont worry about that right now|#D33682]\n\n[LOCKY★P: ok well what happens after i press the button|#DC322F]\n\n[isabelfruit: basically im going to be able to control your room and place more big metal objects|#D33682]\n\n[LOCKY★P: bro i just cleaned my room i dont want more of these things in here|#DC322F]\n\n[isabelfruit: no but it will be funny|#D33682]\n\n[isabelfruit: i swear|#D33682]\n\n[LOCKY★P: this better be hilarious|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770690097679_46.gif"
+      },
+      {
+        "type": "text",
+        "value": "Hold on!!!!!!!\n\nBefore you figure out what that button did, a character select menu appears. You can either continue to be deaxs, or you can choose to be THE OTHER PERSON.\n\nWhat will you do?"
+      }
+    ],
+    "14": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770690227432_47.png"
+      },
+      {
+        "type": "text",
+        "value": ">Be THE OTHER PERSON.\n\nYou are now THE OTHER PERSON. Now that you are THE OTHER PER- ok you cannot keep calling her that. How about you give her a name instead?\n\nWhat will the name of THE OTHER PERSON be?"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770690257482_48.gif"
+      },
+      {
+        "type": "text",
+        "value": "JOHN EGBERT? What kind of name is JOHN EGBERT? You don't even know who that is! She's not going to be called that. Actually, it doesn't even matter. She already has a name anyway."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770690268354_49.png"
+      },
+      {
+        "type": "text",
+        "value": "Your name is ISABEL and you have a variety of interests. Your hobbies include watching DRAGON BALL and uh, programming or something stupid like that. It's not really important. What is important is that today is the day that a new video game releases. All of your buddies are very excited for its release today. Well, most of them are excited at least. \n\nNow, turn on your LAP WITH NO TOP and start chatting with your buddies."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770690281443_50.png"
+      },
+      {
+        "type": "text",
+        "value": ">Turn on LAP WITH NO TOP\n\nYou love your LAP WITH NO TOP. It's super cool and reliable and awesome. It is comprised of a LAP (excluding the top) and a MONITOR. A LAPTOP? What the hell is that. It's not that. That sounds dumb. It's a LAP WITH NO TOP and that is final."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770690295263_51.gif"
+      },
+      {
+        "type": "text",
+        "value": "It looks like you already have a message from someone."
+      },
+      {
+        "type": "dialogue",
+        "value": "[EarthDoggo|#2AA198] began chatting with [isabelfruit|#D33682]\n\n[EarthDoggo: hey|#2AA198] \n\n[EarthDoggo: did you get the game yet?|#2AA198]\n\n[EarthDoggo: i did|#2AA198]\n\n[isabelfruit: no not yet|#D33682]\n\n[EarthDoggo: well, you should check again|#2AA198]\n\n[EarthDoggo: cause it could be there|#2AA198] 🙃\n\n[isabelfruit: i will in a sec|#D33682]\n\n[isabelfruit: also what did you get deaxs for their birthday?|#D33682]\n\n[EarthDoggo: it's their birthday???|#2AA198]\n\n[isabelfruit: YOU DIDNT KNOW???|#D33682]\n\n[EarthDoggo: i forgor|#2AA198] 💀\n\n[EarthDoggo: i'll have to do something last minute...|#2AA198]\n\n[EarthDoggo: so what did you get them then?|#2AA198]\n\n[isabelfruit: i just got them RSIDNT cause they never bought it for themselves|#D33682]\n\n[EarthDoggo: smart, but do you even think they will even like it? don't you think they would have ordered their own copy if they actually wanted to play it?|#2AA198]\n\n[isabelfruit: uhhhhh no idea|#D33682]\n\n[isabelfruit: ok im gonna go check now|#D33682]\n\n[EarthDoggo: alr|#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770690448015_52.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Go check if the game is here.\n\nYou go to look out your window to see if it is in the mailbox. What are you talking about? You don't have any windows in your room and you never have! There must be a window shortage. It seems you will have to exit your room to check if it's here."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770690484344_53.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Go check if the game is here correctly.\n\nYou go to your front door, but before you can go outside you need to grab your UMBRELLA. It is raining outside and you aren't in the mood to get completely soaked while you play your game."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770690586590_54.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Grab UMBRELLA.\n\nYou grab your UMBRELLA and add it to your INVENTORY. It should look familiar, so it needs no explanation."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770690601098_55.gif"
+      },
+      {
+        "type": "text",
+        "value": "It looks like your game is here! Unfortunately, it also looks like it is so big that the mailman put it on top of your mailbox, which in turn crushed your mailbox. Oh well, at least you got the game. It is pretty heavy though, so it might take a while to bring it to your room."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770690619347_56.gif"
+      },
+      {
+        "type": "text",
+        "value": "Or you can just do that. Sure ok."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770690633647_57.png"
+      },
+      {
+        "type": "text",
+        "value": "You are going to need a new mailbox. And you got all this stupid fucking mud in your house! But who cares? That will be future you's problem. Go back to your room and play the game!"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770690660355_58.gif"
+      },
+      {
+        "type": "text",
+        "value": "Welcome to your room. You don't need to be welcomed. It's your room idiot. \n\nAlso you can't play the game yet because you have more messages from your friends."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770690704402_59.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[EarthDoggo: did you look yet?|#2AA198]\n\n[EarthDoggo: what are you doing dude|#2AA198]\n\n[EarthDoggo:|#2AA198] 😴😴😴    \n\n[isabelfruit: i got the game|#D33682]\n\n[EarthDoggo: what the hell took you so long?|#2AA198]\n\n[isabelfruit: IT WAS RAINING AND SHIT|#D33682]\n\n[isabelfruit: MY MAILBOX IS GONE|#D33682]\n\n[EarthDoggo: but the game is unharmed, right?|#2AA198]\n\n[isabelfruit: yes teh game is ok|#D33682]\n\n[EarthDoggo: then let's play it?????????|#2AA198]\n\n[isabelfruit: i need to set it up first|#D33682]\n\n[isabelfruit: also someone else is messaging me and i dont know who it is|#D33682]\n\n[EarthDoggo: lame|#2AA198] 👎\n\n[isabelfruit|#D33682] stopped chatting with [EarthDoggo|#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770691220997_60.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[L|#4F545C|#FDF6E3] began chatting with [isabelfruit|#D33682]\n\n[L: Isabel. I'm reaching out with an important message. I am not sending this message in your time, I am further along in the timeline. You must play RSIDNT with deaxs.|#4F545C|#FDF6E3]\n\n[L: Otherwise...|#4F545C|#FDF6E3]\n\n[L: Nothing will Ever Happen.|#4F545C|#FDF6E3]\n\n[L|#4F545C|#FDF6E3] stopped chatting with [isabelfruit|#D33682]\n\n[isabelfruit: HELLO????|#D33682]\n\n[isabelfruit: what are you talking about????|#D33682]\n\n[isabelfruit: :[|#D33682]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770691277015_61.png"
+      },
+      {
+        "type": "text",
+        "value": "Stupid fucking random messages. This is why you NEVER accept message requests. What the hell were they even talking about? You were going to play the damn game anyway.\n\nWell let's set up the game so your friend gets off your ass about it."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770691311317_62.png"
+      },
+      {
+        "type": "text",
+        "value": ">Set up RSIDNT.\n\nYou can't set it up yet because you haven't opened the package yet. Do that first."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770691351495_63.png"
+      },
+      {
+        "type": "text",
+        "value": ">Open package.\n\nYou open the package and see the giant metal slab inside of it. There is not fucking way this needs to be this big. It takes up like half of your room!"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770691376191_64.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Shove game disc into LAP WITH NO TOP.\n\nYou shove the game disc into the LAP WITH NO TOP. It makes various interesting and upsetting noises. It sort of sounds like the LAP WITH NO TOP is coughing or something. It's kind of gross, but it eventually accepts the disc and prepares RSIDNT."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770691398834_65.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Do some shit with the metal slab.\n\nYou press a button on the back of the metal slab and a new button pops out. What is the point of this? Why not just make the first button do whatever this button does? Actually, what does this button do?\n\nYou already know what this button does because it gets explained the the RSIDNT trailer! This button will allow one of your friends to control your version of the game. You cannot press it yet because you haven't even chose a friend to play with yet.\n\nWhich friend will you contact first?"
       }
     ]
   }
