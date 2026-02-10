@@ -615,6 +615,16 @@
         "type": "text",
         "value": ">Stop being ISABEL and go back to being DEAXS.\n\nYou stop being ISABEL and go back to being DEAXS. This is DEAXS ADVENTURE after all, not ISABEL ESCAPADES. \n\nAlright, now how about you finally stop doing other random shit and actually start playing this stupid game? You have waited long enough."
       }
+    ],
+    "17": [
+      {
+        "type": "text",
+        "value": "[S] Sync."
+      },
+      {
+        "type": "video",
+        "value": "assets/media/item_1770763082675_72-sync.mp4"
+      }
     ]
   }
 }
