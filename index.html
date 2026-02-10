@@ -7,61 +7,83 @@
     <link rel="icon" type="image/png" href="assets/media/icon.png">
     
     <style>
-        /* THE THEME */
+        /* THEME VARIABLES */
+        :root {
+            --bg-color: #121212;
+            --text-color: #e0e0e0;
+            --block-bg: #0e0e1a;
+            --block-border: #202225;
+            --nav-btn-border: #fff;
+            --nav-btn-text: #fff;
+            --font-main: "Courier New", Courier, monospace;
+            --base-font-size: 1.2rem;
+            --dialogue-font-size: 1.1rem;
+        }
+
+        /* LIGHT MODE OVERRIDES */
+        body.light-mode {
+            --bg-color: #ffffff;
+            --text-color: #1a1a1a;
+            --block-bg: #f0f0f5;
+            --block-border: #d1d1d1;
+            --nav-btn-border: #1a1a1a;
+            --nav-btn-text: #1a1a1a;
+        }
+
+        /* FONT OVERRIDES */
+        body.font-serif { --font-main: "Georgia", serif; }
+        body.font-sans { --font-main: "Arial", Helvetica, sans-serif; }
+
+        /* SIZE OVERRIDES */
+        body.size-small { --base-font-size: 0.9rem; --dialogue-font-size: 0.85rem; }
+        body.size-large { --base-font-size: 1.6rem; --dialogue-font-size: 1.4rem; }
+
         body { 
-            background: #121212; 
-            color: #e0e0e0; 
-            font-family: "Courier New", Courier, monospace; 
-            margin: 0; 
-            padding: 0; 
-            display: flex; 
-            flex-direction: column; 
-            align-items: center; 
+            background: var(--bg-color); 
+            color: var(--text-color); 
+            font-family: var(--font-main); 
+            margin: 0; padding: 0; 
+            display: flex; flex-direction: column; align-items: center; 
             line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
         }
 
-        header {
-            width: 100%;
-            max-width: 800px;
-            padding: 40px 20px;
-            text-align: center;
-            box-sizing: border-box;
+        /* TOP RIGHT THEME MENU */
+        .theme-controls {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 1000;
+            display: flex;
+            gap: 5px;
+            background: rgba(0,0,0,0.5);
+            padding: 8px;
+            border-radius: 5px;
+            backdrop-filter: blur(4px);
         }
 
-        .logo {
-            width: 100%;
-            max-width: 800px;
-            height: auto;
-            display: block;
-            margin: 0 auto;
+        .theme-controls select {
+            background: #1e1e1e;
+            color: #fff;
+            border: 1px solid #444;
+            font-family: sans-serif;
+            font-size: 0.7rem;
+            padding: 4px;
+            cursor: pointer;
+            outline: none;
         }
 
-        .comic-container { 
-            width: 100%;
-            max-width: 800px; 
-            padding: 0 20px; 
-            box-sizing: border-box;
-            min-height: 50vh;
-        }
+        header { width: 100%; max-width: 800px; padding: 40px 20px; text-align: center; box-sizing: border-box; }
+        .logo { width: 100%; max-width: 800px; height: auto; display: block; margin: 0 auto; }
 
-        .content-block { 
-            width: 100%; 
-            margin-bottom: 50px; 
-            animation: fadeIn 0.8s ease-in;
-        }
-
-        img, video { 
-            width: 100%; 
-            height: auto; 
-            display: block; 
-            border-radius: 2px; 
-        }
+        .comic-container { width: 100%; max-width: 800px; padding: 0 20px; box-sizing: border-box; min-height: 50vh; }
+        .content-block { width: 100%; margin-bottom: 50px; animation: fadeIn 0.8s ease-in; }
+        img, video { width: 100%; height: auto; display: block; border-radius: 2px; }
 
         .text-block { 
             text-align: left;
             line-height: 1.8; 
-            font-size: 1.2rem;
-            color: #ccc;
+            font-size: var(--base-font-size);
             margin: 30px 0;
             width: 100%; 
             word-wrap: break-word;
@@ -69,17 +91,17 @@
         }
 
         .dialogue-box {
-            background: #0e0e1a; 
-            border: 1px solid #202225;
+            background: var(--block-bg); 
+            border: 1px solid var(--block-border);
             border-radius: 4px;
             padding: 20px;
             margin: 25px 0;
             width: 100%;
             box-sizing: border-box;
-            font-family: "Consolas", "Monaco", "Courier New", monospace; 
-            color: #dcddde;
+            font-family: "Consolas", "Monaco", monospace; 
+            color: var(--text-color);
             white-space: pre-wrap; 
-            font-size: 1.1rem;
+            font-size: var(--dialogue-font-size);
             text-align: left;
         }
 
@@ -94,26 +116,21 @@
 
         .nav-btn {
             background: transparent;
-            color: #fff;
+            color: var(--nav-btn-text);
             padding: 10px 25px;
             text-decoration: none;
-            border: 2px solid #fff; 
-            font-family: "Courier New", Courier, monospace;
+            border: 2px solid var(--nav-btn-border); 
+            font-family: var(--font-main);
             font-weight: bold;
             transition: 0.3s;
             display: inline-block;
             margin: 5px 10px;
         }
 
-        .nav-btn:hover { background: #fff; color: #121212; }
+        .nav-btn:hover { background: var(--nav-btn-text); color: var(--bg-color); }
         .page-indicator { font-size: 0.9rem; color: #555; margin: 0 20px; vertical-align: middle; }
 
-        .jump-container {
-            margin-top: 25px;
-            color: #666;
-            font-size: 0.8rem;
-        }
-
+        .jump-container { margin-top: 25px; color: #666; font-size: 0.8rem; }
         .jump-input {
             background: #1e1e1e;
             border: 1px solid #333;
@@ -121,23 +138,32 @@
             padding: 5px;
             width: 60px;
             text-align: center;
-            font-family: "Courier New", Courier, monospace;
+            font-family: var(--font-main);
             outline: none;
             border-radius: 3px;
-        }
-
-        .jump-input:focus { border-color: #fff; }
-
-        .jump-input::-webkit-outer-spin-button,
-        .jump-input::-webkit-inner-spin-button {
-            -webkit-appearance: none;
-            margin: 0;
         }
 
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
     </style>
 </head>
 <body>
+
+    <div class="theme-controls">
+        <select id="mode-select" onchange="applyTheme()">
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
+        </select>
+        <select id="font-select" onchange="applyTheme()">
+            <option value="default">Mono</option>
+            <option value="serif">Serif</option>
+            <option value="sans">Sans</option>
+        </select>
+        <select id="size-select" onchange="applyTheme()">
+            <option value="medium">Standard</option>
+            <option value="small">Small</option>
+            <option value="large">Large</option>
+        </select>
+    </div>
 
     <header>
         <img src="assets/media/logo.png" alt="Deaxs Adventure" class="logo">
@@ -152,6 +178,41 @@
     <script>
         let totalPagesCount = 1;
 
+        function applyTheme() {
+            const mode = document.getElementById('mode-select').value;
+            const font = document.getElementById('font-select').value;
+            const size = document.getElementById('size-select').value;
+
+            // Apply Mode
+            document.body.classList.toggle('light-mode', mode === 'light');
+
+            // Apply Font
+            document.body.classList.remove('font-serif', 'font-sans');
+            if (font === 'serif') document.body.classList.add('font-serif');
+            if (font === 'sans') document.body.classList.add('font-sans');
+
+            // Apply Size
+            document.body.classList.remove('size-small', 'size-large');
+            if (size === 'small') document.body.classList.add('size-small');
+            if (size === 'large') document.body.classList.add('size-large');
+
+            // Save preferences
+            localStorage.setItem('reader-mode', mode);
+            localStorage.setItem('reader-font', font);
+            localStorage.setItem('reader-size', size);
+        }
+
+        function loadSavedTheme() {
+            const savedMode = localStorage.getItem('reader-mode') || 'dark';
+            const savedFont = localStorage.getItem('reader-font') || 'default';
+            const savedSize = localStorage.getItem('reader-size') || 'medium';
+            
+            document.getElementById('mode-select').value = savedMode;
+            document.getElementById('font-select').value = savedFont;
+            document.getElementById('size-select').value = savedSize;
+            applyTheme();
+        }
+
         function jumpToPage(event) {
             if (event.key === "Enter") {
                 let page = parseInt(event.target.value);
@@ -163,6 +224,7 @@
         }
 
         async function loadComic() {
+            loadSavedTheme();
             const container = document.getElementById('main-content');
             const footer = document.getElementById('nav-footer');
             const urlParams = new URLSearchParams(window.location.search);
@@ -185,18 +247,14 @@
                 data.pages[currentPage].forEach(block => {
                     const div = document.createElement('div');
                     div.className = "content-block";
-
                     if (block.type === 'image') {
                         div.innerHTML = `<img src="${block.value}" alt="Panel">`;
-                    } 
-                    else if (block.type === 'video') {
+                    } else if (block.type === 'video') {
                         div.innerHTML = `<video controls><source src="${block.value}" type="video/mp4"></video>`;
-                    } 
-                    else if (block.type === 'text') {
+                    } else if (block.type === 'text') {
                         div.className += " text-block";
                         div.innerHTML = parseColors(block.value);
-                    }
-                    else if (block.type === 'dialogue') {
+                    } else if (block.type === 'dialogue') {
                         div.className += " dialogue-box";
                         div.innerHTML = parseColors(block.value);
                     }
@@ -224,12 +282,7 @@
                     ${currentPage !== lastPage ? `<a href="?p=${lastPage}" class="nav-btn">LAST</a>` : ''}
                     
                     <div class="jump-container">
-                        GOTO PAGE: <input type="number" 
-                                          class="jump-input" 
-                                          min="1" 
-                                          max="${totalPagesCount}" 
-                                          placeholder="..." 
-                                          onkeypress="jumpToPage(event)">
+                        GOTO PAGE: <input type="number" class="jump-input" min="1" max="${totalPagesCount}" placeholder="..." onkeypress="jumpToPage(event)">
                     </div>
                 `;
             } catch (err) {
