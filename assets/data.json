@@ -365,11 +365,11 @@
     "12": [
       {
         "type": "text",
-        "value": "[S] Prepare RSIDNT."
+        "value": "[[S] Prepare RSIDNT.|#00AFEF]"
       },
       {
         "type": "video",
-        "value": "assets/media/item_1770689691133_43.mp4"
+        "value": "assets/media/item_1770764556922_43.mp4"
       }
     ],
     "13": [
