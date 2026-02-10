@@ -2,53 +2,18 @@
 <html>
 <head>
     <title>ADVENTURE ADMIN</title>
-
     <style>
         body { background: #121212; color: white; font-family: sans-serif; text-align: center; padding: 20px; }
         .hidden { display: none; }
         .box { background: #1e1e1e; padding: 25px; border-radius: 8px; max-width: 650px; margin: 20px auto; border: 1px solid #333; }
-        
         input, button, textarea, select { width: 100%; padding: 12px; margin: 10px 0; border-radius: 5px; border: 1px solid #3d3d3d; box-sizing: border-box; }
         textarea { height: 150px; background: #2a2a2a; color: white; border: 1px solid #444; font-family: monospace; }
-        
         button { background: #007bff; color: white; font-weight: bold; cursor: pointer; border: none; }
         button:hover { background: #0056b3; }
-
-        .page-card { 
-            background: #2a2a2a; 
-            padding: 15px; 
-            border-radius: 6px; 
-            margin-bottom: 10px; 
-            text-align: left; 
-            border-left: 5px solid #007bff; 
-            display: flex; 
-            justify-content: space-between; 
-            align-items: center; 
-        }
-
-        .type-tag { 
-            font-size: 0.7rem; 
-            background: #444; 
-            padding: 2px 6px; 
-            border-radius: 3px; 
-            text-transform: uppercase; 
-            margin-left: 10px; 
-            color: #007bff;
-            font-weight: bold;
-        }
-
-        .swap-zone { 
-            display: flex; 
-            gap: 10px; 
-            background: #252525; 
-            padding: 15px; 
-            border-radius: 8px; 
-            justify-content: center; 
-            align-items: center; 
-            margin-bottom: 20px;
-        }
+        .page-card { background: #2a2a2a; padding: 15px; border-radius: 6px; margin-bottom: 10px; text-align: left; border-left: 5px solid #007bff; display: flex; justify-content: space-between; align-items: center; }
+        .type-tag { font-size: 0.7rem; background: #444; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; margin-left: 10px; color: #007bff; font-weight: bold; }
+        .swap-zone { display: flex; gap: 10px; background: #252525; padding: 15px; border-radius: 8px; justify-content: center; align-items: center; margin-bottom: 20px; }
         .swap-zone input { width: 70px; margin: 0; background: #121212; color: white; border: 1px solid #444; }
-
         #status { font-weight: bold; margin: 15px 0; color: #ffca28; }
         .delete-btn { width: auto; background: #dc3545; padding: 5px 15px; }
         .page-delete-btn { background: #8b0000; margin-top: 5px; font-size: 0.8rem; }
@@ -67,9 +32,18 @@
         <div class="box">
             <h2>Select Page to Edit</h2>
             <select id="page-selector" onchange="switchPage()"></select>
+            
+            <div class="swap-zone" style="background: #1a1a1a; border: 1px dashed #444; margin-top: 10px;">
+                <span>Swap Page</span>
+                <input type="number" id="page-swap-a" placeholder="1">
+                <span>with</span>
+                <input type="number" id="page-swap-b" placeholder="2">
+                <button onclick="executePageSwap()" style="width:auto; margin:0; background: #6f42c1;">Swap</button>
+            </div>
+
             <div style="display: flex; gap: 10px;">
                 <button onclick="addNewPage()" style="background:#6c757d;">+ Create New Page</button>
-                <button onclick="deleteFullPage()" class="page-delete-btn">🗑️ Delete This Page</button>
+                <button onclick="deleteFullPage()" class="page-delete-btn">🗑️ Delete Current Page</button>
             </div>
         </div>
 
@@ -93,8 +67,7 @@
         </div>
 
         <div class="box">
-            <h2>Workbench Order</h2>
-            
+            <h2>Element Order (Inside Current Page)</h2>
             <div class="swap-zone">
                 <span>Swap Index</span>
                 <input type="number" id="swap-a" placeholder="1">
@@ -143,32 +116,19 @@
                 }
                 updateSelector();
                 render();
-            } catch (err) { 
-                console.log("New structure initiated."); 
-                updateSelector(); 
-            }
+            } catch (err) { alert("Error loading data. Check token/connection."); }
         }
 
         function updateSelector() {
             const selector = document.getElementById('page-selector');
             selector.innerHTML = "";
-            const sortedKeys = Object.keys(allPages).sort((a,b) => a-b);
-            
-            // Ensure there is at least one page
-            if (sortedKeys.length === 0) {
-                allPages["1"] = [];
-                sortedKeys.push("1");
-            }
-
-            sortedKeys.forEach(num => {
+            const keys = Object.keys(allPages).sort((a,b) => a-b);
+            keys.forEach(num => {
                 const opt = document.createElement('option');
                 opt.value = num;
                 opt.innerText = "Page " + num;
                 selector.appendChild(opt);
             });
-
-            // Make sure activePage still exists, otherwise default to first page
-            if (!allPages[activePage]) activePage = sortedKeys[0];
             selector.value = activePage;
             document.getElementById('editing-title').innerText = `Editing Page ${activePage}`;
         }
@@ -185,29 +145,33 @@
             allPages[nextNum] = [];
             activePage = nextNum;
             updateSelector();
-            switchPage();
+            render();
         }
 
-        // NEW: Function to delete a full page and re-index the rest
         function deleteFullPage() {
-            const count = Object.keys(allPages).length;
-            if (count <= 1) return alert("You cannot delete the only page.");
-            if (!confirm(`Are you sure you want to delete Page ${activePage}? All following pages will be shifted down.`)) return;
-
+            if (Object.keys(allPages).length <= 1) return alert("Cannot delete the only page.");
+            if (!confirm(`Delete Page ${activePage}? All following pages will shift down.`)) return;
             delete allPages[activePage];
-
-            // Re-indexing logic
             const oldKeys = Object.keys(allPages).sort((a,b) => a-b);
             const newPages = {};
-            oldKeys.forEach((key, index) => {
-                newPages[(index + 1).toString()] = allPages[key];
-            });
-
+            oldKeys.forEach((key, i) => { newPages[(i + 1).toString()] = allPages[key]; });
             allPages = newPages;
-            activePage = "1"; // Reset to page 1 after deletion
+            activePage = "1";
             updateSelector();
             render();
-            alert("Page deleted and re-indexed. Remember to SAVE to make it permanent.");
+        }
+
+        function executePageSwap() {
+            const a = document.getElementById('page-swap-a').value;
+            const b = document.getElementById('page-swap-b').value;
+            if (allPages[a] && allPages[b]) {
+                const temp = allPages[a];
+                allPages[a] = allPages[b];
+                allPages[b] = temp;
+                updateSelector();
+                render();
+                alert(`Swapped Page ${a} and ${b}`);
+            } else { alert("Invalid page numbers."); }
         }
 
         function render() {
@@ -215,15 +179,11 @@
             container.innerHTML = "";
             const blocks = allPages[activePage] || [];
             if (blocks.length === 0) container.innerHTML = "<p style='color:#666'>No content on this page yet.</p>";
-            
             blocks.forEach((b, i) => {
                 const div = document.createElement('div');
                 div.className = "page-card";
                 const label = (b.type === 'text' || b.type === 'dialogue') ? b.value.substring(0, 30) + "..." : b.value.split('/').pop();
-                div.innerHTML = `
-                    <div><strong>#${i+1}</strong> <span class="type-tag">${b.type}</span><br><small>${label}</small></div>
-                    <button class="delete-btn" onclick="remove(${i})">Delete</button>
-                `;
+                div.innerHTML = `<div><strong>#${i+1}</strong> <span class="type-tag">${b.type}</span><br><small>${label}</small></div><button class="delete-btn" onclick="remove(${i})">Delete</button>`;
                 container.appendChild(div);
             });
         }
@@ -235,50 +195,40 @@
             if (blocks && blocks[a] !== undefined && blocks[b] !== undefined) {
                 [blocks[a], blocks[b]] = [blocks[b], blocks[a]];
                 render();
-            } else { alert("Invalid index"); }
+            } else { alert("Invalid element index."); }
         }
 
         function remove(i) {
-            if(confirm("Delete this item?")) {
-                allPages[activePage].splice(i, 1);
-                render();
-            }
+            if(confirm("Delete this item?")) { allPages[activePage].splice(i, 1); render(); }
         }
 
         async function handleAdd() {
             const type = document.getElementById('content-type').value;
             const status = document.getElementById('status');
-
             if (type === 'text' || type === 'dialogue') {
                 const val = document.getElementById('text-input').value;
-                if(!val) return alert("Enter some text first.");
+                if(!val) return;
                 allPages[activePage].push({ type: type, value: val });
                 render();
                 document.getElementById('text-input').value = "";
             } else {
                 const file = document.getElementById('file-input').files[0];
-                if (!file) return alert("Please select a file.");
-                
-                status.innerText = "⏳ Uploading file to GitHub...";
+                if (!file) return;
+                status.innerText = "⏳ Uploading...";
                 const reader = new FileReader();
                 reader.onload = async () => {
                     const content = reader.result.split(',')[1];
-                    const fileName = `item_${Date.now()}_${file.name.replace(/\s+/g, '_')}`;
-                    const path = `assets/media/${fileName}`;
-
-                    try {
-                        const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
-                            method: 'PUT',
-                            headers: { 'Authorization': `token ${GITHUB_TOKEN}` },
-                            body: JSON.stringify({ message: `Upload ${fileName}`, content: content })
-                        });
-
-                        if (res.ok) {
-                            allPages[activePage].push({ type: type, value: path });
-                            render();
-                            status.innerText = "✅ Uploaded to page " + activePage;
-                        } else { alert("Upload failed."); }
-                    } catch(e) { alert("Upload error: " + e.message); }
+                    const path = `assets/media/item_${Date.now()}_${file.name.replace(/\s+/g, '_')}`;
+                    const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
+                        method: 'PUT',
+                        headers: { 'Authorization': `token ${GITHUB_TOKEN}` },
+                        body: JSON.stringify({ message: "Upload", content: content })
+                    });
+                    if (res.ok) {
+                        allPages[activePage].push({ type: type, value: path });
+                        render();
+                        status.innerText = "✅ Uploaded!";
+                    }
                 };
                 reader.readAsDataURL(file);
             }
@@ -286,31 +236,35 @@
 
         async function saveData() {
             const status = document.getElementById('status');
-            status.innerText = "💾 Saving all pages to data.json...";
+            status.innerText = "💾 Saving to GitHub...";
             try {
+                // First, fetch the latest SHA to avoid mismatch errors
+                const getRes = await fetch(`https://api.github.com/repos/${REPO}/contents/assets/data.json`, {
+                    headers: { 'Authorization': `token ${GITHUB_TOKEN}` }
+                });
+                if(getRes.ok) {
+                    const latestData = await getRes.json();
+                    dataFileSha = latestData.sha;
+                }
+
                 const jsonString = JSON.stringify({ pages: allPages }, null, 2);
                 const base64Content = btoa(unescape(encodeURIComponent(jsonString)));
-
                 const res = await fetch(`https://api.github.com/repos/${REPO}/contents/assets/data.json`, {
                     method: 'PUT',
                     headers: { 'Authorization': `token ${GITHUB_TOKEN}`, 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        message: "Global Page Update",
-                        content: base64Content,
-                        sha: dataFileSha
-                    })
+                    body: JSON.stringify({ message: "Update Data", content: base64Content, sha: dataFileSha })
                 });
 
                 if (res.ok) {
                     const d = await res.json();
                     dataFileSha = d.content.sha;
-                    alert("🎉 SITE UPDATED! All pages are now live.");
+                    alert("🎉 SITE UPDATED! All changes are live.");
                     status.innerText = "";
                 } else {
                     const err = await res.json();
                     alert("Save failed: " + err.message);
                 }
-            } catch (e) { alert("Save Error: " + e.message); }
+            } catch (e) { alert("Error: " + e.message); }
         }
     </script>
 </body>
