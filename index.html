@@ -122,7 +122,7 @@
             border: 1px solid #333;
             color: white;
             padding: 5px;
-            width: 50px;
+            width: 60px;
             text-align: center;
             font-family: "Courier New", Courier, monospace;
             outline: none;
@@ -131,6 +131,13 @@
 
         .jump-input:focus {
             border-color: #fff;
+        }
+
+        /* Hide number input spinners (optional but looks cleaner) */
+        .jump-input::-webkit-outer-spin-button,
+        .jump-input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
         }
 
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
@@ -149,13 +156,19 @@
     <footer id="nav-footer"></footer>
 
     <script>
-        // Jump to page function
+        let totalPagesCount = 1; // Global to access in jump function
+
         function jumpToPage(event) {
             if (event.key === "Enter") {
-                const page = event.target.value;
-                if (page) {
-                    window.location.search = `?p=${page}`;
-                }
+                let page = parseInt(event.target.value);
+                
+                if (isNaN(page)) return;
+
+                // Restrict bounds
+                if (page < 1) page = 1;
+                if (page > totalPagesCount) page = totalPagesCount;
+
+                window.location.search = `?p=${page}`;
             }
         }
 
@@ -174,6 +187,10 @@
                     container.innerHTML = "<p style='text-align:center;'>[ EMPTY PAGE ]</p>";
                     return;
                 }
+
+                // Calculate total pages for validation
+                const pageKeys = Object.keys(data.pages).sort((a,b) => a-b);
+                totalPagesCount = pageKeys.length;
 
                 data.pages[currentPage].forEach(block => {
                     const div = document.createElement('div');
@@ -206,19 +223,22 @@
                     });
                 }
 
-                const pageKeys = Object.keys(data.pages).sort((a,b) => a-b);
-                const totalPages = pageKeys.length;
                 const nextNum = parseInt(currentPage) + 1;
                 const prevNum = parseInt(currentPage) - 1;
 
                 footer.innerHTML = `
                     ${currentPage !== "1" ? `<a href="?p=1" class="nav-btn">FIRST</a>` : ''}
                     ${prevNum > 0 ? `<a href="?p=${prevNum}" class="nav-btn">PREV</a>` : ''}
-                    <span class="page-indicator">PG. ${currentPage} / ${totalPages}</span>
+                    <span class="page-indicator">PG. ${currentPage} / ${totalPagesCount}</span>
                     ${data.pages[nextNum.toString()] ? `<a href="?p=${nextNum}" class="nav-btn">NEXT</a>` : ''}
                     
                     <div class="jump-container">
-                        GOTO PAGE: <input type="number" class="jump-input" placeholder="..." onkeypress="jumpToPage(event)">
+                        GOTO PAGE: <input type="number" 
+                                          class="jump-input" 
+                                          min="1" 
+                                          max="${totalPagesCount}" 
+                                          placeholder="..." 
+                                          onkeypress="jumpToPage(event)">
                     </div>
                 `;
             } catch (err) {
