@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deaxs Adventure</title>
-    <link rel="icon" type="image/png" href="assets/media/icon.png">
+    <link rel="icon" type="image/png" href="assets/media/favicon.png">
+    
     <style>
+        /* THE THEME */
         body { 
             background: #121212; 
             color: #e0e0e0; 
@@ -55,7 +57,7 @@
             border-radius: 2px; 
         }
 
-        /* Support for Multiline Standard Text */
+        /* Standard Text Blocks */
         .text-block { 
             text-align: left;
             line-height: 1.8; 
@@ -64,12 +66,12 @@
             margin: 30px 0;
             width: 100%; 
             word-wrap: break-word;
-            white-space: pre-wrap; /* THIS ALLOWS MULTILINE */
+            white-space: pre-wrap; 
         }
 
-        /* Discord-style Dialogue Block */
+        /* THE DIALOGUE BOX (Discord Style) */
         .dialogue-box {
-            background: #2f3136; 
+            background: #0e0e1a; 
             border: 1px solid #202225;
             border-radius: 4px;
             padding: 20px;
@@ -78,8 +80,9 @@
             box-sizing: border-box;
             font-family: "Consolas", "Monaco", "Courier New", monospace; 
             color: #dcddde;
-            white-space: pre-wrap; /* THIS ALLOWS MULTILINE */
+            white-space: pre-wrap; 
             font-size: 1.1rem;
+            text-align: left;
         }
 
         footer {
@@ -90,6 +93,7 @@
             border-top: 1px solid #222;
             margin-top: 40px;
         }
+
         .nav-btn {
             background: transparent;
             color: #fff;
@@ -100,10 +104,11 @@
             font-weight: bold;
             transition: 0.3s;
             display: inline-block;
+            margin: 0 10px;
         }
-        .nav-btn:hover { background: #fff; color: #121212; }
 
-        .page-indicator { font-size: 0.9rem; color: #555; margin: 0 20px; }
+        .nav-btn:hover { background: #fff; color: #121212; }
+        .page-indicator { font-size: 0.9rem; color: #555; margin: 0 20px; vertical-align: middle; }
 
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
     </style>
@@ -114,7 +119,9 @@
         <img src="assets/media/logo.png" alt="Deaxs Adventure" class="logo">
     </header>
 
-    <main class="comic-container" id="main-content"></main>
+    <main class="comic-container" id="main-content">
+        <p style="text-align:center; color: #444;">[ LOADING DATA ]</p>
+    </main>
 
     <footer id="nav-footer"></footer>
 
@@ -146,32 +153,23 @@
                         div.innerHTML = `<video controls><source src="${block.value}" type="video/mp4"></video>`;
                     } 
                     else if (block.type === 'text') {
-                        let textVal = block.value;
-
-                        // 1. Determine if it's a Dialogue Box
-                        if (textVal.startsWith('`')) {
-                            div.className += " dialogue-box";
-                            textVal = textVal.substring(1); 
-                        } else {
-                            div.className += " text-block";
-                        }
-
-                        // 2. Handle Hex Color (#HEX|Text)
-                        if (textVal.startsWith('#') && textVal.includes('|')) {
-                            const pipeIndex = textVal.indexOf('|');
-                            const hex = textVal.substring(0, pipeIndex);
-                            const content = textVal.substring(pipeIndex + 1);
-                            
-                            div.style.color = hex;
-                            div.innerText = content;
-                        } else {
-                            div.innerText = textVal;
-                        }
+                        div.className += " text-block";
+                        div.innerHTML = parseColors(block.value);
+                    }
+                    else if (block.type === 'dialogue') {
+                        div.className += " dialogue-box";
+                        div.innerHTML = parseColors(block.value);
                     }
                     container.appendChild(div);
                 });
 
-                // Pagination
+                function parseColors(text) {
+                    // Replaces [Name|#Hex] with colored spans
+                    return text.replace(/\[(.*?)\|(.*?)\]/g, (match, name, color) => {
+                        return `<span style="color:${color.trim()}; font-weight:bold;">${name}</span>`;
+                    });
+                }
+
                 const pageKeys = Object.keys(data.pages).sort((a,b) => a-b);
                 const totalPages = pageKeys.length;
                 const nextNum = parseInt(currentPage) + 1;
