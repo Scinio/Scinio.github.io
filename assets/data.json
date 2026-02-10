@@ -555,6 +555,56 @@
         "type": "text",
         "value": ">Do some shit with the metal slab.\n\nYou press a button on the back of the metal slab and a new button pops out. What is the point of this? Why not just make the first button do whatever this button does? Actually, what does this button do?\n\nYou already know what this button does because it gets explained the the RSIDNT trailer! This button will allow one of your friends to control your version of the game. You cannot press it yet because you haven't even chose a friend to play with yet.\n\nWhich friend will you contact first?"
       }
+    ],
+    "15": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770761125858_66.gif"
+      },
+      {
+        "type": "text",
+        "value": "You are apparently too autistic to just choose one friend to contact first, so you'll do both at the same time!!!"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770761146132_67.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Add both of your buddies to a GROUP CHAT."
+      },
+      {
+        "type": "dialogue",
+        "value": "RSIDNT GROUP CHAT\n\n[isabelfruit|#D33682] created RSIDNT GROUP CHAT\n\n[isabelfruit|#D33682] added [LOCKY★P|#DC322F] to RSIDNT GROUP CHAT\n\n[isabelfruit|#D33682] added [EarthDoggo|#2AA198] to RSIDNT GROUP CHAT\n\n[isabelfruit: hey guyys|#D33682]\n\n[isabelfruit: welcome to my GROUP CHAT|#D33682]\n\n[EarthDoggo: why am i here|#2AA198]\n\n[isabelfruit: cause we are all gonna play the game together|#D33682]\n\n[isabelfruit: deaxs?|#D33682]\n\n[isabelfruit: deaxs where are you|#D33682]\n\n[EarthDoggo: try dming them|#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770761271042_68.png"
+      },
+      {
+        "type": "text",
+        "value": ">Message deaxs and have a conversation we have already seen."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770761290341_69.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Skip to the end of the conversation."
+      },
+      {
+        "type": "dialogue",
+        "value": "[LOCKY★P: ok well what happens after i press the button|#DC322F]\n\n[isabelfruit: basically im going to be able to control your room and place more big metal objects|#D33682]\n\n[LOCKY★P: bro i just cleaned my room i dont want more of these things in here|#DC322F]\n\n[isabelfruit: no but it will be funny|#D33682] \n\n[isabelfruit: i swear|#D33682]\n\n[LOCKY★P: this better be hilarious|#DC322F]\n\n[LOCKY★P: ok i did it. is something supposed to happen now?|#DC322F]\n\n[isabelfruit: no it doesnt do anything yet|#D33682]\n\n[isabelfruit: i PRANKED you|#D33682]\n\n[LOCKY★P: cool|#DC322F]\n\n[isabelfruit: dont worry|#D33682]\n\n[isabelfruit: we are about to play but you need to go talk in the group chat i made :]|#D33682]\n\n[LOCKY★P|#DC322F] stopped chatting with [isabelfruit|#D33682]\n\n[isabelfruit|#D33682] stopped chatting with [LOCKY★P|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770761541903_70.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "RSIDNT GROUP CHAT\n\n[EarthDoggo: guys|#2AA198]\n\n[EarthDoggo: hello????|#2AA198]  \n\n[EarthDoggo: guess it's just me|#2AA198] 👀\n\n[LOCKY★P: don't worry im here now|#DC322F]\n\n[isabelfruit: yep|#D33682]\n\n[isabelfruit: now we can get started|#D33682]\n\n[EarthDoggo: oh goodie!|#2AA198]\n\n[isabelfruit: ok so deaxs|#D33682]\n\n[isabelfruit: hold down your button first and keep holding it until i press mine|#D33682]\n\n[isabelfruit: then we will link and i can do all that stuff i said|#D33682]\n\n[LOCKY★P: alright|#DC322F]\n\n[isabelfruit: actually wait|#D33682]\n\n[isabelfruit: before you do that|#D33682]\n\n[isabelfruit: lets go back to dms to make this easier|#D33682]\n\n[LOCKY★P|#DC322F] stopped chatting in RSIDNT GROUP CHAT\n\n[isabelfruit|#D33682] stopped chatting in RSIDNT GROUP CHAT\n\n[EarthDoggo:|#2AA198] ❓\n\n[EarthDoggo: what was the point of that???????|#2AA198]\n\n[EarthDoggo: who am i supposed to play with now???|#2AA198]\n\n[EarthDoggo: what the hell|#2AA198]"
+      }
     ]
   }
 }
