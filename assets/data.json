@@ -197,6 +197,48 @@
         "type": "text",
         "value": "Your intuition tells you to escape through the window. Unfortunately, you don't have one of those! Wow, this room really has fucking nothing in it. Maybe if you weren't a silly nerd you could have built a window with your bare hands. That sounds too hard actually never mind.\n\nHow will you escape your room?"
       }
+    ],
+    "8": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688284151_24.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Use your LOCKY POWERS to punch a LOCKY HOLE in the wall\n\nYou decide you like this idea most, as it seems the least fraudulent. \n\nOk now what the hell are LOCKY POWERS. You don't even know what that means, but you think it sounds really funny. Now, let's see what you've got."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688304598_25.gif"
+      },
+      {
+        "type": "text",
+        "value": "WOW. You can't believe that actually worked. The fuck are these walls made out of? That was WAY cooler than turning into a piece of paper.\n\nYou hope nobody gets mad at you for punching a giant LOCKY HOLE in the LOCKY WALL. I mean, they can't really get that mad at you. You know, with it being your birthday and all."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688321457_26.png"
+      },
+      {
+        "type": "text",
+        "value": "You really just jumped out the newly formed window with no regard for your own safety. Unbelievable. Anyway, it's kind of a muddy day out, isn't it? That shouldn't be a problem, considering you were about to head back inside.\n\nWait..."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688343810_27.png"
+      },
+      {
+        "type": "text",
+        "value": "What the hell is that stupid looking block of text in the sky?"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688358591_28.gif"
+      },
+      {
+        "type": "text",
+        "value": "WHAT IN THE FUCK IS THAT?????"
+      }
     ]
   }
 }
