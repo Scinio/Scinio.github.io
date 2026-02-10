@@ -1,23 +1,6 @@
 {
   "pages": {
-    "1": [
-      {
-        "type": "text",
-        "value": "A young Discord user stares at their server. It just so happens that today, the 5th of October, 2021, is this young person's birthday. Though it was sixteen years ago they were given life, it is only today that they will be given a nickname!\n\nWhat will the nickname of this young person be?"
-      },
-      {
-        "type": "image",
-        "value": "assets/media/item_1770640837830_deaxsroom.png"
-      },
-      {
-        "type": "dialogue",
-        "value": "[MisterDoughnut|#d4af37] began chatting with [isabelfruit|#D2042D]\n\n[MisterDoughnut: Is deaxs in the Threshold now?|#d4af37]\n\n[MisterDoughnut: i mean i assume they are because their entire damn house is gone|#d4af37]\n\n[isabelfruit: yeah you are gonna have to message me back later|#D2042D]\n\n[isabelfruit: there is so much shit going on|#D2042D]\n\n[isabelfruit: why dont you play teh game with penny for a bit|#D2042D]\n\n[isabelfruit|#D2042D] stopped chatting with [MisterDoughnut|#d4af37]\n\n[MisterDoughnut: Fine.|#d4af37]"
-      },
-      {
-        "type": "dialogue",
-        "value": "[Kid Named Lasdav|inherit|#FFFFFF]"
-      }
-    ],
+    "1": [],
     "2": [
       {
         "type": "text",
