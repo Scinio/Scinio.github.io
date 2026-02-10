@@ -239,6 +239,48 @@
         "type": "text",
         "value": "WHAT IN THE FUCK IS THAT?????"
       }
+    ],
+    "9": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688425093_29.png"
+      },
+      {
+        "type": "text",
+        "value": "You are just going to choose to ignore that thing.\n\nYou made it to the front door. It is always unlocked, so you will definitely be able to enter through here. This is also where the package was supposed to be, meaning the object blocking your door is 100% the gift.\n\nOnce you do through the door, you will enter the MUD ROOM."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688440548_30.png"
+      },
+      {
+        "type": "text",
+        "value": ">Enter the MUD ROOM.\n\nLook at that, the windows on the outside are not visible from the inside. What the hell. More importantly, there is a BACKPACK in here. Maybe you should put it on. It could be very useful."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688457634_31.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Equip the BACKPACK.\n\nSee? You knew putting on the backpack was a good idea. It has expanded your inventory by adding nine more slots. You are now able to store twice as many items in your inventory. Unsurprisingly, the INCONVENIENT FLASHLIGHT and the PIANO KEY are still in your inventory."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688673924_32.gif"
+      },
+      {
+        "type": "text",
+        "value": "After wearing the backpack for five seconds, it disappeared. It's a feature, all good backpacks today have it. \n\nYou will now enter the KITCHEN."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688709658_34.png"
+      },
+      {
+        "type": "text",
+        "value": ">Enter the KITCHEN\n\nThere are so many different things you could inventorize within this oddly familiar kitchen. What will you add to your inventory?"
+      }
     ]
   }
 }
