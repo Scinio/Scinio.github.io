@@ -87,6 +87,32 @@
         "type": "text",
         "value": "In any case, you are getting bored and would like to do something on your LENOVO SHITBOX PC. Maybe you could talk to your buddies or play a game.\n\nYou've had this piece of shit for a while now, and it is starting to piss you off. It used to be alright, but now it runs slower than something that doesn't even have legs. It is more useful as a housing unit for spiders than a computer at this point.\n\nIt is taking an unusually long amount of time to turn on. What will you do?"
       }
+    ],
+    "5": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686748507_11.png"
+      },
+      {
+        "type": "text",
+        "value": ">Plead with the spiders.\n\nSpiders cannot understand English. Your pleading means nothing. The PC is still not turning on."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686788582_12.gif"
+      },
+      {
+        "type": "text",
+        "value": "Obviously they wouldn't be able to understand you, and you are not sure why you tried that. You decide to try using sign language instead. Somehow, the spiders seem to understand sign language.\n\nYou sign to them, \"turn the fucking computer on,\" and they sign back saying it's going to take about 5 minutes until this piece of trash is fully operational again."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686808312_13.png"
+      },
+      {
+        "type": "text",
+        "value": "It seems like you will need to occupy yourself with something else while the spiders are hard at work. You are not exactly sure what they are doing to make the computer turn on, but you trust them because they live inside of it.\n\nIn the meantime, you could EXAMINE something else in your room. What will you examine?"
+      }
     ]
   }
 }
