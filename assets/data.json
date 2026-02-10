@@ -113,6 +113,48 @@
         "type": "text",
         "value": "It seems like you will need to occupy yourself with something else while the spiders are hard at work. You are not exactly sure what they are doing to make the computer turn on, but you trust them because they live inside of it.\n\nIn the meantime, you could EXAMINE something else in your room. What will you examine?"
       }
+    ],
+    "6": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686957397_14.png"
+      },
+      {
+        "type": "text",
+        "value": "You can't seem to decide whether you want to examine the posters or the calendar! This is quite the predicament. This can only be solved one way..."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686975424_15.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Flip coin.\n\nIt looks like the coin landed on tails, which means you are going to examine the calendar. (And you GUESS you'll examine the welcome mat too, since you had also considered that as an option.)"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770687020041_16.png"
+      },
+      {
+        "type": "text",
+        "value": ">Examine calendar.\n\nAs mentioned previously, you don't find the calendar to be particularly useful. You circle today and you get rid of it. While you could circle other days, you just don't see a reason to. Perhaps you will forgo the use of the calendar all together.\n\nNow how about you examine the WELCOME MAT?"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770687049290_17.png"
+      },
+      {
+        "type": "text",
+        "value": ">Examine welcome mat.\n\nYou check under the welcome mat. What's that? There's a KEY under the welcome mat? Oh yes, but it's not just any key. It's a PIANO KEY. You don't know how this will be of any use whatsoever, but you decide to stash it away in your inventory anyway."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770687065213_18.gif"
+      },
+      {
+        "type": "text",
+        "value": "Ok that didn't take quite as long as you were hoping for. It seems you'll just have to wait a bit longer for the spiders to fix whatever issue your shitty PC is having.\n\nYou wonder if the spiders will want something in return for their work. Like, do they want to be paid? What currency would the spiders want? Ok stop fucking thinking about this it's probably making you dumber."
+      }
     ]
   }
 }
