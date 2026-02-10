@@ -281,6 +281,40 @@
         "type": "text",
         "value": ">Enter the KITCHEN\n\nThere are so many different things you could inventorize within this oddly familiar kitchen. What will you add to your inventory?"
       }
+    ],
+    "10": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770688997188_34.png"
+      },
+      {
+        "type": "text",
+        "value": "Apparently, this LUNCHBOX is the closest thing resembling food in the entire damn kitchen. But theoretically, if there was a COUGHING BABY you wouldn't eat it. You don't eat babies, especially if they are sick."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770689014474_35.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Put LUNCHBOX into your inventory.\n\nYou wonder how long it will take to fill your entire inventory full of useless objects. You aren't even sure if it will ever get that full. You are also choosing to ignore the weird logo on this lunchbox."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770689030031_36.gif"
+      },
+      {
+        "type": "text",
+        "value": "You decide to get to your room as quickly as possible, as to not make your friend wait. Also nice picture wow."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770689046390_37.png"
+      },
+      {
+        "type": "text",
+        "value": "Whoa, that is one big pipe bomb. This time it will surely kill you. Anyway, let's open this bitch. Also nice face wow.\n\nHow will you open it?"
+      }
     ]
   }
 }
