@@ -38,8 +38,28 @@
     ],
     "3": [
       {
+        "type": "image",
+        "value": "assets/media/item_1770686499956_5.gif"
+      },
+      {
         "type": "text",
-        "value": "#000000|Test Text"
+        "value": ">Put lamp shade on head\n\nYou are now looking through two shades instead of one. You would look in a mirror to see if this makes you look any cooler, but you can't see shit. You also do not have any mirrors in this room. Maybe you could ask for one for your next birthday."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686538075_6.gif"
+      },
+      {
+        "type": "text",
+        "value": "You are not sure if this will even be useful, but you decide to put the lamp shade into your INVENTORY anyway. It should look familiar, so it needs no explanation."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770686568098_7.png"
+      },
+      {
+        "type": "text",
+        "value": "Now that you've discovered your INVENTORY, is there anything else that you would like to put in there?"
       }
     ]
   }
