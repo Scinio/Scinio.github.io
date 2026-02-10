@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Deaxs Admin - Multi-Page Manager</title>
+    <title>ADVENTURE ADMIN</title>
 
     <style>
         body { background: #121212; color: white; font-family: sans-serif; text-align: center; padding: 20px; }
@@ -51,6 +51,8 @@
 
         #status { font-weight: bold; margin: 15px 0; color: #ffca28; }
         .delete-btn { width: auto; background: #dc3545; padding: 5px 15px; }
+        .page-delete-btn { background: #8b0000; margin-top: 5px; font-size: 0.8rem; }
+        .page-delete-btn:hover { background: #ff0000; }
     </style>
 </head>
 <body>
@@ -65,7 +67,10 @@
         <div class="box">
             <h2>Select Page to Edit</h2>
             <select id="page-selector" onchange="switchPage()"></select>
-            <button onclick="addNewPage()" style="background:#6c757d;">+ Create New Page</button>
+            <div style="display: flex; gap: 10px;">
+                <button onclick="addNewPage()" style="background:#6c757d;">+ Create New Page</button>
+                <button onclick="deleteFullPage()" class="page-delete-btn">🗑️ Delete This Page</button>
+            </div>
         </div>
 
         <div class="box">
@@ -111,7 +116,6 @@
         let activePage = "1";
         let dataFileSha = "";
 
-        // Toggle text/dialogue vs file input
         document.getElementById('content-type').onchange = (e) => {
             const isTextType = (e.target.value === 'text' || e.target.value === 'dialogue');
             document.getElementById('file-input-wrapper').classList.toggle('hidden', isTextType);
@@ -148,13 +152,25 @@
         function updateSelector() {
             const selector = document.getElementById('page-selector');
             selector.innerHTML = "";
-            Object.keys(allPages).sort((a,b) => a-b).forEach(num => {
+            const sortedKeys = Object.keys(allPages).sort((a,b) => a-b);
+            
+            // Ensure there is at least one page
+            if (sortedKeys.length === 0) {
+                allPages["1"] = [];
+                sortedKeys.push("1");
+            }
+
+            sortedKeys.forEach(num => {
                 const opt = document.createElement('option');
                 opt.value = num;
                 opt.innerText = "Page " + num;
                 selector.appendChild(opt);
             });
+
+            // Make sure activePage still exists, otherwise default to first page
+            if (!allPages[activePage]) activePage = sortedKeys[0];
             selector.value = activePage;
+            document.getElementById('editing-title').innerText = `Editing Page ${activePage}`;
         }
 
         function switchPage() {
@@ -164,11 +180,34 @@
         }
 
         function addNewPage() {
-            const nextNum = (Math.max(...Object.keys(allPages).map(Number)) + 1).toString();
+            const keys = Object.keys(allPages).map(Number);
+            const nextNum = (keys.length > 0 ? Math.max(...keys) + 1 : 1).toString();
             allPages[nextNum] = [];
             activePage = nextNum;
             updateSelector();
             switchPage();
+        }
+
+        // NEW: Function to delete a full page and re-index the rest
+        function deleteFullPage() {
+            const count = Object.keys(allPages).length;
+            if (count <= 1) return alert("You cannot delete the only page.");
+            if (!confirm(`Are you sure you want to delete Page ${activePage}? All following pages will be shifted down.`)) return;
+
+            delete allPages[activePage];
+
+            // Re-indexing logic
+            const oldKeys = Object.keys(allPages).sort((a,b) => a-b);
+            const newPages = {};
+            oldKeys.forEach((key, index) => {
+                newPages[(index + 1).toString()] = allPages[key];
+            });
+
+            allPages = newPages;
+            activePage = "1"; // Reset to page 1 after deletion
+            updateSelector();
+            render();
+            alert("Page deleted and re-indexed. Remember to SAVE to make it permanent.");
         }
 
         function render() {
@@ -193,7 +232,7 @@
             const a = parseInt(document.getElementById('swap-a').value) - 1;
             const b = parseInt(document.getElementById('swap-b').value) - 1;
             const blocks = allPages[activePage];
-            if (blocks[a] && blocks[b]) {
+            if (blocks && blocks[a] !== undefined && blocks[b] !== undefined) {
                 [blocks[a], blocks[b]] = [blocks[b], blocks[a]];
                 render();
             } else { alert("Invalid index"); }
@@ -227,17 +266,19 @@
                     const fileName = `item_${Date.now()}_${file.name.replace(/\s+/g, '_')}`;
                     const path = `assets/media/${fileName}`;
 
-                    const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
-                        method: 'PUT',
-                        headers: { 'Authorization': `token ${GITHUB_TOKEN}` },
-                        body: JSON.stringify({ message: `Upload ${fileName}`, content: content })
-                    });
+                    try {
+                        const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
+                            method: 'PUT',
+                            headers: { 'Authorization': `token ${GITHUB_TOKEN}` },
+                            body: JSON.stringify({ message: `Upload ${fileName}`, content: content })
+                        });
 
-                    if (res.ok) {
-                        allPages[activePage].push({ type: type, value: path });
-                        render();
-                        status.innerText = "✅ Uploaded to page " + activePage;
-                    } else { alert("Upload failed."); }
+                        if (res.ok) {
+                            allPages[activePage].push({ type: type, value: path });
+                            render();
+                            status.innerText = "✅ Uploaded to page " + activePage;
+                        } else { alert("Upload failed."); }
+                    } catch(e) { alert("Upload error: " + e.message); }
                 };
                 reader.readAsDataURL(file);
             }
