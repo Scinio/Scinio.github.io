@@ -27,6 +27,12 @@
         "type": "image",
         "value": "assets/media/item_1770641190263_image.png"
       }
+    ],
+    "3": [
+      {
+        "type": "text",
+        "value": "#000000|Test Text"
+      }
     ]
   }
 }
