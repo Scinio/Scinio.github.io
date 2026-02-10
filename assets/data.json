@@ -513,7 +513,7 @@
       },
       {
         "type": "dialogue",
-        "value": "[L|#4F545C|#FDF6E3] began chatting with [isabelfruit|#D33682]\n\n[L: Isabel. I'm reaching out with an important message. I am not sending this message in your time, I am further along in the timeline. You must play RSIDNT with deaxs.|#4F545C|#FDF6E3]\n\n[L: Otherwise...|#4F545C|#FDF6E3]\n\n[L: Nothing will Ever Happen.|#4F545C|#FDF6E3]\n\n[L|#4F545C|#FDF6E3] stopped chatting with [isabelfruit|#D33682]\n\n[isabelfruit: HELLO????|#D33682]\n\n[isabelfruit: what are you talking about????|#D33682]\n\n[isabelfruit: :[|#D33682]"
+        "value": "[L|#4F545C|#FDF6E3] began chatting with [isabelfruit|#D33682]\n\n[L: Isabel. I'm reaching out with an important message. You must play RSIDNT with deaxs.|#4F545C|#FDF6E3]\n\n[L: Otherwise...|#4F545C|#FDF6E3] \n\n[L: Nothing will Ever Happen.|#4F545C|#FDF6E3]\n\n[L|#4F545C|#FDF6E3] stopped chatting with [isabelfruit|#D33682]\n\n[isabelfruit: HELLO????|#D33682]\n\n[isabelfruit: what are you talking about????|#D33682]\n\n[isabelfruit: :[|#D33682]"
       },
       {
         "type": "image",
@@ -605,6 +605,7 @@
         "type": "dialogue",
         "value": "RSIDNT GROUP CHAT\n\n[EarthDoggo: guys|#2AA198]\n\n[EarthDoggo: hello????|#2AA198]  \n\n[EarthDoggo: guess it's just me|#2AA198] 👀\n\n[LOCKY★P: don't worry im here now|#DC322F]\n\n[isabelfruit: yep|#D33682]\n\n[isabelfruit: now we can get started|#D33682]\n\n[EarthDoggo: oh goodie!|#2AA198]\n\n[isabelfruit: ok so deaxs|#D33682]\n\n[isabelfruit: hold down your button first and keep holding it until i press mine|#D33682]\n\n[isabelfruit: then we will link and i can do all that stuff i said|#D33682]\n\n[LOCKY★P: alright|#DC322F]\n\n[isabelfruit: actually wait|#D33682]\n\n[isabelfruit: before you do that|#D33682]\n\n[isabelfruit: lets go back to dms to make this easier|#D33682]\n\n[LOCKY★P|#DC322F] stopped chatting in RSIDNT GROUP CHAT\n\n[isabelfruit|#D33682] stopped chatting in RSIDNT GROUP CHAT\n\n[EarthDoggo:|#2AA198] ❓\n\n[EarthDoggo: what was the point of that???????|#2AA198]\n\n[EarthDoggo: who am i supposed to play with now???|#2AA198]\n\n[EarthDoggo: what the hell|#2AA198]"
       }
-    ]
+    ],
+    "16": []
   }
 }
