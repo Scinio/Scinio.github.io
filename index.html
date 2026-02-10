@@ -48,7 +48,7 @@
             transition: background 0.3s, color 0.3s;
         }
 
-        /* TOP RIGHT THEME MENU */
+        /* TOP RIGHT THEME MENU - UPDATED TO MATCH THEME */
         .theme-controls {
             position: fixed;
             top: 10px;
@@ -56,21 +56,30 @@
             z-index: 1000;
             display: flex;
             gap: 5px;
-            background: rgba(0,0,0,0.5);
-            padding: 8px;
-            border-radius: 5px;
+            background: rgba(0,0,0,0.7);
+            padding: 10px;
+            border: 1px solid var(--nav-btn-border);
+            border-radius: 2px;
             backdrop-filter: blur(4px);
         }
 
         .theme-controls select {
             background: #1e1e1e;
             color: #fff;
-            border: 1px solid #444;
-            font-family: sans-serif;
-            font-size: 0.7rem;
-            padding: 4px;
+            border: 1px solid #fff;
+            font-family: "Courier New", Courier, monospace; /* MATCHED FONT */
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            padding: 4px 8px;
             cursor: pointer;
             outline: none;
+        }
+
+        .theme-controls select option {
+            background: #1e1e1e;
+            color: #fff;
+            font-family: "Courier New", Courier, monospace;
         }
 
         header { width: 100%; max-width: 800px; padding: 40px 20px; text-align: center; box-sizing: border-box; }
@@ -130,17 +139,26 @@
         .nav-btn:hover { background: var(--nav-btn-text); color: var(--bg-color); }
         .page-indicator { font-size: 0.9rem; color: #555; margin: 0 20px; vertical-align: middle; }
 
-        .jump-container { margin-top: 25px; color: #666; font-size: 0.8rem; }
+        .jump-container { 
+            margin-top: 25px; 
+            color: var(--text-color); 
+            font-size: 0.9rem; 
+            font-family: var(--font-main);
+            font-weight: bold;
+        }
+        
         .jump-input {
-            background: #1e1e1e;
-            border: 1px solid #333;
-            color: white;
+            background: transparent;
+            border: 2px solid var(--nav-btn-border);
+            color: var(--text-color);
             padding: 5px;
             width: 60px;
             text-align: center;
             font-family: var(--font-main);
+            font-weight: bold;
             outline: none;
-            border-radius: 3px;
+            border-radius: 0px;
+            margin-left: 10px;
         }
 
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
@@ -150,18 +168,18 @@
 
     <div class="theme-controls">
         <select id="mode-select" onchange="applyTheme()">
-            <option value="dark">Dark</option>
-            <option value="light">Light</option>
+            <option value="dark">MODE: DARK</option>
+            <option value="light">MODE: LIGHT</option>
         </select>
         <select id="font-select" onchange="applyTheme()">
-            <option value="default">Mono</option>
-            <option value="serif">Serif</option>
-            <option value="sans">Sans</option>
+            <option value="default">FONT: MONO</option>
+            <option value="serif">FONT: SERIF</option>
+            <option value="sans">FONT: SANS</option>
         </select>
         <select id="size-select" onchange="applyTheme()">
-            <option value="medium">Standard</option>
-            <option value="small">Small</option>
-            <option value="large">Large</option>
+            <option value="medium">SIZE: STD</option>
+            <option value="small">SIZE: SML</option>
+            <option value="large">SIZE: LRG</option>
         </select>
     </div>
 
@@ -183,20 +201,15 @@
             const font = document.getElementById('font-select').value;
             const size = document.getElementById('size-select').value;
 
-            // Apply Mode
             document.body.classList.toggle('light-mode', mode === 'light');
-
-            // Apply Font
             document.body.classList.remove('font-serif', 'font-sans');
             if (font === 'serif') document.body.classList.add('font-serif');
             if (font === 'sans') document.body.classList.add('font-sans');
 
-            // Apply Size
             document.body.classList.remove('size-small', 'size-large');
             if (size === 'small') document.body.classList.add('size-small');
             if (size === 'large') document.body.classList.add('size-large');
 
-            // Save preferences
             localStorage.setItem('reader-mode', mode);
             localStorage.setItem('reader-font', font);
             localStorage.setItem('reader-size', size);
