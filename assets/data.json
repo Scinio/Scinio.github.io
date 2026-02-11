@@ -1171,6 +1171,16 @@
         "type": "video",
         "value": "assets/media/item_1770776975673_135-Enter-The-Threshold.mp4"
       }
+    ],
+    "29": [
+      {
+        "type": "text",
+        "value": "[END OF ACT 1|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770777016439_136.gif"
+      }
     ]
   }
 }
