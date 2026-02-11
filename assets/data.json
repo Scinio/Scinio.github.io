@@ -755,6 +755,16 @@
         "type": "text",
         "value": "Your name is PENNY and your username is EarthDoggo. You have many interests, such as watching movies, playing games, and having piles of LEGO around your room. Your gaming setup includes a SHITTY LENOVO LAPTOP and a chair that is slanted at an uncomfortable degree.\n\nOK yeah yeah what a loser. Can we go back to deaxs or maybe THE OTHER OTHER OTHER PERSON?"
       }
+    ],
+    "21": [
+      {
+        "type": "text",
+        "value": "Alright, guess not. It looks like you also like making music or something, so you are gonna play one of your songs while you think about what to do next.\n\n[[S] Listen to An Absolute Banger.|#00AFEF]"
+      },
+      {
+        "type": "video",
+        "value": "assets/media/item_1770772086202_88-Listen-to-An-Absolute-Banger.mov"
+      }
     ]
   }
 }
