@@ -1229,6 +1229,64 @@
         "type": "text",
         "value": ">Lose consciousness."
       }
+    ],
+    "32": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770781839613_146.gif"
+      },
+      {
+        "type": "text",
+        "value": "You suddenly become SOMEONE ENTIRELY DIFFERENT. Well, you WOULD become this person, but you have no reason to. At least not for now...\n\nThey seem to be watching a live feed of deaxs, and perhaps the other players too, but they aren't the only one watching."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770781856041_147.gif"
+      },
+      {
+        "type": "text",
+        "value": "It also looks like they are playing a really cool game? You should probably play it because it looks really cool.\n\nNow, let's see what everyone else is up to."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770781880314_148.png"
+      },
+      {
+        "type": "text",
+        "value": "You are now Riletta again. You just went outside to retrieve deaxs' gift after Isabel dropped it for some reason. You think that since deaxs is your neighbor, you can just go over to their house and give it to them."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770781893554_149.png"
+      },
+      {
+        "type": "text",
+        "value": "What the fuck? You knew they went into the Threshold, but it took the ENTIRE HOUSE??? You were just expecting to chuck the gift through a portal or something. Nope! It looks like you'll have to wait until much later to give it to them."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770781908890_150.png"
+      },
+      {
+        "type": "text",
+        "value": "After climbing back into your room, you decide to message Isabel and ask her a few questions."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770781940114_151.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MisterDoughnut|#B58900] began chatting with [isabelfruit|#D33682]\n\n[MisterDoughnut: Is deaxs in the Threshold now?|#B58900]\n\n[MisterDoughnut: i mean i assume they are because their entire damn house is gone|#B58900]\n\n[isabelfruit: yeah you are gonna have to message me back later|#D33682]\n\n[isabelfruit: there is so much shit going on|#D33682]\n\n[isabelfruit: why dont you play teh game with penny for a bit|#D33682]\n\n[isabelfruit|#D33682] stopped chatting with [MisterDoughnut\n\n[MisterDoughnut: Fine. |#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770782013076_152.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MisterDoughnut|#B58900] began chatting with [EarthDoggo|#2AA198]\n\n[MisterDoughnut: okay let's play the game|#B58900]\n\n[EarthDoggo:|#2AA198] 😃😃😃😃😃😃😃\n\n[EarthDoggo: you ACTUALLY wanna play the game now????|#2AA198]\n\n[MisterDoughnut: Not really, but sure.|#B58900]\n\n[EarthDoggo: alright then let's get to it mr donut|#2AA198]\n\n[EarthDoggo: mister doughnut|#2AA198]\n\n[MisterDoughnut: what?|#B58900]\n\n[EarthDoggo: that name is fucking cring|#2AA198]\n\n[EarthDoggo: *cringe i mean|#2AA198]\n\n[MisterDoughnut: What is so bad about it?|#B58900]\n\n[EarthDoggo: idk it just sucks dude|#2AA198]\n\n[MisterDoughnut: ok stfu let's just play the game|#B58900]"
+      }
     ]
   }
 }
