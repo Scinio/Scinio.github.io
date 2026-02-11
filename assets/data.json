@@ -1353,6 +1353,64 @@
         "type": "dialogue",
         "value": "[MisterDoughnut: i just wanna give deaxs their birthday gift|#B58900]\n\n[EarthDoggo: oh yea i also have a gift for them|#2AA198]\n\n[MisterDoughnut: What is it?|#B58900]\n\n[EarthDoggo: it's a surprise|#2AA198]\n\n[EarthDoggo: but i think they'll find it quite goated 🤪|#2AA198]"
       }
+    ],
+    "34": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770782448326_161.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MisterDoughnut: oh umm by the way|#B58900]\n\n[MisterDoughnut: At some point we should find out if we can reverse our roles in the game.|#B58900]\n\n[MisterDoughnut: like if you could place stuff at my house so we could progress and enter the threshold near the same time|#B58900]\n\n[EarthDoggo: yea maybe|#2AA198]\n\n[EarthDoggo: i wonder how that would even work|#2AA198]\n\n[EarthDoggo: but yea we could definitely try that at some point|#2AA198]\n\n[MisterDoughnut: Cool.|#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770782495412_162.gif"
+      },
+      {
+        "type": "text",
+        "value": "It looks like you'll have to find out later cause it is time to \n\n>Be Isabel."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770782519220_163.gif"
+      },
+      {
+        "type": "text",
+        "value": "You watch as deaxs and Bitex go through the red portal and enter the Threshold. When they enter, your screen flashes with a bright white light. It takes a few seconds before you see them reappear in a brand new location."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770782531498_164.png"
+      },
+      {
+        "type": "text",
+        "value": "You then see deaxs get their lights knocked the fucked out by a robotic, blue version of them."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770782547514_165.gif"
+      },
+      {
+        "type": "text",
+        "value": "And now Riletta is trying to message you for some reason. "
+      },
+      {
+        "type": "dialogue",
+        "value": "[MisterDoughnut|#B58900] began chatting with [isabelfruit|#D33682]\n\n[MisterDoughnut: Is deaxs in the Threshold now?|#B58900]\n\n[MisterDoughnut: i mean i assume they are because their entire damn house is gone|#B58900]\n\n[isabelfruit: yeah you are gonna have to message me back later|#D33682]\n\n[isabelfruit: there is so much shit going on|#D33682]\n\n[isabelfruit: why dont you play teh game with penny for a bit|#D33682]\n\n[isabelfruit|#D33682] stopped chatting with [MisterDoughnut|#B58900]\n\n[MisterDoughnut: Fine.|#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770782617393_166.gif"
+      },
+      {
+        "type": "text",
+        "value": "You then receive a message from... someone else?"
+      },
+      {
+        "type": "dialogue",
+        "value": "[L|#4F545C|#FDF6E3] began chatting with [isabelfruit|#D33682]\n\n[L: Hello again, Isabel.|#4F545C|#FDF6E3]\n\n[isabelfruit: who the fuck are you?|#D33682]\n\n[isabelfruit: wait|#D33682]\n\n[isabelfruit: are you the person that messaged me telling me to play the game?|#D33682]\n\n[L: Yes. And you did.|#4F545C|#FDF6E3]\n\n[isabelfruit: okay?????|#D33682]\n\n[L: Anyway, we must act quickly to save your friend from their copy.|#4F545C|#FDF6E3]\n\n[isabelfruit: i still dont know what the fuck is happening|#D33682]\n\n[L: Just listen.|#4F545C|#FDF6E3]"
+      }
     ]
   }
 }
