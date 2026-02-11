@@ -1181,6 +1181,16 @@
         "type": "image",
         "value": "assets/media/item_1770777016439_136.gif"
       }
+    ],
+    "30": [
+      {
+        "type": "text",
+        "value": "[[S] ACT 2|#00AFEF]"
+      },
+      {
+        "type": "video",
+        "value": "assets/media/item_1770781625731_137.mp4"
+      }
     ]
   }
 }
