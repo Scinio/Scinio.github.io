@@ -815,6 +815,76 @@
         "type": "text",
         "value": "You take Gherbie Fully Goated and add it to your INVENTORY. It should look familiar, so it needs no explanation."
       }
+    ],
+    "23": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770772799724_95.png"
+      },
+      {
+        "type": "text",
+        "value": "You decide to put the gift in a BOX, so it looks less like you just pulled it out of a pile of LEGO last minute."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770772816972_96.gif"
+      },
+      {
+        "type": "text",
+        "value": "But before you can do so, you become deaxs again. Can we stay on these OTHER PERSONS for more than ten fucking seconds?"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770772837578_97.png"
+      },
+      {
+        "type": "text",
+        "value": "Well, you are deaxs now, so get used to it. It looks like they have made a good amount of progress since you started being Penny."
+      },
+      {
+        "type": "dialogue",
+        "value": "[LOCKY★P: what do we buy next?|#DC322F]\n\n[isabelfruit: we have already spent most of the tix we got from that slab|#D33682]\n\n[isabelfruit: those galvanized steel beams were pretty expensive|#D33682]\n\n[isabelfruit: so we need to decide wisely|#D33682]\n\n[LOCKY★P: alright well|#DC322F]\n\n[LOCKY★P: is there anything important looking that we should get?|#DC322F]\n\n[isabelfruit: uh|#D33682]\n\n[isabelfruit: there is this one thing called the nucleorb|#D33682]\n\n[isabelfruit: not sure exactly what it does but we could buy it anyway|#D33682]\n\n[LOCKY★P: ok send it|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770772953116_98.gif"
+      },
+      {
+        "type": "text",
+        "value": "You watch as Isabel places the Nucleorb. It doesn't do anything at first, but then it starts pulsating. After a flash of bright light it becomes..."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770772980352_99.gif"
+      },
+      {
+        "type": "text",
+        "value": "Whatever the fuck this thing is."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770773013013_100.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: um|#DC322F]\n\n[DEAXS: hi?|#DC322F]\n\n[???: whats up|#DC322F|#FDF6E3]\n\n[DEAXS: what the hell are you|#DC322F]\n\n[???: im a Nucleyph|#DC322F|#FDF6E3]\n\n[???: thought that would be pretty fucking obvious|#DC322F|#FDF6E3]\n\n[DEAXS: dude ive never played this game before. it just came out|#DC322F]\n\n[???: did you not even watch the goddamn trailer?|#DC322F|#FDF6E3]\n\n[DEAXS: uh no|#DC322F]\n\n[???: god|#DC322F|#FDF6E3]\n\n[???: ok|#DC322F|#FDF6E3]\n\n[???: well basically im like|#DC322F|#FDF6E3]\n\n[???: a ghost that helps you do shit|#DC322F|#FDF6E3]\n\n[???: and i pretty much know everything about this game|#DC322F|#FDF6E3]\n\n[DEAXS: interesting|#DC322F]\n\n[???: yeah it is pretty fucking interesting|#DC322F|#FDF6E3]\n\n[DEAXS: so if you know everything about the game, what happens when we get through portal?|#DC322F]\n\n[???: first of all, its called The Threshold|#DC322F|#FDF6E3]\n\n[???: second, i cant tell you that|#DC322F|#FDF6E3]\n\n[DEAXS: why|#DC322F]\n\n[???: you gotta figure it out on your own|#DC322F|#FDF6E3]\n\n[???: god all these gamers want fucking yellow paint these days|#DC322F|#FDF6E3]\n\n[DEAXS: jeez, i was just curious|#DC322F]\n\n[DEAXS: hang on, isabel is messaging me|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770773105908_101.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[isabelfruit: what is that?|#D33682]\n\n[isabelfruit: IS THAT A NUCLEYPH?|#D33682]\n\n[LOCKY★P: yeah|#DC322F]\n\n[LOCKY★P: and he's kind of an asshole|#DC322F]\n\n[LOCKY★P: he told me the portal is called the threshold or something|#DC322F]\n\n[LOCKY★P: and that he knows everything|#DC322F]\n\n[isabelfruit: wait|#D33682]\n \n[isabelfruit: you should ask him about weapons or something|#D33682]\n\n[LOCKY★P: alright|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770773166519_102.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: soooooooooooo|#DC322F]\n\n[DEAXS: are there like weapons or something? and if so, how do i get them?|#DC322F]\n\n[???: everyone who plays RSIDNT is assigned a different class when they start playing|#DC322F|#FDF6E3]\n\n[???: and based on their class, they get different weapons|#DC322F|#FDF6E3]\n\n[???: and you just buy the weapons |#DC322F|#FDF6E3]\n\n[???: you should be able to buy them pretty soon|#DC322F|#FDF6E3]\n\n[DEAXS: what class am i?|#DC322F]\n\n[???: i dont fucking know lmao|#DC322F|#FDF6E3]\n\n[DEAXS: uh alright|#DC322F]\n\n[DEAXS: also|#DC322F]\n\n[DEAXS: do you like|#DC322F]\n\n[DEAXS: have a name?|#DC322F]\n\n[???: dont think so|#DC322F|#FDF6E3]\n\n[???: you can just call me whatever the hell you want i guess|#DC322F|#FDF6E3]\n\n[???: as long as its not something absolutely not fucking terrible like|#DC322F|#FDF6E3]\n\n[???: \"lachrymogenic\"|#DC322F|#FDF6E3]\n\n[???: or something|#DC322F|#FDF6E3]\n\n[DEAXS: well let me think|#DC322F]"
+      }
     ]
   }
 }
