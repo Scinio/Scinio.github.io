@@ -885,6 +885,48 @@
         "type": "dialogue",
         "value": "[DEAXS: soooooooooooo|#DC322F]\n\n[DEAXS: are there like weapons or something? and if so, how do i get them?|#DC322F]\n\n[???: everyone who plays RSIDNT is assigned a different class when they start playing|#DC322F|#FDF6E3]\n\n[???: and based on their class, they get different weapons|#DC322F|#FDF6E3]\n\n[???: and you just buy the weapons |#DC322F|#FDF6E3]\n\n[???: you should be able to buy them pretty soon|#DC322F|#FDF6E3]\n\n[DEAXS: what class am i?|#DC322F]\n\n[???: i dont fucking know lmao|#DC322F|#FDF6E3]\n\n[DEAXS: uh alright|#DC322F]\n\n[DEAXS: also|#DC322F]\n\n[DEAXS: do you like|#DC322F]\n\n[DEAXS: have a name?|#DC322F]\n\n[???: dont think so|#DC322F|#FDF6E3]\n\n[???: you can just call me whatever the hell you want i guess|#DC322F|#FDF6E3]\n\n[???: as long as its not something absolutely not fucking terrible like|#DC322F|#FDF6E3]\n\n[???: \"lachrymogenic\"|#DC322F|#FDF6E3]\n\n[???: or something|#DC322F|#FDF6E3]\n\n[DEAXS: well let me think|#DC322F]"
       }
+    ],
+    "24": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770773582601_103.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: ok i got it|#DC322F]\n\n[DEAXS: what do you think about Bitex?|#DC322F]\n\n[BITEX: yeah alright|#DC322F|#FDF6E3]\n\n[BITEX: thats okay|#DC322F|#FDF6E3]\n\n[DEAXS: its pronounced Bitex|#DC322F]\n\n[BITEX: oh ok|#DC322F|#FDF6E3]\n\n[DEAXS: do you not like it?|#DC322F]\n\n[BITEX: no no no its good|#DC322F|#FDF6E3]\n\n[BITEX: just|#DC322F|#FDF6E3]\n\n[BITEX: yeah its fine|#DC322F|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770773690380_104.png"
+      },
+      {
+        "type": "text",
+        "value": "Wait... Who is that guy walking down the road?"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770773705954_105.png"
+      },
+      {
+        "type": "text",
+        "value": "You know who that is. It's your neighbor! You'll wait until he gets in his house before messaging him."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770773724468_106.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[LOCKY★P|#DC322F] began chatting with [MisterDoughnut|#B58900]\n\n[LOCKY★P: whats up|#DC322F]\n\n[LOCKY★P: i see you just got home from band|#DC322F]\n\n[MisterDoughnut: yep|#B58900]\n\n[MisterDoughnut: And by the way...|#B58900]\n\n[MisterDoughnut: happy birthday!!!|#B58900]\n\n[MisterDoughnut: I got you a gift, so don't worry.|#B58900]\n\n[LOCKY★P: thanks!|#DC322F]\n\n[MisterDoughnut: what you been up to?|#B58900]\n\n[LOCKY★P: just playing rsidnt with isabel rn|#DC322F]\n\n[MisterDoughnut: I see.|#B58900]\n\n[MisterDoughnut: well i promised penny that i would play it with her, so imma go do that now|#B58900]\n\n[MisterDoughnut: See ya.|#B58900]\n\n[LOCKY★P: alright|#DC322F]\n\n[LOCKY★P: im sure well get more time to talk later|#DC322F]\n\n[LOCKY★P|#DC322F] stopped chatting with [MisterDoughnut|#B58900]\n\n[MisterDoughnut|#B58900] stopped chatting with [LOCKY★P|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770773848645_107.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[BITEX: who was that?|#DC322F|#FDF6E3]\n\n[DEAXS: thats just my neighbor|#DC322F]\n\n[DEAXS: hes also playing the game|#DC322F]\n\n[DEAXS: we will have time to talk my other friends more later, right?|#DC322F]\n\n[BITEX: for sure yeah|#DC322F|#FDF6E3]\n\n[BITEX: but you are the only one who has actually started playing so far|#DC322F|#FDF6E3]\n\n[BITEX: and you are actually pretty close to getting to The Threshold|#DC322F|#FDF6E3]\n\n[BITEX: you will probably be the first one to get there|#DC322F|#FDF6E3]\n\n[DEAXS: like the first out of everyone playing the game, or just my friends?|#DC322F]\n\n[BITEX: both|#DC322F|#FDF6E3]\n\n[BITEX: do you actually think anyone else is stupid enough to play this dumbass game?|#DC322F|#FDF6E3]\n\n[DEAXS: i kind of just assumed more people would be playing this game|#DC322F]\n\n[BITEX: yeah hell no|#DC322F|#FDF6E3]\n\n[BITEX: anyway just dont worry about it|#DC322F|#FDF6E3]"
+      }
     ]
   }
 }
