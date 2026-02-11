@@ -697,6 +697,64 @@
         "type": "dialogue",
         "value": "[isabelfruit: what item should we sell?|#D33682]\n\n[isabelfruit: or rather|#D33682]\n\n[isabelfruit: what item do YOU think we should sell?|#D33682]\n\n[LOCKY★P: why do you keep asking me questions|#DC322F]"
       }
+    ],
+    "20": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770771796640_81.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[LOCKY★P: fuck that im not selling a console for a single game. why not just sell the useless slab thats actually in the game instead of my real shit?|#DC322F]\n\n[isabelfruit: i mean i guess|#D33682]\n\n[isabelfruit: i dont think it is used for anything else|#D33682]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770771830796_82.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[isabelfruit: HOLY SHIT|#D33682]\n\n[isabelfruit: DUDE |#D33682]\n\n[isabelfruit: THIS THING IS WORTH ONE ROBUCK|#D33682]\n\n[LOCKY★P: is that a lot?|#DC322F]\n\n[isabelfruit: i think one robuck is worth like a million tix|#D33682]\n\n[isabelfruit: or something|#D33682]\n\n[isabelfruit: maybe not that much but its a lot|#D33682]\n\n[LOCKY★P: then sell it|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770771894088_83.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[isabelfruit: ok we can buy so many things now|#D33682]\n\n[LOCKY★P: cool but before we continue|#DC322F]\n\n[LOCKY★P: what exactly is the point of this game?|#DC322F]\n\n[LOCKY★P: like we could just play a tycoon on roblox without destroying my house for no reason|#DC322F]\n\n[isabelfruit: well if you watched the gameplay trailer for the game you would know that there is a portal that you can open|#D33682]\n\n[isabelfuit: and you can go through it and stuff|#D33682]\n\n[LOCKY★P: alright that sounds interesting i guess|#DC322F]\n\n[isabelfruit: i think it opens after buying the last item|#D33682]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770771942461_84.png"
+      },
+      {
+        "type": "text",
+        "value": "But before you can finish your thought, you become THE OTHER OTHER PERSON."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770771954382_85.gif"
+      },
+      {
+        "type": "text",
+        "value": "Oh great, your buddies just stopped chatting in the group chat for some fucking reason. Now who are you supposed to play the game with?"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770771971669_86.gif"
+      },
+      {
+        "type": "text",
+        "value": "Before you find someone to play with, let's figure out who you are."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770772030541_87.png"
+      },
+      {
+        "type": "text",
+        "value": "Your name is PENNY and your username is EarthDoggo. You have many interests, such as watching movies, playing games, and having piles of LEGO around your room. Your gaming setup includes a SHITTY LENOVO LAPTOP and a chair that is slanted at an uncomfortable degree.\n\nOK yeah yeah what a loser. Can we go back to deaxs or maybe THE OTHER OTHER OTHER PERSON?"
+      }
     ]
   }
 }
