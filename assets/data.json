@@ -762,8 +762,8 @@
         "value": "Alright, guess not. It looks like you also like making music or something, so you are gonna play one of your songs while you think about what to do next.\n\n[[S] Listen to An Absolute Banger.|#00AFEF]"
       },
       {
-        "type": "image",
-        "value": "assets/media/item_1770775300319_88-Listen-to-An-Absolute-Banger.mp4"
+        "type": "video",
+        "value": "assets/media/item_1770775365626_88-Listen-to-An-Absolute-Banger.mp4"
       }
     ],
     "22": [
