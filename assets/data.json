@@ -765,6 +765,56 @@
         "type": "video",
         "value": "assets/media/item_1770772086202_88-Listen-to-An-Absolute-Banger.mov"
       }
+    ],
+    "22": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770772240031_89.png"
+      },
+      {
+        "type": "text",
+        "value": "You have an idea! You decide to message someone who surely hasn't played the game yet."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770772269699_90.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[EarthDoggo|#2AA198] began chatting with [MisterDoughnut|#B58900]\n\n[EarthDoggo: heyyyy|#2AA198] \n\n[EarthDoggo: have you played the game yet?|#2AA198]\n\n[EarthDoggo: please tell me you haven't|#2AA198] 😭\n\n[MisterDoughnut: nah i've been at band practice, so i haven't had time to play it yet|#B58900]\n\n[MisterDoughnut: I'm about to start walking home though.|#B58900]\n\n[MisterDoughnut: when i get back we can play|#B58900]\n\n[EarthDoggo:|#2AA198] 😃 \n\n[MisterDoughnut: Also, you know it's Deaxs' birthday, right?|#B58900]\n\n[EarthDoggo: uh yea|#2AA198]\n\n[MisterDoughnut: did you get them anything?|#B58900]\n\n[EarthDoggo: not yet, but i was about to|#2AA198]\n\n[MisterDoughnut: Well, I got them a present.|#B58900]\n\n[EarthDoggo: ok|#2AA198] \n\n[EarthDoggo: i'll find something to give them while you are walking home|#2AA198]\n\n[MisterDoughnut: anyway this game better be fun because i was gonna play fortnite before you asked me to play this game|#B58900]\n\n[EarthDoggo: don't worry i think it is supposed to be fun|#2AA198] \n\n[MisterDoughnut: I'll see you then.|#B58900]\n\n[MisterDoughnut|#B58900] stopped chatting with [EarthDoggo|#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770772413638_91.gif"
+      },
+      {
+        "type": "text",
+        "value": "Damn, now you actually have to find a present for deaxs. Normally, you would take this time to examine your room to find something, but it is mostly just filled with LEGO. \n\nAlthough, now that you think about it, there is ONE thing you could give them..."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770772429984_92.png"
+      },
+      {
+        "type": "text",
+        "value": "You check under one of your LEGO piles for a collection of MOVIES. Let's see what we have here.\n\nJimmy Neutron Boy Genius? You can't give them that! It's far too valuable to just throw away like that."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770772447480_93.gif"
+      },
+      {
+        "type": "text",
+        "value": "Now, Gherbie Fully Goated on the other hand is perfect. This should definitely finish deaxs' Gherbie movie collection."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770772462809_94.gif"
+      },
+      {
+        "type": "text",
+        "value": "You take Gherbie Fully Goated and add it to your INVENTORY. It should look familiar, so it needs no explanation."
+      }
     ]
   }
 }
