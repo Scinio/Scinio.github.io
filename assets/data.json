@@ -762,8 +762,8 @@
         "value": "Alright, guess not. It looks like you also like making music or something, so you are gonna play one of your songs while you think about what to do next.\n\n[[S] Listen to An Absolute Banger.|#00AFEF]"
       },
       {
-        "type": "video",
-        "value": "assets/media/item_1770772086202_88-Listen-to-An-Absolute-Banger.mov"
+        "type": "image",
+        "value": "assets/media/item_1770775300319_88-Listen-to-An-Absolute-Banger.mp4"
       }
     ],
     "22": [
@@ -1067,6 +1067,7 @@
         "type": "text",
         "value": "But THIS? This is important apparently? What the hell!!!! Hopefully we can stay as as one of these people for at least a LITTLE bit."
       }
-    ]
+    ],
+    "27": []
   }
 }
