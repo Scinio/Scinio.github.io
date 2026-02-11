@@ -1068,6 +1068,31 @@
         "value": "But THIS? This is important apparently? What the hell!!!! Hopefully we can stay as as one of these people for at least a LITTLE bit."
       }
     ],
-    "27": []
+    "27": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770775564481_124.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[BITEX: hey, tell your friend that when she comes back we can buy the next item|#DC322F|#FDF6E3]\n\n[BITEX: itll give you your first weapon|#DC322F|#FDF6E3]\n\n[DEAXS: oh, alright|#DC322F]\n\n[DEAXS: and you still dont know what weapon i will have?|#DC322F]\n\n[BITEX: no|#DC322F|#FDF6E3]\n\n[BITEX: i didnt know five minutes ago and i dont fucking know now|#DC322F|#FDF6E3]\n\n[DEAXS: when i get my weapon, will you be able to explain it after?|#DC322F]\n\n[BITEX: yeah i will|#DC322F|#FDF6E3]\n\n[BITEX: i just cant fucking predict what weapon you are gonna get before you get it|#DC322F|#FDF6E3]\n\n[DEAXS: sorry|#DC322F]\n\n[DEAXS: i just kinda assumed that since you know stuff about this game, you would at least know what class i am|#DC322F]\n\n[BITEX: well|#DC322F|#FDF6E3]\n\n[BITEX: i dont|#DC322F|#FDF6E3]\n\n[DEAXS: do you know what im supposed to do after i get to the threshold?|#DC322F]\n\n[BITEX: yeah but|#DC322F|#FDF6E3]\n\n[BITEX: it would be easier to explain if we were actually there|#DC322F|#FDF6E3]\n\n[BITEX: but yeah there is a lot of shit you gotta do|#DC322F|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770775677565_125.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[LOCKY★P: oh hey, youre back|#DC322F]\n\n[LOCKY★P: bitex wants you to buy the next item|#DC322F]\n\n[LOCKY★P: the weapon thingy|#DC322F]\n\n[isabelfruit: who is bitex?|#D33682]\n\n[LOCKY★P: thats the name of my little guy|#DC322F]\n\n[isabelfruit: thats so cool|#D33682]\n\n[LOCKY★P: really?|#DC322F]\n\n[isabelfruit: not really|#D33682]\n\n[isabelfruit: anyway yeah i can buy the thing|#D33682]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770775743580_126.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: woah is that my weapon?|#DC322F]\n\n[BITEX: uh, yeah?|#DC322F|#FDF6E3]\n\n[BITEX: are you fucking stupid? \"is that my weapon?\"|#DC322F|#FDF6E3]\n\n[BITEX: what a dumbass|#DC322F|#FDF6E3]\n\n[DEAXS: ok what is it?|#DC322F]\n\n[BITEX: its the ki blast, or in your case|#DC322F|#FDF6E3]\n\n[BITEX: locky blast|#DC322F|#FDF6E3]\n\n[BITEX: for your uh.. lock-key powers|#DC322F|#FDF6E3]\n\n[BITEX: see what i did there?|#DC322F|#FDF6E3]\n\n[DEAXS: ...|#DC322F]\n\n[BITEX: yeah ok fuck you|#DC322F|#FDF6E3]"
+      }
+    ]
   }
 }
