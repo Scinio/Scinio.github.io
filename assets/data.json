@@ -927,6 +927,60 @@
         "type": "dialogue",
         "value": "[BITEX: who was that?|#DC322F|#FDF6E3]\n\n[DEAXS: thats just my neighbor|#DC322F]\n\n[DEAXS: hes also playing the game|#DC322F]\n\n[DEAXS: we will have time to talk my other friends more later, right?|#DC322F]\n\n[BITEX: for sure yeah|#DC322F|#FDF6E3]\n\n[BITEX: but you are the only one who has actually started playing so far|#DC322F|#FDF6E3]\n\n[BITEX: and you are actually pretty close to getting to The Threshold|#DC322F|#FDF6E3]\n\n[BITEX: you will probably be the first one to get there|#DC322F|#FDF6E3]\n\n[DEAXS: like the first out of everyone playing the game, or just my friends?|#DC322F]\n\n[BITEX: both|#DC322F|#FDF6E3]\n\n[BITEX: do you actually think anyone else is stupid enough to play this dumbass game?|#DC322F|#FDF6E3]\n\n[DEAXS: i kind of just assumed more people would be playing this game|#DC322F]\n\n[BITEX: yeah hell no|#DC322F|#FDF6E3]\n\n[BITEX: anyway just dont worry about it|#DC322F|#FDF6E3]"
       }
+    ],
+    "25": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770774050713_108.png"
+      },
+      {
+        "type": "text",
+        "value": "What the hell."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770774063146_109.png"
+      },
+      {
+        "type": "text",
+        "value": "It looks like we are doing this again."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770774075887_110.gif"
+      },
+      {
+        "type": "text",
+        "value": "You are now the OTHER OTHER OTHER PERSON, but your real name is Riletta. You would rather not discuss your hobbies and interests. You have now met everyone! Are you happy now?"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770774090041_111.gif"
+      },
+      {
+        "type": "text",
+        "value": "You put your gift for deaxs in your INVENTORY. It should look familiar, so it needs no explanation."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770774099681_112.png"
+      },
+      {
+        "type": "text",
+        "value": "If you see deaxs later, that will be a good opportunity to to give it to them. You know that they will like it. It may even turn out to be useful for them."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770774115688_113.gif"
+      },
+      {
+        "type": "text",
+        "value": "You turn on your NORMAL AND IN NO WAY TERRIBLE PC to talk to Penny while you play the game."
+      },
+      {
+        "type": "dialogue",
+        "value": "[MisterDoughnut|#B58900] began chatting with [EarthDoggo|#2AA198]\n\n[MisterDoughnut: I am home.|#B58900]\n\n[MisterDoughnut: we can play the game now!!!!!!|#B58900]\n\n[EarthDoggo: yippee|#2AA198] 🎉\n\n[MisterDoughnut: Do you know how we even start playing?|#B58900]\n\n[EarthDoggo: it was explained to me by isabel in a group chat before she and deaxs left to go talk privately|#2AA198]\n\n[EarthDoggo: so uh yea|#2AA198]\n\n[EarthDoggo: you have the metal slab right?|#2AA198]\n\n[MisterDoughnut: yeah|#B58900]\n\n[EarthDoggo: well actually|#2AA198]\n\n[EarthDoggo: do you want to be the player or the person controlling the player?|#2AA198]\n\n[MisterDoughnut: You can be the player, since you want to play so bad.|#B58900]\n\n[EarthDoggo: lol ok |#2AA198]\n\n[EarthDoggo: i'm gonna go press my button|#2AA198]\n\n[EarthDoggo: just press your button after i press mine|#2AA198]\n\n[MisterDoughnut: got it|#B58900]"
+      }
     ]
   }
 }
