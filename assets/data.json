@@ -1161,6 +1161,16 @@
         "type": "dialogue",
         "value": "[BITEX: who the hell is MisterDoughnut?|#DC322F|#FDF6E3]\n\n[BITEX: dumbass username|#DC322F|#FDF6E3]\n\n[DEAXS: hey dont say that|#DC322F]\n\n[DEAXS: ok maybe youre right|#DC322F]\n\n[DEAXS: it is kind of dumb|#DC322F]\n\n[DEAXS: also dont look at my screen while im messaging people|#DC322F]\n\n[DEAXS: thats weird|#DC322F]\n\n[BITEX: how else am i supposed to know what is happening?|#DC322F|#FDF6E3]\n\n[BITEX: im gonna keep doing it i think|#DC322F|#FDF6E3]\n\n[DEAXS: umm|#DC322F]\n\n[DEAXS: ok|#DC322F]\n\n[BITEX: anyway we can enter the portal now if you want|#DC322F|#FDF6E3]\n\n[BITEX: not sure why we are just standing here|#DC322F|#FDF6E3]\n\n[DEAXS: i mean yeah|#DC322F]\n\n[DEAXS: i guess we are ready to go|#DC322F]"
       }
+    ],
+    "28": [
+      {
+        "type": "text",
+        "value": "[[S] Enter The Threshold.|#DC322F]"
+      },
+      {
+        "type": "video",
+        "value": "assets/media/item_1770776975673_135-Enter-The-Threshold.mp4"
+      }
     ]
   }
 }
