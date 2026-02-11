@@ -663,6 +663,40 @@
         "type": "dialogue",
         "value": "[isabelfruit: ok i think this should be big enough for now|#D33682]\n\n[LOCKY★P: so like after we are done playing the game, can this be undone or is my room permanently fucked like this?|#DC322F]\n\n[isabelfruit: i dunno|#D33682]\n\n[LOCKY★P: anyways what should i buy next?|#DC322F]\n\n[isabelfruit: well what do YOU want to buy next?|#D33682]"
       }
+    ],
+    "19": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770771405052_77.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[LOCKY★P: I don't know maybe place the fucking conveyor first|#DC322F]\n\n[LOCKY★P: i mean uh|#DC322F]\n\n[LOCKY★P: sorry i dont know what that was|#DC322F]\n\n[LOCKY★P: but yeah i guess we need a conveyor first|#DC322F]\n\n[isabelfruit: i mean im kind of a roblox expert so i dont really think we should have to place one|#D33682]\n\n[isabelfruit: but i guess we have to in this game????|#D33682]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770771464572_78.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[isabelfruit: lemme move this really quick|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770771498011_79.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[LOCKY★P: ow|#DC322F]\n\n[isabelfruit: wha|#D33682]\n\n[LOCKY★P: you kinda placed it on my foot bro|#DC322F]\n\n[isabelfruit: well idk why you were standing there in the first place|#D33682]\n\n[isabelfruit: you could have just stayed over there|#D33682]\n\n[LOCKY★P: well i moved you should have adapted to the situation|#DC322F]\n\n[LOCKY★P: anyways lets place another dropper|#DC322F]\n\n[isabelfruit: we need money for that|#D33682]\n\n[LOCKY★P: there are microtransactions?|#DC322F]\n\n[LOCKY★P: yuckyyyyy|#DC322F]\n\n[LOCKY★P: we can be done now i think|#DC322F]\n\n[isabelfruit: nonono its an ingame currency|#D33682]\n\n[isabelfruit: its TIX|#D33682]\n\n[LOCKY★P: well how do we get some?|#DC322F]\n\n[isabelfruit: idk how we are supposed to get it but we can sell objects for tix|#D33682]\n\n[LOCKY★P: guess we can sell SOMETHING in my room|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770771606727_80.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[isabelfruit: what item should we sell?|#D33682]\n\n[isabelfruit: or rather|#D33682]\n\n[isabelfruit: what item do YOU think we should sell?|#D33682]\n\n[LOCKY★P: why do you keep asking me questions|#DC322F]"
+      }
     ]
   }
 }
