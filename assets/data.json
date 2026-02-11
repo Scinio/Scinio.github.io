@@ -981,6 +981,92 @@
         "type": "dialogue",
         "value": "[MisterDoughnut|#B58900] began chatting with [EarthDoggo|#2AA198]\n\n[MisterDoughnut: I am home.|#B58900]\n\n[MisterDoughnut: we can play the game now!!!!!!|#B58900]\n\n[EarthDoggo: yippee|#2AA198] 🎉\n\n[MisterDoughnut: Do you know how we even start playing?|#B58900]\n\n[EarthDoggo: it was explained to me by isabel in a group chat before she and deaxs left to go talk privately|#2AA198]\n\n[EarthDoggo: so uh yea|#2AA198]\n\n[EarthDoggo: you have the metal slab right?|#2AA198]\n\n[MisterDoughnut: yeah|#B58900]\n\n[EarthDoggo: well actually|#2AA198]\n\n[EarthDoggo: do you want to be the player or the person controlling the player?|#2AA198]\n\n[MisterDoughnut: You can be the player, since you want to play so bad.|#B58900]\n\n[EarthDoggo: lol ok |#2AA198]\n\n[EarthDoggo: i'm gonna go press my button|#2AA198]\n\n[EarthDoggo: just press your button after i press mine|#2AA198]\n\n[MisterDoughnut: got it|#B58900]"
       }
+    ],
+    "26": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1770774341322_114.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Sync (but with these two)."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770774362500_115.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[EarthDoggo: woah this is pretty wild and wacky and such|#2AA198]\n\n[MisterDoughnut: Yeah, I don't really get it.|#B58900]\n\n[EarthDoggo: wait before we do anything |#2AA198]\n\n[EarthDoggo: can you point to my door?|#2AA198] 🥶\n\n[MisterDoughnut: the door is right there|#B58900]\n\n[EarthDoggo: thanks|#2AA198] 🤪\n\n[MisterDoughnut: (What.)|#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770774410189_116.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MisterDoughnut: uh hold one someone else is messaging me|#B58900]\n\n[EarthDoggo: but we just started!!!!!!|#2AA198]\n\n[MisterDoughnut|#B58900] has stopped chatting with [EarthDoggo|#2AA198]\n\n[EarthDoggo: why does this keep happening!!!!!!!!!!!!!!!!|#2AA198] ☹️"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770774466192_117.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[isabelfruit|#D33682] began chatting with [MisterDoughnut|#B58900]\n\n[isabelfruit: hey pal|#D33682]\n\n[MisterDoughnut|#B58900] began chatting with [isabelfruit|#D33682]\n\n[MisterDoughnut: Hi.|#B58900]\n\n[isabelfruit: look out your window|#D33682]\n\n[MisterDoughnut: um ok one sec|#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770774621531_118.png"
+      },
+      {
+        "type": "text",
+        "value": "Wait! You have a window? Finally one of these dumbass losers has access to fucking sunlight. Your room doesn't have a door, because you just use the window to get in and out. Hold on, so do you just not have access to the rest of your house or something? That doesn't make any sense.\n\nAlright, let's see what is out here..."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770774638923_119.png"
+      },
+      {
+        "type": "text",
+        "value": "Its Isabel's cursor."
+      },
+      {
+        "type": "dialogue",
+        "value": "[MisterDoughnut: Is that your cursor for the game?|#B58900]\n\n[isabelfruit: yeah|#D33682]\n\n[isabelfruit: your window is just within the bounds of our session|#D33682]\n\n[MisterDoughnut: was there even a point in coming over here lol|#B58900]\n\n[isabelfruit: uh no not really|#D33682]\n\n[MisterDoughnut: Wait, I can give you my present for deaxs and you can give it to them.|#B58900]\n\n[isabelfruit: thats actually a good idea|#D33682]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770774694875_120.gif"
+      },
+      {
+        "type": "text",
+        "value": "..."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770774708705_121.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MisterDoughnut: did you just drop the present?|#B58900]\n\n[isabelfruit: sorry it slipped|#D33682]\n\n[isabelfruit: lemme pick it up|#D33682]\n\n[isabelfruit: nvm i cant|#D33682]\n\n[MisterDoughnut: Why?|#B58900]\n\n[isabelfruit: its just outside teh boundary|#D33682]\n\n[isabelfruit: youll have to get it later if you want to give it to them|#D33682]\n\n[MisterDoughnut: damn|#B58900]\n\n[isabelfruit: but they are gonna be entering the threshold soon, so you will have to give it to them before that|#D33682]\n\n[isabelfruit: unless we all meet in the game at some point|#D33682]\n\n[MisterDoughnut: Well, thanks for trying I guess.|#B58900]\n\n[isabelfruit|#D33682] stopped chatting with [MisterDoughnut|#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770774775360_122.gif"
+      },
+      {
+        "type": "text",
+        "value": "Ok so that was basically pointless. It was also a bit inconvenient, but you are still excited to get back to... what was it you were doing again?\n\nOh well, it probably wasn't important anyway!"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1770774826387_123.gif"
+      },
+      {
+        "type": "text",
+        "value": "But THIS? This is important apparently? What the hell!!!! Hopefully we can stay as as one of these people for at least a LITTLE bit."
+      }
     ]
   }
 }
