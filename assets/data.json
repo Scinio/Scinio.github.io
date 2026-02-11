@@ -1411,6 +1411,16 @@
         "type": "dialogue",
         "value": "[L|#4F545C|#FDF6E3] began chatting with [isabelfruit|#D33682]\n\n[L: Hello again, Isabel.|#4F545C|#FDF6E3]\n\n[isabelfruit: who the fuck are you?|#D33682]\n\n[isabelfruit: wait|#D33682]\n\n[isabelfruit: are you the person that messaged me telling me to play the game?|#D33682]\n\n[L: Yes. And you did.|#4F545C|#FDF6E3]\n\n[isabelfruit: okay?????|#D33682]\n\n[L: Anyway, we must act quickly to save your friend from their copy.|#4F545C|#FDF6E3]\n\n[isabelfruit: i still dont know what the fuck is happening|#D33682]\n\n[L: Just listen.|#4F545C|#FDF6E3]"
       }
+    ],
+    "35": [
+      {
+        "type": "text",
+        "value": "[[S] Wake|#00AFEF]"
+      },
+      {
+        "type": "video",
+        "value": "assets/media/item_1770782751131_167_Wake.mp4"
+      }
     ]
   }
 }
