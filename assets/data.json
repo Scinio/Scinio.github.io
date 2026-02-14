@@ -1421,6 +1421,64 @@
         "type": "video",
         "value": "assets/media/item_1770782751131_167_Wake.mp4"
       }
+    ],
+    "36": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1771099149482_168.png"
+      },
+      {
+        "type": "text",
+        "value": "That's right, Metal deaxs fled the premesis!!! Because in MY world THAT'S HOW IT'S SPELLED!!! Anyway, it's a good thing he left cause he would have probably just beat your ass again. Now that you think about it, how are you gonna beat him? Can you beat him? Also, where did this guy even come from? Did the game clone you? All questions that may or may not be answered eventually."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771099176455_169.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[BITEX: looks like that fucking weirdo is gone|#DC322F|#FDF6E3]\n\n[DEAXS: yeah i guess he just flew away probably?|#DC322F]\n\n[BITEX: probably|#DC322F|#FDF6E3]\n\n[DEAXS: ...|#DC322F]\n\n[BITEX: ...|#DC322F|#FDF6E3]\n\n[DEAXS: hey so, what were you doing after i got knocked out?|#DC322F]\n\n[DEAXS: did you try to fight him or anything?|#DC322F]\n\n[BITEX: not really. he only seemed to be hostile towards you|#DC322F|#FDF6E3]\n\n[BITEX: i dont exactly know what he was about to do cause he shut down pretty quickly after that|#DC322F|#FDF6E3]\n\n[DEAXS: apparently isabel had help from someone to shut him down for a moment?|#DC322F]\n\n[DEAXS: i hope she finishes talking to them cuz i have no idea what to do|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771099229697_170.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[BITEX: speaking of talking to people, i have a messaging device for you|#DC322F|#FDF6E3]\n\n[BITEX: probably should have given it to you earlier when i spawned with it, but now you can message people away from your computer|#DC322F|#FDF6E3]\n\n[DEAXS: cool! thanks|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771099264111_171.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: so do you wanna like explore or something?|#DC322F]\n\n[BITEX: if you want|#DC322F|#FDF6E3]\n\n[BITEX: my lifes purpose is to be your guide, but since i basically know fuck all, you can lead the way|#DC322F|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771099349975_172.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[BITEX: ...|#DC322F|#FDF6E3]\n\n[DEAXS: ...|#DC322F]\n\n[BITEX: do you wanna like... talk about anything?|#DC322F|#FDF6E3]\n\n[DEAXS: what is there really to talk about?|#DC322F]\n\n[DEAXS: neither of us know what is going on|#DC322F]\n\n[BITEX: shit man i just started existing like an hour ago|#DC322F|#FDF6E3]\n\n[BITEX: i have no idea what people do or talk about|#DC322F|#FDF6E3]\n\n[DEAXS: well if it helps|#DC322F]\n\n[DEAXS: ive existed for a while and im not sure i have that figured out either|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771099389428_173.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: man i hope isabel finishes talking with that person soon cuz i have absolutely no idea what this game is supposed to be about|#DC322F]\n\n[DEAXS: or what im supposed to be doing|#DC322F]\n\n[DEAXS: or anything at all really|#DC322F]\n\n[DEAXS: bitex, i think youre right|#DC322F]\n\n[DEAXS: i really shouldve watched the trailer |#DC322F]\n\n[BITEX: honestly, im not sure that would have helped you at all man|#DC322F|#FDF6E3]\n\n[BITEX: also what the fuck is that over there|#DC322F|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771099419419_174.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: looks like it could be some sort of dungeon?|#DC322F]\n\n[DEAXS: maybe we could go inside...|#DC322F]"
+      }
     ]
   }
 }
