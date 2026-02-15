@@ -1479,6 +1479,64 @@
         "type": "dialogue",
         "value": "[DEAXS: looks like it could be some sort of dungeon?|#DC322F]\n\n[DEAXS: maybe we could go inside...|#DC322F]"
       }
+    ],
+    "37": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1771127602201_175.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: so umm who should go in first?|#DC322F]\n\n[DEAXS: just to scout it out i mean|#DC322F]\n\n[BITEX: idk man|#DC322F|#FDF6E3]\n\n[DEAXS: ok uh maybe it should be you|#DC322F]\n\n[DEAXS: cuz you were just born so like|#DC322F]\n\n[DEAXS: it wouldnt really matter that much if you died|#DC322F]\n\n[DEAXS: if you can die even|#DC322F]\n\n[BITEX: whoa whoa whoa|#DC322F|#FDF6E3]\n\n[BITEX: maybe BECAUSE i was just born|#DC322F|#FDF6E3]\n\n[BITEX: that makes my life more valuable because i have more like to live|#DC322F|#FDF6E3]\n\n[DEAXS: well maybe you cant die|#DC322F]\n\n[DEAXS: so you should just go in i think|#DC322F]\n\n[BITEX: how about we go in at the same time?|#DC322F|#FDF6E3]\n\n[BITEX: would that satisfy you?|#DC322F|#FDF6E3]\n\n[DEAXS: alriiiiiiight|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771127658555_176.png"
+      },
+      {
+        "type": "text",
+        "value": "You enter the dungeon. At least, what seems to be a dungeon. You are expecting a challenge and it seems there is a challenge. It probably is a dungeon then. What is the challenge you ask?"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771127674637_177.png"
+      },
+      {
+        "type": "text",
+        "value": "It's a fucking obby. You are a bit disappointed in yourself for not seeing this coming. It was pretty obvious."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771127687238_178.gif"
+      },
+      {
+        "type": "text",
+        "value": "You jump through the obby and complete it with ease! It would seem the obby was either designed for babies or the average Roblox player, which is redundant as those are the same thing."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771127702448_179.gif"
+      },
+      {
+        "type": "text",
+        "value": "..."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771127718509_180.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[BITEX: you knew i could just fucking float across the whole time right?|#DC322F|#FDF6E3]\n\n[DEAXS: you know i didnt think of that until right now|#DC322F]\n\n[DEAXS: now that i think about it this game is terribly designed|#DC322F]\n\n[DEAXS: it was either designed by a complete dumbass|#DC322F]\n\n[DEAXS: or the game is just not finished?|#DC322F]\n\n[BITEX: probably the first one|#DC322F|#FDF6E3]\n\n[BITEX: but you ARE the one playing it|#DC322F|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771127766747_181.png"
+      },
+      {
+        "type": "text",
+        "value": "Wow, it's a bit dark in here, isn't it? If only you had a flashlight..."
+      }
     ]
   }
 }
