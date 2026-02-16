@@ -1537,6 +1537,56 @@
         "type": "text",
         "value": "Wow, it's a bit dark in here, isn't it? If only you had a flashlight..."
       }
+    ],
+    "38": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1771282430925_182.png"
+      },
+      {
+        "type": "text",
+        "value": "Wait, hold on. You are pretty sure you actually DO have a flashlight."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771282444464_183.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Use INCONVENIENT FLASHLIGHT."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771282458657_184.gif"
+      },
+      {
+        "type": "text",
+        "value": "You use the INCONVENIENT FLASHLIGHT to navigate the path ahead of you. Now that you think about it, you might actually need to consider renaming the INCONVENIENT FLASHLIGHT to the CONVENIENT FLASHLIGHT instead. You think about it a bit harder and realize this entire line of thought is stupid and completely irrelevant.\n"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771282493813_185.png"
+      },
+      {
+        "type": "text",
+        "value": "After walking for about 10 seconds, it appears that you found something!"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771282511766_186.png"
+      },
+      {
+        "type": "text",
+        "value": "It looks like an upgrade to your Locky Blast."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771282542629_187.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: yo is this a new locky blast?|#DC322F]\n\n[BITEX: yeah this is like the one thing i can help you with|#DC322F|#FDF6E3]\n\n[BITEX: its not really new, but it will double your strength and speed at the cost of your health|#DC322F|#FDF6E3]\n\n[BITEX: so you kind of need to be careful|#DC322F|#FDF6E3]\n\n[DEAXS: alright|#DC322F]\n\n[DEAXS: so theoretically what would happen if i lost all my health?|#DC322F]\n\n[BITEX: i probably should have mentioned this earlier, but you would die|#DC322F|#FDF6E3]\n\n[BITEX: like straight up|#DC322F|#FDF6E3]\n\n[BITEX: real shit|#DC322F|#FDF6E3]\n\n[DEAXS: wait what???|#DC322F]\n\n[BITEX: you die in the game, you die in real life|#DC322F|#FDF6E3]\n\n[BITEX: but its gonna be okay cuz you can respawn at your metal slab that came with the game|#DC322F|#FDF6E3]\n\n[DEAXS: uhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh|#DC322F]\n\n[DEAXS: about that|#DC322F]\n\n[BITEX: what|#DC322F|#FDF6E3]\n\n[DEAXS: i kind of sold it for robux...|#DC322F]\n\n[BITEX: well shit man|#DC322F|#FDF6E3]\n\n[BITEX: better not fucking die then|#DC322F|#FDF6E3]"
+      }
     ]
   }
 }
