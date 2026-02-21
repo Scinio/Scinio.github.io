@@ -1587,6 +1587,60 @@
         "type": "dialogue",
         "value": "[DEAXS: yo is this a new locky blast?|#DC322F]\n\n[BITEX: yeah this is like the one thing i can help you with|#DC322F|#FDF6E3]\n\n[BITEX: its not really new, but it will double your strength and speed at the cost of your health|#DC322F|#FDF6E3]\n\n[BITEX: so you kind of need to be careful|#DC322F|#FDF6E3]\n\n[DEAXS: alright|#DC322F]\n\n[DEAXS: so theoretically what would happen if i lost all my health?|#DC322F]\n\n[BITEX: i probably should have mentioned this earlier, but you would die|#DC322F|#FDF6E3]\n\n[BITEX: like straight up|#DC322F|#FDF6E3]\n\n[BITEX: real shit|#DC322F|#FDF6E3]\n\n[DEAXS: wait what???|#DC322F]\n\n[BITEX: you die in the game, you die in real life|#DC322F|#FDF6E3]\n\n[BITEX: but its gonna be okay cuz you can respawn at your metal slab that came with the game|#DC322F|#FDF6E3]\n\n[DEAXS: uhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh|#DC322F]\n\n[DEAXS: about that|#DC322F]\n\n[BITEX: what|#DC322F|#FDF6E3]\n\n[DEAXS: i kind of sold it for robux...|#DC322F]\n\n[BITEX: well shit man|#DC322F|#FDF6E3]\n\n[BITEX: better not fucking die then|#DC322F|#FDF6E3]"
       }
+    ],
+    "39": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1771698669124_188.png"
+      },
+      {
+        "type": "text",
+        "value": "You upgrade your Locky Blast and decide it would be a good time to exit the dungeon considering there is nothing else in here.\n"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771698682086_189.gif"
+      },
+      {
+        "type": "text",
+        "value": "After exiting the dungeon, you get a message on your messaging device. You hope it's Isabel because she would probably be able to help you. No offense to Riletta and Penny, but they are sort of useless at the moment. Anyway, it is Isabel, so no worries."
+      },
+      {
+        "type": "dialogue",
+        "value": "[isabelfruit|#D33682] began chatting with [LOCKY★P|#DC322F]\n\n[isabelfruit: i see youve been busy|#D33682]\n\n[LOCKY★P: yeah|#DC322F]\n\n[LOCKY★P: hey it would have been nice if you messaged me a bit earlier|#DC322F]\n\n[isabelfruit: sorry, that L guy wouldnt stop talking to me|#D33682]\n\n[isabelfruit: he told me lots of stuff about this game|#D33682]\n\n[isabelfruit: like |#D33682]\n\n[isabelfruit: did you know it was a REALLY bad idea to sell your metal slab?|#D33682]\n\n[LOCKY★P: dont worry|#DC322F]\n\n[LOCKY★P: bitex already broke the news to me about that|#DC322F]\n\n[LOCKY★P: anyways, i got a new upgrade to my locky powers|#DC322F]\n\n[LOCKY★P: like lockiken so to speak|#DC322F]\n\n[LOCKY★P: watch this|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771698764577_190.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[LOCKY★P: that was pretty sick wasnt it|#DC322F]\n\n[isabelfruit: ...|#D33682]\n\n[isabelfruit: are you kidding bro whats next fucking super robloxian|#D33682]\n\n[isabelfruit: next time you message me your hair is gonna be fucking glowing or something!|#D33682]\n\n[isabelfruit: well if you had any hair|#D33682]\n\n[isabelfruit: why do you have to get the dragon ball powers!!!|#D33682]\n\n[isabelfruit: IM supposed to be the dragon ball person!|#D33682]\n\n[isabelfruit: why do you get them!!!|#D33682]\n\n[isabelfruit: i swear to god i better not get some shitty fucking powers while you get to have the dragon ball powers|#D33682]\n\n[LOCKY★P: umm|#DC322F]\n\n[LOCKY★P: its okay im sure your powers are gonna be cool|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771698890305_191.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[isabelfruit: 1 sec he is messaging me again|#D33682]\n\n[isabelfruit: sorry|#D33682]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771698907027_192.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[isabelfruit: ok he says he wants to talk to everybody|#D33682]\n\n[isabelfruit: like all of us|#D33682]\n\n[isabelfruit: so were gonna move to the group chat now|#D33682]\n\n[LOCKY★P: alright i guess i can let the other 2 know then|#DC322F]\n\n[isabelfruit: ok :]|#D33682]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771698940297_193.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1771698944360_194.png"
+      }
     ]
   }
 }
