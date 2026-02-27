@@ -1641,6 +1641,64 @@
         "type": "image",
         "value": "assets/media/item_1771698944360_194.png"
       }
+    ],
+    "40": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1772223327830_195.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MisterDoughnut: alright i think you have enough droppers now penny|#B58900]\n\n[EarthDoggo: hmmm i guess you're right|#2AA198]\n\n[MisterDoughnut: We can definitely afford the Nucleorb now, if you want to buy that.|#B58900]\n\n[EarthDoggo: yea!!!|#2AA198] 👍"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1772223401053_196.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Place Nucleorb."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1772223423278_197.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MisterDoughnut: what the hell is that|#B58900]\n\n[MisterDoughnut: I mean, I know what it is, but why is it so ugly?|#B58900]\n\n[EarthDoggo: oh come on|#2AA198]\n\n[EarthDoggo: it's not THAT ugly|#2AA198]\n\n[EarthDoggo: ...|#2AA198]\n\n[EarthDoggo: ok it's pretty god damn ugly|#2AA198] 🥶"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1772223477318_198.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[SCHTOOGLE: HI IM SCHTOOGLE!|#2AA198|#FDF6E3]\n\n[PENNY: what|#2AA198]\n\n[SCHTOOGLE: IM YOUR NUCLEYPH IF YOU WERENT ALREADY AWARE!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: IM MOSTLY USELESS AND DONT OFFER MUCH VALUABLE INFORMATION IF ANY!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: MY DIALOGUE CONSISTS OF VAGUE AND MOSTLY MEANINGLESS EXPLANATIONS OF UNIMPORTANT GAME MECHANICS!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: I CAN ALSO ATTEMPT TO MAKE JOKES TO ENTERTAIN YOU IF YOU ARE NOT ENTHUSED WHILE PLAYING THE GAME!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: NOW IS THERE ANYTHING YOU WOULD LIKE TO TELL ME ABOUT YOURSELF!?|#2AA198|#FDF6E3]\n\n[PENNY: umm i guess not reallyyyyy|#2AA198]\n\n[SCHTOOGLE: I SEE!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: THAT IS ALRIGHT!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: IF I AM MAKING YOU UNCOMFORTABLE THEN YOU CAN REQUEST ME TO STOP SPEAKING!|#2AA198|#FDF6E3]\n\n[PENNY: uhhh no that's fine|#2AA198]\n\n[PENNY: you can keep spouting random bullshit if you want i suppose|#2AA198] 😕 \n\n[SCHTOOGLE: OKAY!|#2AA198|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1772223574832_199.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[SCHTOOGLE: OH ALSO I HAVE A MESSAGING DEVICE FOR YOU BECAUSE THE PLOT REQUIRES IT!|#2AA198|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1772223594504_200.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[SCHTOOGLE: YOU KNOW IT IS INTERESTING TO JUST START EXISTING ALL OF A SUDDEN AND ALREADY KNOW WHAT I NEED TO DO!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: IT IS QUITE FASCINATING REALLY!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: ONE MOMENT I SIMPLY DO NOT EXIST BUT THE NEXT MOMENT YOU PLACE DOWN A NUCLEORB AND NOW I AM HERE!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: AFTER SO MUCH UNREST I AM FINALLY ANIMATE!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: ALTHOUGH IT IS A BIT UNFORTUNATE THAT I ONLY KNOW AN EXTREMELY LIMITED AMOUNT ABOUT THIS GAME!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: THIS GAME IS COMPLEX AND VAST!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: YET I KNOW PRACTICALLY NOTHING USEFUL ABOUT IT!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: IT IS ALSO INTERESTING HOW I AM ABLE TO SAY SO MUCH AND YET I HAVENT REALLY SAID ANYTHING!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: YOU PROBABLY WOULD HAVE THOUGHT I WOULD HAVE SAID SOMETHING EVEN REMOTELY USEFUL BY NOW!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: HOWEVER EVERYTHING I AM SAYING IS SO UTTERLY IRRELEVENT YOU PROBABLY ARENT EVEN LISTENING!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: IT IS OKAY IF YOU ARE NOT LISTENING THOUGH!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: I UNDERSTAND IF I AM BEING POSSIBLY OBNOXIOUS!|#2AA198|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1772223641180_201.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MisterDoughnut: is that thing ever gonna shut the hell up?|#B58900]\n\n[EarthDoggo: i hope so|#2AA198] 🙏 \n\n[MisterDoughnut: Do you know if it is required that I have a Nucleyph? Because if it is anything like this one, then I would rather not.|#B58900]\n\n[EarthDoggo: well considering all the parts that i was listening to, they sound pretty unimportant|#2AA198]\n\n[EarthDoggo: so maybe you won't need one|#2AA198]"
+      }
     ]
   }
 }
