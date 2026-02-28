@@ -1699,6 +1699,64 @@
         "type": "dialogue",
         "value": "[MisterDoughnut: is that thing ever gonna shut the hell up?|#B58900]\n\n[EarthDoggo: i hope so|#2AA198] 🙏 \n\n[MisterDoughnut: Do you know if it is required that I have a Nucleyph? Because if it is anything like this one, then I would rather not.|#B58900]\n\n[EarthDoggo: well considering all the parts that i was listening to, they sound pretty unimportant|#2AA198]\n\n[EarthDoggo: so maybe you won't need one|#2AA198]"
       }
+    ],
+    "41": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1772303709648_202.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MisterDoughnut: hey, i think we can get a new thing|#B58900]\n\n[MisterDoughnut: No idea what it could be.|#B58900]\n\n[EarthDoggo: place it and we'll find out!|#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1772303744808_203.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Place NEW THING."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1772303760841_204.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[SCHTOOGLE: AS YOUR NUCLEYPH I WILL NOW INFODUMP ABOUT THIS THING YOU JUST PLACED!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: THIS IS A WEAPON GIVER!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: IT WILL GIVE YOU A WEAPON!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: THE WEAPON WILL DEPEND ON YOUR CLASS!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: I HAVE NO IDEA WHAT CLASS YOU HAVE BEEN ASSIGNED!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: I ALSO HAVE NO IDEA WHAT WEAPON THIS WEAPON GIVER WILL GIVE YOU!|#2AA198|#FDF6E3]\n\n[PENNY: it looks like pocket knives?|#2AA198]\n\n[PENNY: can you seriously not see that?|#2AA198]\n\n[SCHTOOGLE: INTERESTING!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: UPON FURTHER INSPECTION IT SEEMS AS IF THE WEAPON IN THE WEAPON GIVER IS A PAIR OF POCKET KNIVES!|#2AA198|#FDF6E3]\n\n[PENNY: mmm very helpful...|#2AA198] 😬"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1772303802412_205.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Pocket the POCKET KNIVES."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1772303820036_206.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[EarthDoggo: seriously though, these knives are cool|#2AA198]\n\n[EarthDoggo: i mean i already had some basically identical to these, but maybe these ones are like magic or something|#2AA198]\n\n[EarthDoggo: i just don't know about this schtoogle guy|#2AA198] 😕 \n\n[MisterDoughnut: yeah he blows|#B58900]\n\n[MisterDoughnut: Completely.|#B58900]\n\n[MisterDoughnut: well now that i think you are pretty far in to the game|#B58900]\n\n[MisterDoughnut: We could try having me be the player, so that I can be caught up with you?|#B58900]\n\n[EarthDoggo: oh yea we can totally try that!|#2AA198]\n\n[MisterDoughnut: hold on, deaxs is messaging me|#B58900]\n\n[EarthDoggo: surprised they can make time for us lol|#2AA198]\n\n[EarthDoggo: thought they were super busy playing the game!|#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1772303918523_207.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[LOCKY★P|#DC322F] began chatting with [MisterDoughnut|#B58900]\n\n[LOCKY★P: hey dude|#DC322F]\n\n[LOCKY★P: there is this guy who has been helping isabel out?|#DC322F]\n\n[LOCKY★P: and apparently he wants to talk to all of us, so we are all gonna talk in the group chat|#DC322F]\n\n[MisterDoughnut: Alright.|#B58900]\n\n[LOCKY★P: see you there|#DC322F]\n\n[LOCKY★P|#DC322F] stopped chatting with [MisterDoughnut|#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1772303961067_208.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MisterDoughnut: apparently there is some guy we gotta meet in the group chat|#B58900]\n\n[MisterDoughnut: So we are all going to talk there now.|#B58900]\n\n[EarthDoggo: umm ok!!|#2AA198] ✅"
+      }
     ]
   }
 }
