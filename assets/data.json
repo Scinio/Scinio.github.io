@@ -1849,6 +1849,124 @@
         "type": "text",
         "value": "Wow, you can't believe Lasdav just left the conversation like that. You hardly even got to say anything! Well, maybe he'll warm up to you soon, and maybe even be friends? You are also starting to get a bit annoyed that you don't get to see what he looks like. There's no time to think about that though, you have an ENERGY CORE to find!"
       }
+    ],
+    "44": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703278022_220.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[BITEX: so what are we doing right now exactly?|#DC322F|#FDF6E3]\n\n[DEAXS: oh come on|#DC322F]\n\n[DEAXS: dont act like you havent still been reading all my messages over my shoulder|#DC322F]\n\n[BITEX: yeah youre right|#DC322F|#FDF6E3]\n\n[BITEX: i just wanted to feel included|#DC322F|#FDF6E3]\n\n[DEAXS: alright then how about you choose a direction to go?|#DC322F]\n\n[BITEX: ok uh|#DC322F|#FDF6E3]\n\n[BITEX: how about |#DC322F|#FDF6E3]\n\n[BITEX: that way|#DC322F|#FDF6E3]\n\n[DEAXS: sure|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703323010_221.png"
+      },
+      {
+        "type": "text",
+        "value": "You head THAT WAY for what feels like hours. Well, maybe not quite that long, but it's long enough for you have an idea to find this place faster."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703336419_222.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: wait hold on|#DC322F]\n\n[DEAXS: you said my new locky powers would increase my speed, right?|#DC322F]\n\n[BITEX: something like that|#DC322F|#FDF6E3]\n\n[DEAXS: well, maybe i could try using my powers to go faster?|#DC322F]\n\n[BITEX: ok try it then|#DC322F|#FDF6E3]\n\n[BITEX: i can probably keep up with you|#DC322F|#FDF6E3]\n\n[DEAXS: alright...|#DC322F]\n\n[DEAXS: is this the part where i say \"gotta go fast\"?|#DC322F]\n\n[BITEX: no that would be cringe as fuck|#DC322F|#FDF6E3]\n\n[DEAXS: ok lets go|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703374568_223.gif"
+      },
+      {
+        "type": "text",
+        "value": "As you run really fast, the only thing you are thinking about is \"gotta go fast\", but you need to restrain yourself from saying it. If you say it, Bitex will think you are really cringe. Even though you think Bitex is infinitely more cringe than you are in every way, you can't let him think he is better than you."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703567872_224.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: wait wait wait|#DC322F]\n\n[DEAXS: is|#DC322F]\n\n[DEAXS: is that it?|#DC322F]\n\n[BITEX: i think so|#DC322F|#FDF6E3]\n\n[DEAXS: we found it pretty quickly|#DC322F]\n\n[BITEX: all thanks to my directions|#DC322F|#FDF6E3]\n\n[DEAXS: uh sure|#DC322F]\n\n[DEAXS: ok i think im gonna let lasdav know we found it|#DC322F]\n\n[DEAXS: even though i think he already probably knows|#DC322F]\n\n[DEAXS: i think he is watching us all somehow|#DC322F]\n\n[DEAXS: idk|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703762302_225.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[LOCKY★P|#DC322F] began chatting with [L|#4F545C|#FDF6E3]\n\n[LOCKY★P: i found one|#DC322F]\n\n[L: I see.|#4F545C|#FDF6E3]\n\n[LOCKY★P: i knew it!|#DC322F]\n\n[L: I have one last thing I should tell you before you get the Energy Core.|#4F545C|#FDF6E3]\n\n[L: The Cores' true powers are only unlocked after you collect all seven of them.|#4F545C|#FDF6E3]\n\n[L: However, having just one will boost the powers you already have.|#4F545C|#FDF6E3]\n\n[LOCKY★P: huh. cool|#DC322F]\n\n[L: Once all members of The Gridders enter the Threshold, I would recommend they all have at least one Energy Core on them.|#4F545C|#FDF6E3]\n\n[L: For now, I would hurry and go inside. Your variant could be trying to get the Core too.|#4F545C|#FDF6E3]\n\n[LOCKY★P: ok|#DC322F]\n\n[LOCKY★P: thanks for all your help by the way|#DC322F]\n\n[LOCKY★P: i still dont really know anything about you, but have been very helpful so far|#DC322F]\n\n[L: Don't mention it.|#4F545C|#FDF6E3]\n\n[L: Really.|#4F545C|#FDF6E3]\n\n[L: Anyway, you'd better hurry.|#4F545C|#FDF6E3]\n\n[L|#4F545C|#FDF6E3] stopped chatting with [LOCKY★P|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703833727_226.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: ok Bitex, stay out here and keep watch for metal deaxs|#DC322F]\n\n[BITEX: how will i let you know if hes here?|#DC322F|#FDF6E3]\n\n[DEAXS: just yell or something idk|#DC322F]\n\n[BITEX: got it|#DC322F|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703861189_227.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703865199_228.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703870465_229.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703873811_230.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703877330_231.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703880972_232.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703885196_233.gif"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703891275_234.gif"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703896039_235.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703901632_236.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703905617_237.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703910204_238.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[BITEX: uh i think hes fucking here|#DC322F|#FDF6E3]\n\n[DEAXS: yeah i can see that...|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1773703935161_239.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[NEO METAL DEAXS: Hello|#192583]\n\n[NEO METAL DEAXS: I see my inferior has decided to follow me|#192583]"
+      }
     ]
   }
 }
