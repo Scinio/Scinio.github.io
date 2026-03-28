@@ -2033,6 +2033,80 @@
         "type": "dialogue",
         "value": "[L|#4F545C|#FDF6E3] began chatting with [LOCKY★P|#DC322F]\n\n[L: Don't worry! I can explain.|#4F545C|#FDF6E3]\n\n[LOCKY★P: yeah you kinda have a lot of that to do|#DC322F]\n\n[LOCKY★P: as i said before|#DC322F]\n\n[LOCKY★P: you are very helpful, but can you just explain a bit more????|#DC322F]\n\n[L: You are right.|#4F545C|#FDF6E3]\n\n[L: I am sorry.|#4F545C|#FDF6E3]\n\n[L: I will deliver a proper briefing once the rest of your friends have entered the Threshold.|#4F545C|#FDF6E3]\n\n[LOCKY★P: cool|#DC322F]\n\n[LOCKY★P: for now can you just explain what the hell he meant by the \"exit\"?|#DC322F]\n\n[L: Yes.|#4F545C|#FDF6E3]\n\n[L: That is where you will go once you are ready to fight him and ascend to the next world.|#4F545C|#FDF6E3]\n\n[L: You must defeat your variant before going to the next world.|#4F545C|#FDF6E3]\n\n[LOCKY★P: and what world will that be?|#DC322F]\n\n[L: That depends on whoever enters the Threshold next.|#4F545C|#FDF6E3]\n\n[LOCKY★P: ok now where can i find this place?|#DC322F]\n\n[L: It will be located at the center of your world.|#4F545C|#FDF6E3]\n\n[L: Fortunately, It won't be that hard to find.|#4F545C|#FDF6E3]\n\n[L: Just head toward the dark clouds.|#4F545C|#FDF6E3]\n\n[L: Let me know when you are close.|#4F545C|#FDF6E3]\n\n[L: Uh, bye for now.|#4F545C|#FDF6E3]\n\n[L|#4F545C|#FDF6E3] stopped chatting with [LOCKY★P|#DC322F]"
       }
+    ],
+    "46": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1774739070844_248.gif"
+      },
+      {
+        "type": "text",
+        "value": "Well that was cool! Let's see what Riletta and Penny are up to!"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1774739127272_249.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MisterDoughnut: Wow. Is my username really that bad?|#B58900]\n\n[EarthDoggo: um i mean nahhhhh|#2AA198]\n\n[EarthDoggo: it's not bad!|#2AA198]\n\n[EarthDoggo: well, it's not THAT bad 😬 |#2AA198]\n\n[EarthDoggo: just don't worry about it|#2AA198]\n\n[EarthDoggo: hey, let's try having you play the game now!!\n\n[MisterDoughnut: right|#B58900]\n\n[MisterDoughnut: Let's do the sync thing again.|#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1774739191847_250.gif"
+      },
+      {
+        "type": "text",
+        "value": ">SYNC AGAIN."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1774739230695_251.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[EarthDoggo: ok so first i'm gonna need to smash a hole in your wall so we can have more space|#2AA198]\n\n[EarthDoggo: and probably sell some of your stuff 💸 |#2AA198]\n\n[MisterDoughnut: wait no i like my room and all my stuff|#B58900]\n\n[MisterDoughnut: You can just cram everything in here.|#B58900]\n\n[MisterDoughnut: i'll be fine|#B58900]\n\n[MisterDoughnut: Trust.|#B58900]\n\n[EarthDoggo: uh ok|#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1774739309941_252.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[EarthDoggo: so, do you wanna talk about anything that lasdav guy said or no?|#2AA198]\n\n[MisterDoughnut: idk|#B58900]\n\n[MisterDoughnut: I feel like we barely even understand anything about what he said yet.|#B58900]\n\n[MisterDoughnut: anything we talk about at this point would be pure speculation|#B58900]\n\n[EarthDoggo: yea|#2AA198]\n\n[EarthDoggo: i just don't know how this game could be that important|#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1774739356411_253.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MisterDoughnut: Yeah, I don't really know, but I'm pretty excited anyway.|#B58900]\n\n[EarthDoggo: i hope lasdav has matching gridder jackets for us! 🔥 |#2AA198]\n\n[MisterDoughnut: that would be fire|#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1774739390073_254.gif"
+      },
+      {
+        "type": "text",
+        "value": "Very cool, but let's skip to something more interesting! \n\nListen, even though fast-forwarding isn't very diegetic to the story, you should know that as the narrator of this story, whatever I say goes."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1774739419452_255.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[EarthDoggo: are you excited to see your nucleyph???|#2AA198]\n\n[MisterDoughnut: Not particularly.|#B58900]\n\n[EarthDoggo: too bad i'm gonna place it anywayyyyyyyy|#2AA198]\n\n[MisterDoughnut: it better not suck ass|#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1774739463296_256.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1774739467481_257.png"
+      }
     ]
   }
 }
