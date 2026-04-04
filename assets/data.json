@@ -2133,6 +2133,64 @@
         "type": "image",
         "value": "assets/media/item_1775019266503_263.png"
       }
+    ],
+    "48": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1775267831892_264.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MACKERON: hi riletta my nam is mackeron|#B58900|#FDF6E3]\n\n[MACKERON: i9m gonna blabbergast you|#B58900|#FDF6E3]\n\n[RILETTA: Oh God...|#B58900]\n\n[RILETTA: this can't be happening|#B58900]\n\n[RILETTA: This is too stupid and I refuse to believe this is my Nucleyph.|#B58900]\n\n[MACKERON: well the good news is i am your nucletypyh and i am here to syay!!|#B58900|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1775267914288_265.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MisterDoughnut: penny you have to help me get rid of this thing|#B58900]\n\n[EarthDoggo: no no no|#2AA198]\n\n[EarthDoggo: if i have to deal with schtoogle then i'm sure you can be just fine with mackeron 😆 |#2AA198]\n\n[EarthDoggo: LMFAO what a stupid name|#2AA198]\n\n[EarthDoggo: that's not even how you say macaroon 🤪 |#2AA198]\n\n[MisterDoughnut: I know, and that is why it must be exterminated immediately.|#B58900]\n\n[EarthDoggo: ok look once we get into the game and meet each other i'm sure we can find a place to dispose of mackeron|#2AA198]\n\n[MisterDoughnut: then we need to get to the threshold as fast as possible|#B58900]\n\n[EarthDoggo: unfortunately, we don't have enough tix to buy your weapons giver|#2AA198]\n\n[EarthDoggo: so you should take this time to get to know mackeron!|#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1775267969344_266.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MACKERON: your room is so crampeld i cant find a way toget over to you|#B58900|#FDF6E3]\n\n[RILETTA: Ha ha. No that's fine you can stay right over there please.|#B58900]\n\n[MACKERON: but i need to gice you this messaging device|#B58900|#FDF6E3]\n\n[MACKERON: and then i m gonna blabbergast you|#B58900|#FDF6E3]\n\n[RILETTA: just throw the messaging device over here|#B58900]\n\n[RILETTA: And please don't blabbergast me.|#B58900]\n\n[RILETTA: i don't even know what that means|#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1775268018534_267.gif"
+      },
+      {
+        "type": "text",
+        "value": ">Catch."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1775268033817_268.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[EarthDoggo: anyway, i was just messing with you|#2AA198]\n\n[EarthDoggo: i can place the weapons giver now|#2AA198]\n\n[EarthDoggo: i just wanted to see you interact with mackeron|#2AA198]\n\n[MisterDoughnut: Are you serious?|#B58900]\n\n[EarthDoggo: yes ✅ |#2AA198]\n\n[EarthDoggo: k i'm gonna place the thing now |#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1775268079007_269.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MACKERON: hmm your weapons giver uis over here|#B58900|#FDF6E3]\n\n[MACKERON: it looks liek youll have to come over here|#B58900|#FDF6E3]\n\n[RILETTA: fuck|#B58900]\n\n[RILETTA: Fine.|#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1775268101274_270.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[RILETTA: it looks like a trumpet?|#B58900]\n\n[RILETTA: I mean, I already have one of those, but maybe this one is like magic or something.|#B58900]\n\n[MACKERON: yeahbnfdd|#B58900|#FDF6E3]\n\n[RILETTA: ...|#B58900]"
+      }
     ]
   }
 }
