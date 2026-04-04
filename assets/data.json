@@ -2191,6 +2191,16 @@
         "type": "dialogue",
         "value": "[RILETTA: it looks like a trumpet?|#B58900]\n\n[RILETTA: I mean, I already have one of those, but maybe this one is like magic or something.|#B58900]\n\n[MACKERON: yeahbnfdd|#B58900|#FDF6E3]\n\n[RILETTA: ...|#B58900]"
       }
+    ],
+    "49": [
+      {
+        "type": "text",
+        "value": "[[S] Collect MAGIC TRUMPET.|#00AFEF]"
+      },
+      {
+        "type": "video",
+        "value": "assets/media/item_1775268205052_271.mp4"
+      }
     ]
   }
 }
