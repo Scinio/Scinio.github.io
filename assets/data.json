@@ -2263,7 +2263,7 @@
       },
       {
         "type": "dialogue",
-        "value": "[ISABEL: youre not vegeta...|#D33682]\n\n[ERROR: 🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛|#D33682|#FDF6E3]\n\n[ERROR: 🟪⬛🟪⬛|#D33682|#FDF6E3]\n\n[ERROR: 🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛|#D33682|#FDF6E3]\n\n[ISABEL: uhhh|#D33682]\n\n[ISABEL: what?|#D33682]\n\n[ERROR: 🟪⬛🟪⬛🟪⬛🟪⬛|#D33682|#FDF6E3]\n\n[ISABEL: this is stupid|#D33682]"
+        "value": "[ISABEL: youre not vegeta...|#D33682]\n\n[ERROR:|#D33682|#FDF6E3] 🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛\n\n[ERROR:|#D33682|#FDF6E3] 🟪⬛🟪⬛\n\n[ERROR:|#D33682|#FDF6E3] 🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛\n\n[ISABEL: uhhh|#D33682]\n\n[ISABEL: what?|#D33682]\n\n[ERROR:|#D33682|#FDF6E3] 🟪⬛🟪⬛🟪⬛🟪⬛\n\n[ISABEL: this is stupid|#D33682]"
       },
       {
         "type": "image",
@@ -2279,7 +2279,7 @@
       },
       {
         "type": "dialogue",
-        "value": "[ERROR: 🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛|#D33682|#FDF6E3]\n\n[ISABEL: we are not doing this|#D33682]\n\n[ISABEL: im gonna ignore you|#D33682]"
+        "value": "[ERROR:|#D33682|#FDF6E3] 🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛\n\n[ISABEL: we are not doing this|#D33682]\n\n[ISABEL: im gonna ignore you|#D33682]"
       },
       {
         "type": "image",
@@ -2311,7 +2311,7 @@
       },
       {
         "type": "dialogue",
-        "value": "[ISABEL: wow that was so easy|#D33682]\n\n[ISABEL: how come it took so much longer when deaxs did it?|#D33682]\n\n[ERROR: 🟪⬛🟪⬛🟪⬛|#D33682|#FDF6E3]\n\n[ISABEL: bro...|#D33682]\n\n[ISABEL: i dont think you can say that|#D33682]"
+        "value": "[ISABEL: wow that was so easy|#D33682]\n\n[ISABEL: how come it took so much longer when deaxs did it?|#D33682]\n\n[ERROR:|#D33682|#FDF6E3] 🟪⬛🟪⬛🟪⬛\n\n[ISABEL: bro...|#D33682]\n\n[ISABEL: i dont think you can say that|#D33682]"
       }
     ]
   }
