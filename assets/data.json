@@ -2383,6 +2383,26 @@
         "type": "image",
         "value": "assets/media/item_1776025578118_298.png"
       }
+    ],
+    "53": [
+      {
+        "type": "text",
+        "value": "[[S] Gridders: Enter. |#DC322F]"
+      },
+      {
+        "type": "video",
+        "value": "assets/media/item_1779580530904_Gridders_Enter_25.mp4"
+      }
+    ],
+    "54": [
+      {
+        "type": "text",
+        "value": "[END OF ACT 2|#00AFEF]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1779580571227_end_of_act_2.gif"
+      }
     ]
   }
 }
