@@ -2473,6 +2473,60 @@
         "type": "text",
         "value": "You spot something in the distance and- Ok you know what? You can see what's happening. Why am I even bothering to narrate this. I'll go narrate something more interesting."
       }
+    ],
+    "56": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1780163514215_309.png"
+      },
+      {
+        "type": "text",
+        "value": "You are now Penny."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780163583770_310.png"
+      },
+      {
+        "type": "text",
+        "value": "You spawn on some dimly lit street with your BARN, a HORSE, and SCHTOOGLE. You wish the horse and Schtoogle would have just stayed behind, but it's too late for that now."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780163609309_311.png"
+      },
+      {
+        "type": "text",
+        "value": "You decide to talk to Scht-"
+      },
+      {
+        "type": "dialogue",
+        "value": "[PENNY: so schtoogle|#2AA198]\n\n[PENNY: do you know anything about this place|#2AA198] ❓ \n\n[SCHTOOGLE: WELL YOU SEE!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: THIS IS THE THRESHOLD!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: AS FEATURED IN THE NOT SO POPULAR COMPUTER VIDEO GAME COMMONLY KNOWN AS RSIDNT!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: THE THRESHOLD IS WHERE YOU ARE TRANSPORTED TO AFTER YOU HAVE ENTERED THE PORTAL TO THE THRESHOLD!|#2AA198|#FDF6E3]\n\n[PENNY: not sure why i bothered asking |#2AA198]😐"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780163662796_312.png"
+      },
+      {
+        "type": "text",
+        "value": "Yeah, you know what? I don't need to narrate this part. You've got it all taken care of. I have more important things to do anyway."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780163677459_313.gif"
+      },
+      {
+        "type": "text",
+        "value": "I'll be back eventually."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780163744102_314.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MisterDoughnut|#B58900] began chatting with [EarthDoggo|#2AA198]\n\n[MisterDoughnut: did you make it into the threshold?|#B58900]\n\n[EarthDoggo: yup and schtoogle is being helpful as always|#2AA198]\n\n[MisterDoughnut: I seriously doubt that.|#B58900]\n\n[EarthDoggo: yea i was just pulling your goater|#2AA198] 😂 \n\n[EarthDoggo: anyway, what does your world look like?|#2AA198]\n\n[MisterDoughnut: you don't even want to know|#B58900]\n\n[MisterDoughnut: What does your world look like?|#B58900]\n\n[EarthDoggo: it actually looks relatively normal|#2AA198]\n\n[EarthDoggo: besides the giant freaking moon|#2AA198]\n\n[EarthDoggo: but other than that i'm just on some road|#2AA198]\n\n[MisterDoughnut: uh that's cool|#B58900]\n\n[MisterDoughnut: I gotta go for a second.|#B58900]\n\n[MisterDoughnut: mackeron is being fucking annoying and i need to take care of him real quick|#B58900]\n\n[MisterDoughnut|#B58900] stopped chatting with [EarthDoggo|#2AA198]"
+      }
     ]
   }
 }
