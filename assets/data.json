@@ -2527,6 +2527,52 @@
         "type": "dialogue",
         "value": "[MisterDoughnut|#B58900] began chatting with [EarthDoggo|#2AA198]\n\n[MisterDoughnut: did you make it into the threshold?|#B58900]\n\n[EarthDoggo: yup and schtoogle is being helpful as always|#2AA198]\n\n[MisterDoughnut: I seriously doubt that.|#B58900]\n\n[EarthDoggo: yea i was just pulling your goater|#2AA198] 😂 \n\n[EarthDoggo: anyway, what does your world look like?|#2AA198]\n\n[MisterDoughnut: you don't even want to know|#B58900]\n\n[MisterDoughnut: What does your world look like?|#B58900]\n\n[EarthDoggo: it actually looks relatively normal|#2AA198]\n\n[EarthDoggo: besides the giant freaking moon|#2AA198]\n\n[EarthDoggo: but other than that i'm just on some road|#2AA198]\n\n[MisterDoughnut: uh that's cool|#B58900]\n\n[MisterDoughnut: I gotta go for a second.|#B58900]\n\n[MisterDoughnut: mackeron is being fucking annoying and i need to take care of him real quick|#B58900]\n\n[MisterDoughnut|#B58900] stopped chatting with [EarthDoggo|#2AA198]"
       }
+    ],
+    "57": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1780252031252_315.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780252037547_316.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780252047919_317.gif"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780252063627_318.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[RILETTA: what the fuck|#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780252089407_319.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MACKERON: whatws wrong riletta?|#B58900|#FDF6E3]\n\n[RILETTA: Do not pretend you don't see what is wrong here.|#B58900]\n\n[MACKERON: i donrt get it :(|#B58900|#FDF6E3]\n\n[RILETTA: nope fuck you|#B58900]\n\n[RILETTA: I'm gonna talk to Penny.|#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780252121900_320.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MACKERON: RIELATYA|#B58900|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780252145930_321.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[RILETTA: What in the fuck do you want?|#B58900]\n\n[MACKERON: thiss place is jsut soo cool|#B58900|#FDF6E3]\n\n[RILETTA: what are you doing|#B58900]\n\n[RILETTA: Stop.|#B58900]\n\n[MACKERON: but i dont wana |#B58900|#FDF6E3]\n\n[RILETTA: listen you little freak|#B58900]\n\n[RILETTA: You are lucky that I let you come here with me|#B58900]\n\n[RILETTA: and i'm gonna have to find deaxs' gift that you smacked into the fucking portal|#B58900]\n\n[MACKERON: sowwy|#B58900|#FDF6E3]"
+      }
     ]
   }
 }
