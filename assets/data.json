@@ -2573,6 +2573,40 @@
         "type": "dialogue",
         "value": "[RILETTA: What in the fuck do you want?|#B58900]\n\n[MACKERON: thiss place is jsut soo cool|#B58900|#FDF6E3]\n\n[RILETTA: what are you doing|#B58900]\n\n[RILETTA: Stop.|#B58900]\n\n[MACKERON: but i dont wana |#B58900|#FDF6E3]\n\n[RILETTA: listen you little freak|#B58900]\n\n[RILETTA: You are lucky that I let you come here with me|#B58900]\n\n[RILETTA: and i'm gonna have to find deaxs' gift that you smacked into the fucking portal|#B58900]\n\n[MACKERON: sowwy|#B58900|#FDF6E3]"
       }
+    ],
+    "58": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1780345925115_322.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780345928711_323.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780345932203_324.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780345936533_325.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780345939682_326.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780345943708_327.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780345947943_328.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780345952360_329.png"
+      }
     ]
   }
 }
