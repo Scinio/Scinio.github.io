@@ -2607,6 +2607,52 @@
         "type": "image",
         "value": "assets/media/item_1780345952360_329.png"
       }
+    ],
+    "59": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1780423858338_330.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: thanks for catching me|#DC322F]\n\n[DEAXS: that fight tired me the hell out|#DC322F]\n\n[BITEX: i mean i think you wouldve been perfectly fine if you hit the ground|#DC322F|#FDF6E3]\n\n[BITEX: you lived wayyyy fucking worse in that fight|#DC322F|#FDF6E3]\n\n[BITEX: i didnt know the locky powers were that damn good|#DC322F|#FDF6E3]\n\n[DEAXS: yeah i cant believe that just happened|#DC322F]\n\n[DEAXS: i hit em with the final fucking flash|#DC322F]\n\n[DEAXS: oh my god|#DC322F]\n\n[DEAXS: oh man i should probably message lasdav|#DC322F]\n\n[BITEX: yeah hit that bitch up|#DC322F|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780423972661_331.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[LOCKY★P|#DC322F] began messaging [L|#4F545C|#FDF6E3]\n\n[LOCKY★P: howd i do boss|#DC322F]\n\n[L: Good.|#4F545C|#FDF6E3]\n\n[L: You nearly started to worry me after you got knocked down for the second time.|#4F545C|#FDF6E3]\n\n[LOCKY★P: nah i was just playing it up for dramatic effect|#DC322F]\n\n[LOCKY★P: not really|#DC322F]\n\n[LOCKY★P: it was actually pretty close|#DC322F]\n\n[L: Although, once you went Locki-ken x3, your variant stood no chance at defeating you.|#4F545C|#FDF6E3]\n\n[LOCKY★P: yeah that tired me out quite a lot|#DC322F]\n\n[LOCKY★P: so what should i do now?|#DC322F]\n\n[L: You can now ascend to Isabel's world by going through The Exit, as she was the first to one to enter.|#4F545C|#FDF6E3]\n\n[LOCKY★P: great|#DC322F]\n\n[LOCKY★P: just let me catch my breath|#DC322F]\n\n[L: After you reach Isabel's world, then we can all have our second briefing.|#4F545C|#FDF6E3]\n\n[L: It won't be quite as I had planned.|#4F545C|#FDF6E3]\n\n[L: There has been an interesting development.|#4F545C|#FDF6E3]\n\n[LOCKY★P: what?|#DC322F]\n\n[L: Until then.|#4F545C|#FDF6E3]\n\n[L|#4F545C|#FDF6E3] stopped chatting with [LOCKY★P|#DC322F]\n"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780424061812_332.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: alright |#DC322F]\n\n[DEAXS: i guess we just go to the exit then|#DC322F]\n\n[BITEX: ok|#DC322F|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780424089622_333.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: dude i cant believe im gonna finally get to see all my friends in person|#DC322F]\n\n[DEAXS: even if we are all trapped inside this shitty game |#DC322F]\n\n[DEAXS: possibly forever|#DC322F]\n\n[DEAXS: its pretty dope i suppose|#DC322F]\n\n[BITEX: dont call the game im from shitty|#DC322F|#FDF6E3]\n\n[BITEX: its got character|#DC322F|#FDF6E3]\n\n[DEAXS: call it what you like|#DC322F]\n\n[DEAXS: its not great|#DC322F]\n\n[BITEX: ok let's just fucking go already|#DC322F|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780424127133_334.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: zomg im so excited dude|#DC322F]\n\n[BITEX: yeah yeah you said that already|#DC322F|#FDF6E3]\n\n[BITEX: hey uh|#DC322F|#FDF6E3]\n\n[BITEX: doesnt it look kinda dark out there?|#DC322F|#FDF6E3]\n\n[DEAXS: hey i guess it does|#DC322F]\n\n[BITEX: dont you think thats weird?|#DC322F|#FDF6E3]\n\n[DEAXS: a little bit|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780424177966_335.gif"
+      }
     ]
   }
 }
