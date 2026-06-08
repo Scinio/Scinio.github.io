@@ -2653,6 +2653,68 @@
         "type": "image",
         "value": "assets/media/item_1780424177966_335.gif"
       }
+    ],
+    "60": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1780960696719_336.gif"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780960703005_337.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: well|#DC322F]\n\n[DEAXS: isabels stuff is here, but where is isabel?|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780960730304_338.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: zomg bitex do you see that?|#DC322F]\n\n[BITEX: yep|#DC322F|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780960750611_339.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: its isabel!!!!|#DC322F]\n\n[BITEX: yep|#DC322F|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780960936777_340.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780960944781_341.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780960947446_342.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780960950058_343.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780960954538_344.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[ISABEL: deaxs!|#D33682]\n\n[DEAXS: isabel!|#DC322F]\n\n[DEAXS: it's super cool to be seeing you for the first time, but|#DC322F]\n\n[DEAXS: why do you have an umbrella|#DC322F]\n\n[ISABEL: it was raining|#D33682]\n\n[ISABEL: but i guess it must have stopped|#D33682]\n\n[DEAXS: well it makes you like the umbrella man from interloper |#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1780960991210_345.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[ISABEL: deaxs|#D33682]\n\n[ISABEL: bro|#D33682]\n\n[ISABEL: i knew i liked you dude|#D33682]"
+      }
     ]
   }
 }
