@@ -1975,7 +1975,7 @@
       },
       {
         "type": "dialogue",
-        "value": "[NEO METAL DEAXS: I would thank you, but you did not really aid me in my search for the Energy Core\n\nNEO METAL DEAXS: I found it far sooner than you, and I waited until it was just within your grasp before swiping it right before your eyes\n\nNEO METAL DEAXS: It was easy, really\n\nNEO METAL DEAXS: This is because I have always been better than you; stronger, faster, smarter too, obviously\n\nNEO METAL DEAXS: My loathesome copy|#00AFEF]"
+        "value": "[NEO METAL DEAXS: I would thank you, but you did not really aid me in my search for the Energy Core|#00AFEF]\n\n[NEO METAL DEAXS: I found it far sooner than you, and I waited until it was just within your grasp before swiping it right before your eyes|#00AFEF]\n\n[NEO METAL DEAXS: It was easy, really|#00AFEF]\n\n[NEO METAL DEAXS: This is because I have always been better than you; stronger, faster, smarter too, obviously|#00AFEF]\n\n[NEO METAL DEAXS: My loathesome copy|#00AFEF]"
       },
       {
         "type": "image",
@@ -1991,7 +1991,7 @@
       },
       {
         "type": "dialogue",
-        "value": "[NEO METAL DEAXS: Such a simple viewpoint\n\nNEO METAL DEAXS: I am your superior in every single way\n\nNEO METAL DEAXS: You are weak, and now that I have acquired the Energy Core, your powers will never amount to a fraction of mine\n\nNEO METAL DEAXS: It would have been smart to take me out while I was disabled\n\nNEO METAL DEAXS: Its a shame that with the Energy Core, I am now invulnerable to any further hacking attempts by your friend\n\nNEO METAL DEAXS: I would copy your biodata, but it would just make me weaker\n\nNEO METAL DEAXS: God, you are pathetic\n\nNEO METAL DEAXS: Anyway--|#00AFEF]"
+        "value": "[NEO METAL DEAXS: Such a simple viewpoint|#00AFEF]\n\n[NEO METAL DEAXS: I am your superior in every single way|#00AFEF]\n\n[NEO METAL DEAXS: You are weak, and now that I have acquired the Energy Core, your powers will never amount to a fraction of mine|#00AFEF]\n\n[NEO METAL DEAXS: It would have been smart to take me out while I was disabled|#00AFEF]\n\n[NEO METAL DEAXS: Its a shame that with the Energy Core, I am now invulnerable to any further hacking attempts by your friend|#00AFEF]\n\n[NEO METAL DEAXS: I would copy your biodata, but it would just make me weaker|#00AFEF]\n\n[NEO METAL DEAXS: God, you are pathetic|#00AFEF]\n\n[NEO METAL DEAXS: Anyway--|#00AFEF]"
       },
       {
         "type": "image",
@@ -2007,7 +2007,7 @@
       },
       {
         "type": "dialogue",
-        "value": "[NEO METAL DEAXS: Nice try, but its too late\n\nNEO METAL DEAXS: Ill see you at the exit, deaxs...|#00AFEF]"
+        "value": "[NEO METAL DEAXS: Nice try, but its too late|#00AFEF]\n\n[NEO METAL DEAXS: Ill see you at the exit, deaxs...|#00AFEF]"
       },
       {
         "type": "image",
