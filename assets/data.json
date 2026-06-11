@@ -2715,6 +2715,60 @@
         "type": "dialogue",
         "value": "[ISABEL: deaxs|#D33682]\n\n[ISABEL: bro|#D33682]\n\n[ISABEL: i knew i liked you dude|#D33682]"
       }
+    ],
+    "61": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1781210305964_346.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[BITEX: yo |#DC322F|#FDF6E3]\n\n[BITEX: whats crackalackin' bitch|#DC322F|#FDF6E3]\n\n[ERROR: 🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛|#D33682|#FDF6E3]\n\n[ERROR: 🟪⬛🟪⬛|#D33682|#FDF6E3]\n\n[BITEX: uhhhh|#DC322F|#FDF6E3]\n\n[BITEX: yeah great|#DC322F|#FDF6E3]\n\n[ERROR: 🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛|#D33682|#FDF6E3]\n\n[BITEX: ok we can stop talking now|#DC322F|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1781210397867_347.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: your nucleyph is pretty cool i guess|#DC322F]\n\n[DEAXS: you think hes get along well with bitex?|#DC322F]\n\n[BITEX: im not!!!|#DC322F|#FDF6E3]\n\n[DEAXS: good to see|#DC322F]\n\n[ISABEL: so whats the deal with this tower?|#D33682]\n\n[DEAXS: well i came up through a similarly tall tower in my world|#DC322F]\n\n[DEAXS: and all of your game stuff is in here|#DC322F]\n\n[ISABEL: nice|#D33682]\n\n[ISABEL: so will this tower take us to the next world?|#D33682]\n\n[DEAXS: it should|#DC322F]\n\n[DEAXS: considering its in the center of your world|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1781210452053_348.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[ISABEL: so like when do we go to the next world?|#D33682]\n\n[DEAXS: well remember that you have to defeat your evil variant|#DC322F]\n\n[DEAXS: otherwise we can't go up|#DC322F]\n\n[ISABEL: alright|#D33682]\n\n[ISABEL: oh yeah, i forgot to ask|#D33682]\n\n[ISABEL: how did the fight with neo metal deaxs go?|#D33682]\n\n[DEAXS: it was crazy|#DC322F]\n\n[DEAXS: it was like dragon ball|#DC322F]\n\n[ISABEL: dont remind me...|#D33682]\n\n[DEAXS: dude its cool|#DC322F]\n\n[DEAXS: your gun is totally cool|#DC322F]\n\n[DEAXS: its like your ummmmmm|#DC322F]\n\n[DEAXS: launch from dragon ball|#DC322F]\n\n[DEAXS: cuz she has a gun|#DC322F]\n\n[DEAXS: and you have a gun|#DC322F]\n\n[ISABEL: yeah thats great|#D33682]\n\n[ISABEL: but i dont wanna be fucking launch|#D33682]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1781210507042_349.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: why isnt your variant here|#DC322F]\n\n[DEAXS: i got punched in the face immediately|#DC322F]\n\n[DEAXS: yet yours is nowhere to be seen|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1781210526662_350.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[ISABEL: im sure my variant will show up soon|#D33682]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1781210547189_351.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1781210551926_352.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: welp|#DC322F]\n\n[DEAXS: you were right|#DC322F]"
+      }
     ]
   }
 }
