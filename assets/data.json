@@ -2723,7 +2723,7 @@
       },
       {
         "type": "dialogue",
-        "value": "[BITEX: yo |#DC322F|#FDF6E3]\n\n[BITEX: whats crackalackin' bitch|#DC322F|#FDF6E3]\n\n[ERROR: 🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛|#D33682|#FDF6E3]\n\n[ERROR: 🟪⬛🟪⬛|#D33682|#FDF6E3]\n\n[BITEX: uhhhh|#DC322F|#FDF6E3]\n\n[BITEX: yeah great|#DC322F|#FDF6E3]\n\n[ERROR: 🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛|#D33682|#FDF6E3]\n\n[BITEX: ok we can stop talking now|#DC322F|#FDF6E3]"
+        "value": "[BITEX: yo |#DC322F|#FDF6E3]\n\n[BITEX: whats crackalackin' bitch|#DC322F|#FDF6E3]\n\n[ERROR:|#D33682|#FDF6E3] 🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛\n\n[ERROR:|#D33682|#FDF6E3] 🟪⬛🟪⬛\n\n[BITEX: uhhhh|#DC322F|#FDF6E3]\n\n[BITEX: yeah great|#DC322F|#FDF6E3]\n\n[ERROR:|#D33682|#FDF6E3] 🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛\n\n[BITEX: ok we can stop talking now|#DC322F|#FDF6E3]"
       },
       {
         "type": "image",
