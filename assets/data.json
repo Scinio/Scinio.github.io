@@ -2769,6 +2769,20 @@
         "type": "dialogue",
         "value": "[DEAXS: welp|#DC322F]\n\n[DEAXS: you were right|#DC322F]"
       }
+    ],
+    "62": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1781392364581_354.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1781392371264_355.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1781392374891_356.gif"
+      }
     ]
   }
 }
