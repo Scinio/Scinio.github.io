@@ -2783,6 +2783,44 @@
         "type": "image",
         "value": "assets/media/item_1781392374891_356.gif"
       }
+    ],
+    "63": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1781826992783_357.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[SPACEF: finally...|#A349A4]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1781827012621_358.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1781827016520_359.gif"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1781827020683_360.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1781827025452_361.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[SPACEF: fucking owned|#A349A4]\n\n[SPACEF: didn't even see it coming|#A349A4]\n\n[SPACEF: what a bozo|#A349A4]\n\n[SPACEF: get rekt, scrub|#A349A4]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1781827046229_362.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[SPACEF: anyways i'ma go get that energy core now|#A349A4]\n\n[SPACEF: i'll see you nerds later|#A349A4]\n\n[SCHTOOGLE: WOW!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: IT APPEARS THAT PENNY HAS BEEN KILLED BY HER VARIANT!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: AND NOW SHE IS NO LONGER LIVING!|#2AA198|#FDF6E3]"
+      }
     ]
   }
 }
