@@ -2821,6 +2821,60 @@
         "type": "dialogue",
         "value": "[SPACEF: anyways i'ma go get that energy core now|#A349A4]\n\n[SPACEF: i'll see you nerds later|#A349A4]\n\n[SCHTOOGLE: WOW!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: IT APPEARS THAT PENNY HAS BEEN KILLED BY HER VARIANT!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: AND NOW SHE IS NO LONGER LIVING!|#2AA198|#FDF6E3]"
       }
+    ],
+    "64": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1782437821321_363.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[PENNY: ok i'm back and i have a LOT of questions|#2AA198] 😐"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1782437851160_364.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "THE GRIDDERS\n\n[L: It seems we will have to delay the briefing until after everyone has dealt with their variants for the time being.|#4F545C|#FDF6E3]\n\n[MisterDoughnut: Not sure what you are referring to.|#B58900]\n\n[MisterDoughnut: i'm completely fine|#B58900]\n\n[MisterDoughnut: I mean, other than the fact that Mackeron is still breathing.|#B58900]\n\n[MisterDoughnut: actually idk if he does that|#B58900]\n\n[L: Your variant must have encountered a bug.|#4F545C|#FDF6E3]\n\n[L: They are programmed to attack the player after they spawn into their world.|#4F545C|#FDF6E3]\n\n[MisterDoughnut: Well, in the meantime I gotta find that gift.|#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1782437920719_365.gif"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1782437926707_366.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1782437929846_367.gif"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1782437932953_368.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[ISABEL: i guess it just left?|#D33682]\n\n[DEAXS: for now?|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1782437977167_369.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1782437981567_370.gif"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1782437986048_371.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: well that is disturbing...|#DC322F]\n\n[DEAXS: suppose we can start that briefing now?|#DC322F]"
+      }
     ]
   }
 }
