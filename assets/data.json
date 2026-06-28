@@ -2875,6 +2875,48 @@
         "type": "dialogue",
         "value": "[DEAXS: well that is disturbing...|#DC322F]\n\n[DEAXS: suppose we can start that briefing now?|#DC322F]"
       }
+    ],
+    "65": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1782607726167_372.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "THE GRIDDERS \n\n[L: Now that everyone's variants have stopped pursuing them, we can begin.|#4F545C|#FDF6E3]\n\n[EarthDoggo: wait before we start can we just talk about what happened?|#2AA198]\n\n[EarthDoggo: did i just DIE and respawn?|#2AA198] 💀 \n\n[EarthDoggo: since when is that a thing???? |#2AA198]\n\n[LOCKY★P: oh i knew about that|#DC322F]\n\n[isabelfruit: i also knew about that|#D33682]\n\n[MisterDoughnut: I don't think I knew that.|#B58900]\n\n[MisterDoughnut: but i also haven't really been paying attention|#B58900]\n\n[EarthDoggo: why didn't anybody tell me !!!!!|#2AA198] ❓ \n\n[L: It must have slipped my mind.|#4F545C|#FDF6E3]\n\n[L: Yes, as long as you still have your slab, you are able to respawn.|#4F545C|#FDF6E3]\n\n[LOCKY★P: so everyone except me?|#DC322F]\n\n[L: Correct.|#4F545C|#FDF6E3]\n\n[L: However, even if you did not sell your slab, you still would not be able to respawn.|#4F545C|#FDF6E3]\n\n[isabelfruit: wait how|#D33682]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1782607826553_373.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "THE GRIDDERS\n\n[L: Once there are no more players occupying a world, the world and everything in it will be deleted.|#4F545C|#FDF6E3]\n\n[LOCKY★P: ohhh so thats why it got so dark when we were leaving mine|#DC322F]\n\n[MisterDoughnut: Can't we just take the slabs with us then?|#B58900]\n\n[L: After they enter RSIDNT, they become immovable.|#4F545C|#FDF6E3]\n\n[EarthDoggo: ok new question|#2AA198]\n\n[EarthDoggo: why is my blood that color?|#2AA198] 🟦 \n\n[L: Once you enter the game, you become linked with it.|#4F545C|#FDF6E3]\n\n[EarthDoggo: that's cool i guess|#2AA198]\n\n[EarthDoggo: last question|#2AA198]\n\n[EarthDoggo: why does my evil variant look nothing like me?|#2AA198]\n\n[L: Oh uh...|#4F545C|#FDF6E3]\n\n[L: I don't know.|#4F545C|#FDF6E3]\n\n[EarthDoggo: okay|#2AA198] 🙃\n\n[L: Now, let me give you the current situation.|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1782607900692_374.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[L: Just before you all entered the game, I recieved a message from someone.|#4F545C|#FDF6E3]\n\n[L: A warning.|#4F545C|#FDF6E3]\n\n[L: They said that we needed to start preparing for something.|#4F545C|#FDF6E3]\n\n[L: That if we didn't.|#4F545C|#FDF6E3]\n\n[L: Everything would be destroyed.|#4F545C|#FDF6E3]\n\n[L: They knew who we all were.|#4F545C|#FDF6E3]\n\n[L: Even me, somehow.|#4F545C|#FDF6E3]\n\n[L: It doesn't make sense yet, but...|#4F545C|#FDF6E3]\n\n[L: They said that we currently cannot fight what is coming.|#4F545C|#FDF6E3]\n\n[L: We would not be able to defeat Chaos Valentine.|#4F545C|#FDF6E3]\n\n[L: I can't attest to the validity of their claims, but if this is all true, then you will all need to get a lot stronger.|#4F545C|#FDF6E3]\n\n[L: Do you have the Energy Core, deaxs?|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1782607940727_375.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "THE GRIDDERS\n\n[LOCKY★P: i guess i do?|#DC322F]\n\n[LOCKY★P: i must not have noticed, but i think it went into my inventory after i beat Neo Metal deaxs|#DC322F]\n\n[L: Good.|#4F545C|#FDF6E3]\n\n[L: You will all need at least one Energy Core if Chaos Valentine is truly as strong as they say.|#4F545C|#FDF6E3]\n\n[L: There should be one in all of your worlds, so before you all ascend to the next world, find the Core in each one first.|#4F545C|#FDF6E3]\n\n[L: Isabel, find the Energy Core before your variant does.|#4F545C|#FDF6E3]\n\n[L: Penny, I believe your variant may find it before you, so be extra careful.|#4F545C|#FDF6E3]\n\n[L: And Riletta, I am not really sure where your variant is.|#4F545C|#FDF6E3]\n\n[L: I believe that is all for now, so I will be Gridding out.|#4F545C|#FDF6E3]\n\n[L: Good luck.|#4F545C|#FDF6E3]\n\n[L|#4F545C|#FDF6E3] has stopped chatting in THE GRIDDERS"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1782607993269_376.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "THE GRIDDERS\n\n[isabelfruit: well, you all heard the man|#D33682]\n\n[isabelfruit: everyone has a job to do|#D33682]\n\n[isabelfruit: grid out!|#D33682]\n\n[LOCKY★P: grid out|#DC322F]\n\n[EarthDoggo: grid out!|#2AA198] 😁 \n\n[MisterDoughnut: grid out|#B58900]\n\nEveryone has Grid-out of THE GRIDDERS"
+      }
     ]
   }
 }
