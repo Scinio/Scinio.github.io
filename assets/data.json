@@ -2917,6 +2917,16 @@
         "type": "dialogue",
         "value": "THE GRIDDERS\n\n[isabelfruit: well, you all heard the man|#D33682]\n\n[isabelfruit: everyone has a job to do|#D33682]\n\n[isabelfruit: grid out!|#D33682]\n\n[LOCKY★P: grid out|#DC322F]\n\n[EarthDoggo: grid out!|#2AA198] 😁 \n\n[MisterDoughnut: grid out|#B58900]\n\nEveryone has Grid-out of THE GRIDDERS"
       }
+    ],
+    "66": [
+      {
+        "type": "text",
+        "value": "[[S] AdventureBound Part 1|#DC322F]"
+      },
+      {
+        "type": "video",
+        "value": "assets/media/item_1782677415767_8mb.video-1M4-AJmgmOeo.mp4"
+      }
     ]
   }
 }
