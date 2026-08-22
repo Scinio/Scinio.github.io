@@ -2957,6 +2957,48 @@
         "type": "video",
         "value": "assets/media/item_1787324681073_8mb.video-J0L-GKSFAnGo.mp4"
       }
+    ],
+    "70": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1787409097828_381.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MACKY✦J|#6C71C4] began chatting with [L|#4F545C|#FDF6E3]\n\n[MACKY✦J: The Gridders have done pretty well so far.|#6C71C4]\n\n[MACKY✦J: Especially deaxs.|#6C71C4]\n\n[MACKY✦J: Y'know cause they defeated Neo Metal deaxs and got an Energy Core.|#6C71C4]\n\n[MACKY✦J: The rest of them are doing fine, I guess|#6C71C4]\n\n[MACKY✦J: I still don't think they are ready yet.|#6C71C4]\n\n[L: You finally decided to message me back.|#4F545C|#FDF6E3]\n\n[L: Where have you been?|#4F545C|#FDF6E3]\n\n[MACKY✦J: Hey, it hasn't exactly been an easy trip.|#6C71C4]\n\n[MACKY✦J: I've been busy.|#6C71C4]\n\n[L: That does not tell me anything.|#4F545C|#FDF6E3]\n\n[L: How did you get here without creating a world?|#4F545C|#FDF6E3]\n\n[L: And how do you know about me?|#4F545C|#FDF6E3]\n\n[MACKY✦J: Well, I'm not exactly from around here.|#6C71C4]\n\n[MACKY✦J: And I don't have to answer your questions.|#6C71C4]\n\n[MACKY✦J: Besides, you still have some things about YOURSELF that the Gridders don't even know about.|#6C71C4]\n\n[L: ...|#4F545C|#FDF6E3]\n\n[MACKY✦J: You should really tell 'em who you are.|#6C71C4]\n\n[L: Not yet.|#4F545C|#FDF6E3]\n\n[MACKY✦J: Then I 'spose you don't get to know who I am either yet!!!|#6C71C4]\n\n[MACKY✦J: Catch you later, Lucas.|#6C71C4]\n\n[MACKY✦J|#6C71C4] stopped chatting with [L|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787409173210_382.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[LASDAV: He's right.|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787409201238_383.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787409210654_384.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[ISABEL: alright deaxs, ill see you later!|#D33682]\n\n[DEAXS: uh yeah|#DC322F]\n\n[DEAXS: have fun|#DC322F]\n\n[DEAXS: (im hungry)|#DC322F]\n\n[DEAXS: (i think ill see whats in my lunchbox)|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787409238244_385.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787409242570_386.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[ISABEL: this must be where the energy core is|#D33682]\n\n[ISABEL: i hope im not too late|#D33682]"
+      }
     ]
   }
 }
