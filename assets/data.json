@@ -2999,6 +2999,40 @@
         "type": "dialogue",
         "value": "[ISABEL: this must be where the energy core is|#D33682]\n\n[ISABEL: i hope im not too late|#D33682]"
       }
+    ],
+    "71": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1787512717413_387.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[PENNY: shitttt i think i'm too late|#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787512742910_388.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[TRUE SPACEF: heh, looks like you're too late to stop me|#A349A4]\n\n[TRUE SPACEF: i've achieved my true form|#A349A4]\n\n[TRUE SPACEF: if i were you,|#A349A4]\n\n[TRUE SPACEF: (which i am in some sense),|#A349A4]\n\n[TRUE SPACEF: i would get the fuck out while i still can|#A349A4]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787512769246_389.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[TRUE SPACEF: aha, still here?|#A349A4]\n\n[TRUE SPACEF: prepare for the beating of your lifetime|#A349A4]\n\n[TRUE SPACEF: and your death, at the hands of true spacef...|#A349A4]\n\n[PENNY: wait so like why are you 3d now?|#2AA198]\n\n[TRUE SPACEF: i um|#A349A4]\n\n[TRUE SPACEF: just fucking told you|#A349A4]\n\n[TRUE SPACEF: i got the energy core and became true spacef...|#A349A4]\n\n[PENNY: ohhh you didn't say the part about the energy core before|#2AA198]\n\n[TRUE SPACEF: yea i just thought you would have fucking inferred that|#A349A4]\n\n[PENNY: no i'm a little slow|#2AA198]\n\n[TRUE SPACEF: then what i'm about to do to you will be super ableist and problematic|#A349A4]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787512856637_390.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[TRUE SPACEF: i'm gonna beat your fucking ass, punk|#A349A4]"
+      }
     ]
   }
 }
