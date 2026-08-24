@@ -3033,6 +3033,64 @@
         "type": "dialogue",
         "value": "[TRUE SPACEF: i'm gonna beat your fucking ass, punk|#A349A4]"
       }
+    ],
+    "72": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1787582082567_391.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[RILETTA: Huh, I didn't notice that Nether Portal over there until just now.|#B58900]\n\n[RILETTA: maybe it's because the camera hasn't faced this direction yet|#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787582099773_392.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MACKERON: now what rieletta?|#B58900|#FDF6E3]\n\n[RILETTA: Just follow me.#B58900]\n\n[RILETTA: i don't know why, but i think i know where to go#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787582126659_393.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MACKERON: weeeee!!!|#B58900|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787582151442_394.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[RILETTA: I'm just going to ignore the fact that this portal is fucked up and go through it.|#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787582169109_395.png"
+      },
+      {
+        "type": "text",
+        "value": "You spot a castle in the distance, and for some strange reason you know this is where your evil variant will be."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787582181974_396.png"
+      },
+      {
+        "type": "text",
+        "value": "As the next encounter draws near, you all realize what you must do."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787582197261_397.png"
+      },
+      {
+        "type": "text",
+        "value": "And I for one, can't wait to see how this shit is gonna unfold."
+      }
     ]
   }
 }
