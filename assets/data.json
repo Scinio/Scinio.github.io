@@ -3003,7 +3003,7 @@
     "71": [
       {
         "type": "image",
-        "value": "assets/media/item_1787512717413_387.png"
+        "value": "assets/media/item_1787601373268_387.png"
       },
       {
         "type": "dialogue",
@@ -3032,10 +3032,6 @@
       {
         "type": "dialogue",
         "value": "[TRUE SPACEF: i'm gonna beat your fucking ass, punk|#A349A4]"
-      },
-      {
-        "type": "image",
-        "value": "assets/media/item_1787601373268_387.png"
       }
     ],
     "72": [
