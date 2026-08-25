@@ -3091,6 +3091,16 @@
         "type": "text",
         "value": "And I for one, can't wait to see how this shit is gonna unfold."
       }
+    ],
+    "73": [
+      {
+        "type": "text",
+        "value": "[[S] Collect.|#A349A4]"
+      },
+      {
+        "type": "video",
+        "value": "assets/media/item_1787698774942_8mb.video-Xuz-rEJntF59.mp4"
+      }
     ]
   }
 }
