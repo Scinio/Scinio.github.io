@@ -3101,6 +3101,68 @@
         "type": "video",
         "value": "assets/media/item_1787698774942_8mb.video-Xuz-rEJntF59.mp4"
       }
+    ],
+    "74": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1787776807615_399.png"
+      },
+      {
+        "type": "text",
+        "value": "You did it! You defeated your evil variant, or at least you are pretty sure you did."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787776882886_400.png"
+      },
+      {
+        "type": "text",
+        "value": "You take the Energy Core. You pick up the sword as well, as it could end up being useful. I mean, those knives you just used seemed pretty powerful, but you never know, y'know?"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787777151758_401.png"
+      },
+      {
+        "type": "text",
+        "value": "You also did it! Your evil variant is now a puddle of goop. It wasn't that hard to beat, considering it didn't even have the energy core."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787777167609_402.gif"
+      },
+      {
+        "type": "text",
+        "value": "Here it is, just where you left it. Not that you were the one who left it here. It just spawned here."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787777180231_403.png"
+      },
+      {
+        "type": "text",
+        "value": "And you, uh... I'm not really sure what the hell is going on here."
+      },
+      {
+        "type": "dialogue",
+        "value": "[RILETTA: so, you're my evil variant?|#B58900]\n\n[RILETTA: I guess I gotta kill you then.|#B58900]\n\n[RILES NOOK: nah man, i'm super chill|#FE7512]\n\n[RILES NOOK: U don't gotta kill me, man.|#FE7512]\n\n[RILES NOOK: the name's riles|#FE7512]\n\n[RILES NOOK: Riles Nook.|#FE7512]\n\n[RILETTA: uh, what?|#B58900]\n\n[RILES NOOK: just because i'm ur evil variant does not mean i am evil guy,|#FE7512]\n\n[RILES NOOK: Man.|#FE7512]\n\n[RILETTA: I guess that's cool.|#B58900]\n\n[RILETTA: you know, i think we are gonna get along super well actually|#B58900]\n\n[RILES NOOK: i also think that too, man|#FE7512]\n\n[RILES NOOK: And as a token of my coolness, I'll give u my Energy Core.|#FE7512]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787777248834_404.gif"
+      },
+      {
+        "type": "text",
+        "value": "Alright, somehow that fucking worked I guess."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1787777263320_405.png"
+      },
+      {
+        "type": "text",
+        "value": "For those at home keeping score, The Gridders have just collected three Energy Cores, which brings their total up to four. Five if you are counting Lasdav's."
+      }
     ]
   }
 }
