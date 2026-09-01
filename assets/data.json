@@ -3163,6 +3163,104 @@
         "type": "text",
         "value": "For those at home keeping score, The Gridders have just collected three Energy Cores, which brings their total up to four. Five if you are counting Lasdav's."
       }
+    ],
+    "75": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1788225912920_406.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[ISABEL: yo guys|#D33682]\n\n[ISABEL: i beat my variant and got the energy core! :]|#D33682]\n\n[DEAXS: see i told you that you had to do it on your own|#DC322F]\n\n[DEAXS: do you feel grown?|#DC322F]\n\n[ISABEL: i dont really know what that is supposed to mean|#D33682]\n\n[BITEX: yeah that was weird dont fucking say that shit|#DC322F|#FDF6E3]\n\n[DEAXS: lol ok|#DC322F]\n\n[DEAXS: hold on, im getting a message on my messaging device|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1788225997289_407.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[MACKY✦J|#6C71C4] began chatting with [LOCKY★P|#DC322F]\n\n[MACKY✦J: Hey dude.|#6C71C4]\n\n[MACKY✦J: Invite me to your groupchat.|#6C71C4]\n\n[MACKY✦J: I'm ready to talk now.|#6C71C4]\n\n[LOCKY★P: are you the guy that lasdav was talking about?|#DC322F]\n\n[MACKY✦J: Yep.|#6C71C4]\n\n[MACKY✦J: Anyway, you can invite me now.|#6C71C4]\n\n[LOCKY★P: sorry|#DC322F]\n\n[LOCKY★P: i was a bit surprised you decided to message me of all people|#DC322F]\n\n[MACKY✦J: I mean, aren't you the leader of the Gridders?|#6C71C4]\n\n[LOCKY★P: i guess?|#DC322F]\n\n[LOCKY★P: its kinda more lasdavs thing though|#DC322F]\n\n[MACKY✦J: Yeah, but he doesn't really do anything.|#6C71C4]\n\n[LOCKY★P: but hes been really helpful still|#DC322F]\n\n[LOCKY★P: even if he is a bit of a vagueposter|#DC322F]\n\n[MACKY✦J: I get it. Just take me to the groupchat.|#6C71C4]\n\n[LOCKY★P: ok|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1788226073489_408.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "THE GRIDDERS\n\n[LOCKY★P|#DC322F] added [MACKY✦J|#6C71C4] to THE GRIDDERS\n\n[MACKY✦J: Ok guys, I'm the guy that Lasdav was telling you about.|#6C71C4]\n\n[MACKY✦J: Now let's talk.|#6C71C4]\n\n[MACKY✦J: Or maybe I should let Lasdav do the talking.|#6C71C4]\n\n[MACKY✦J: He has a lot of explaining to do.|#6C71C4]\n\n[isabelfruit: lasdav, what is he talking about?|#D33682]\n\n[L: Something I should have explained a long time ago.|#4F545C|#FDF6E3]\n\n[MisterDoughnut: so like, most of the things you've said|#B58900]\n\n[L: Just let me explain.|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1788226171504_409.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[L: Not too long ago, I read this webcomic called Homestuck. In Homestuck there is a game called Sburb, and after seeing Sburb, I realized something.|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1788226202981_410.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[L: Nobody had made a Roblox version of it, so I decided that I would be the one to make it.|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1788226218529_411.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[L: That is when I began development on RSIDNT, the game you are all playing now.|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1788226236288_412.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[L: After I figured out the basics of the game, such as transporting real people in and out of the game world, and other equally simple things, I decided to move my computer into the game world to continue development.|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1788226262224_413.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[L: However, when I tried to return to the real world, my portal bugged out and exploded.|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1788226282460_414.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[L: After this happened, I had no other way to get home.|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1788226326648_415.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[L: Since my link with the real world was destroyed, I could no longer continue development on the game.|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1788226344134_416.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[L: Thankfully, I still had internet access, and a copy of OBS Studio, so I uploaded the first draft of the game trailer with enough information for you all to get started.|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1788226368047_417.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[L: The only thing I could do was release the game in this unfinished state and hope that someone would play it and help me go back home.|#4F545C|#FDF6E3]"
+      }
     ]
   }
 }
