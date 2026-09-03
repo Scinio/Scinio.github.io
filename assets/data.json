@@ -3261,6 +3261,56 @@
         "type": "dialogue",
         "value": "[L: The only thing I could do was release the game in this unfinished state and hope that someone would play it and help me go back home.|#4F545C|#FDF6E3]"
       }
+    ],
+    "76": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1788466484963_418.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "THE GRIDDERS\n\n[isabelfruit: are you for real|#D33682]\n\n[LOCKY★P: thats crazy|#DC322F]\n\n[EarthDoggo: 😱 |#2AA198]\n\n[MisterDoughnut: What.|#B58900]\n\n[MACKY✦J: Yep.|#6C71C4]\n\n[L: I know this is probably a lot to take in, but I hope you can all forgive me for taking this long to tell you the truth.|#4F545C|#FDF6E3]\n\n[L: I really do need your help do get out of here.|#4F545C|#FDF6E3]\n\n[isabelfruit: is this not insane to anyone else???|#D33682]\n\n[LOCKY★P: no it is|#DC322F]\n\n[LOCKY★P: im just kind of desensitized|#DC322F]\n\n[EarthDoggo: don't worry lasdav, we'll help you get out! 😃 |#2AA198]\n\n[MACKY✦J: Yeah, Mr. Dav, that's cool and all, but we got bigger things to worry about.|#6C71C4]\n\n[MACKY✦J: We will help you get out, but he's not the only one in danger.|#6C71C4]\n\n[MisterDoughnut: i think we heard all this before, but we don't even really know you, man|#B58900]\n\n[MACKY✦J: I was gonna get to that.|#6C71C4]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1788466645552_419.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "THE GRIDDERS\n\n[MACKY✦J: You will all be able to meet me once you have all reached Riletta's world.|#6C71C4]\n\n[MACKY✦J: After you get to his world, I will reveal my location and we can all meet up to have a little chat.|#6C71C4]\n\n[MACKY✦J: In person, y'know.|#6C71C4]\n\n[MACKY✦J: Anyway, I guess that's all for now!|#6C71C4]\n\n[MACKY✦J: You all better get climbing.|#6C71C4]\n\n[MACKY✦J: Cause I am gridding out.|#6C71C4]\n\n[MACKY✦J|#6C71C4] stopped chatting in THE GRIDDERS"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1788466679972_420.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "THE GRIDDERS\n\n[L: Well, I've said everything I have to say.|#4F545C|#FDF6E3]\n\n[L: I am curious to learn the identity of MACKY✦J and what his deal is.|#4F545C|#FDF6E3]\n\n[L: Good work so far, Gridders, and I will see you all then.|#4F545C|#FDF6E3]\n\n[L|#4F545C|#FDF6E3] stopped chatting in THE GRIDDERS\n\n[MisterDoughnut: Grid out.|#B58900]\n\n[EarthDoggo: grid out 🤪 |#2AA198]\n\n[isabelfruit: grid out|#D33682]\n\n[LOCKY★P: grid out!|#DC322F]\n\nEveryone has Grid-out of THE GRIDDERS"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1788466731074_421.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[ISABEL: i still cant get over the fact that lasdav MADE rsidnt|#D33682]\n\n[DEAXS: now i sorta feel bad saying that the game was shit a bunch|#DC322F]\n\n[BITEX: well you werent wrong|#DC322F|#FDF6E3]\n\n[DEAXS: i thought you said it had character|#DC322F]\n\n[BITEX: fuck no|#DC322F|#FDF6E3]\n\n[ERROR:|#D33682|#FDF6E3] 🟪⬛🟪⬛🟪⬛🟪⬛\n\n[DEAXS: uh yeah|#DC322F]\n\n[DEAXS: well since you defeated shadow isabel or whatever and got the energy core i think we can go to pennys world now?|#DC322F]\n\n[ISABEL: pretty sure|#D33682]\n\n[ISABEL: lead the way, deaxs|#D33682]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1788466787923_422.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: oh|#DC322F]\n\n[DEAXS: he wasnt kidding about that climbing thing|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1788466809511_423.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: well ill see you guys at the top!|#DC322F]"
+      }
     ]
   }
 }
