@@ -3311,6 +3311,40 @@
         "type": "dialogue",
         "value": "[DEAXS: well ill see you guys at the top!|#DC322F]"
       }
+    ],
+    "77": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1789069715661_424.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[RILETTA: So, why aren't you evil?|#B58900]\n\n[RILES NOOK: i don't know, i'm just not interested in being evil, man|#FE7512]\n\n[RILETTA: huh|#B58900]\n\n[MACKERON: huh eya h tats supter eienytertegind|#B58900|#FDF6E3]\n\n[RILETTA: I don't think those are words.|#B58900]\n\n[RILES NOOK: I think I like this Mackeron guy, man.|#FE7512]\n\n[RILETTA: no you don't|#B58900]\n\n[RILETTA: Trust me.|#B58900]\n\n[RILES NOOK: alright, i trust u man|#FE7512]\n\n[RILES NOOK: Come take a walk with me, pal.|#FE7512]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1789069773139_425.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[RILETTA: yeah so once everyone makes their way from penny's world to my world, then we can meet this macky j guy|#B58900]\n\n[RILES NOOK: that's cool, but you know all the worlds have names, rite?|#FE7512]\n\n[RILETTA: Uh, they do?|#B58900]\n\n[RILES NOOK: Yeah, man.|#FE7512]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1789069802660_426.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[RILES NOOK: once a world is created, it gets a name and it shows up in the sky in big letters|#FE7512]\n\n[RILES NOOK: U've never seen that?|#FE7512]\n\n[RILETTA: i guess not?|#B58900]\n\n[RILES NOOK: for instance, deaxs' world was called the world of peaks|#FE7512]\n\n[RILES NOOK: Isabel's world was called the World of Dunes.|#FE7512]\n\n[RILES NOOK: penny's is the world of paths|#FE7512]\n\n[RILES NOOK: And urs is the World of Cubes.|#FE7512]\n\n[RILES NOOK: pretty cool, huh, man?|#FE7512]\n\n[RILETTA: That is pretty cool, but it would have probably been more convenient to know earlier. |#B58900]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1789069870924_427.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[RILETTA: also why is my world minecraft, i thought we were playing roblox|#B58900]\n\n[RILES NOOK: Let's not think about that one too hard, man.|#FE7512]\n\n[MACKERON: i love not thinikning!|#B58900|#FDF6E3]"
+      }
     ]
   }
 }
