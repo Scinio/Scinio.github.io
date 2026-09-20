@@ -3395,6 +3395,76 @@
         "type": "dialogue",
         "value": "[BITEX: hey, not to interrupt this special little moment, but does that stupid looking fucking moon look like its getting closer to anyone else?|#DC322F|#FDF6E3]\n\n[BITEX: like its not just me seeing this shit, right?|#DC322F|#FDF6E3]\n\n[SCHTOOGLE: OH YES!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: I HAVE OBSERVED THAT THE STUPID LOOKING FUCKING MOON IS IN FACT!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: GETTING!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: CLOSER!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: WHAT COULD BE DONE!...|#2AA198|#FDF6E3]"
       }
+    ],
+    "79": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1789932757409_434.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[ISABEL: penny what the HELL even is that?|#D33682]\n\n[PENNY: well i thought that i had defeated my variant, but then it just kinda fused with the moon|#2AA198]\n\n[PENNY: for some reason 🤷 |#2AA198]\n\n[DEAXS: and now it's coming to what, kill us?|#DC322F]\n\n[PENNY: probably|#2AA198]\n\n[BITEX: well we better fucking hurry, i dont think im ready to die yet|#DC322F|#FDF6E3]\n\n[DEAXS: does anyone have any ideas??|#DC322F]\n\n[SCHTOOGLE: I DO!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: NOT!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: HAVE ANY IDEAS!|#2AA198|#FDF6E3]\n\n[BITEX: nice|#DC322F|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1789932834792_435.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: what about you, penny|#DC322F]\n\n[PENNY: actually, i think i know a guy... 😼|#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1789932867751_436.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[PENNY: ok he should just be in here i guess|#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1789932893235_437.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[TRUTHSEEKER:|#192583] hELLO!\n\n[TRUTHSEEKER:|#192583] Sorry for the caps, I use caps lock to sprint, so then I end up typing with it still on, it's a whole thing.\n\n[ISABEL: so who are you supposed to be?|#D33682]\n\n[TRUTHSEEKER:|#192583] Well, I am glad you asked..."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1789932996083_438.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[TRUTHSEEKER:|#192583] I am TruthSeeker555,\n\n[TRUTHSEEKER:|#192583] Here to bring you the truth, the whole truth, and nothing but the truth!\n\n[PENNY: hold on|#2AA198]\n\n[PENNY: stop ✋ |#2AA198]\n\n[PENNY: we're not doing this again|#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1789933057904_439.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[PENNY: listen, we're just here because i think we are all about to die|#2AA198]\n\n[TRUTHSEEKER:|#192583] Oh.\n\n[TRUTHSEEKER:|#192583] So you don't even have time to tell all your friends about Harry Potter?\n\n[DEAXS: haha yeah maybe another time dude|#DC322F]\n\n[TRUTHSEEKER:|#192583] Well, what can I do for you?\n\n[PENNY: well i think the moon is coming towards us and i thought we could maybe borrow that demon core thing you told me about to blow it up 💥 |#2AA198]\n\n[PENNY: you know, the thing arthur ridge gave to you or whatever|#2AA198]\n\n[TRUTHSEEKER:|#192583] That's not his name, but yes I can give it to you.\n\n[ISABEL: but how are we gonna get it up to the moon?|#D33682]\n\n[DEAXS: yeah|#DC322F]\n\n[PENNY: huh, if only we had like|#2AA198]\n\n[PENNY: a rocket or something that could fly up there with the core and blow it up|#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1789933125146_440.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[TRUTHSEEKER:|#192583] I mean I have a rocket over there."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1789933143905_441.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1789933154094_442.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[BITEX: i must be fucking blind because i dont know how i didnt see that before|#DC322F|#FDF6E3]\n\n[VRADNEV:|#D33682|#FDF6E3] 🟪⬛🟪⬛🟪⬛🟪⬛\n\n[BITEX: oh i see, and now you wont talk anymore|#DC322F|#FDF6E3]\n\n[BITEX: cool|#DC322F|#FDF6E3]"
+      }
     ]
   }
 }
