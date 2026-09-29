@@ -3465,6 +3465,16 @@
         "type": "dialogue",
         "value": "[BITEX: i must be fucking blind because i dont know how i didnt see that before|#DC322F|#FDF6E3]\n\n[VRADNEV:|#D33682|#FDF6E3] 🟪⬛🟪⬛🟪⬛🟪⬛\n\n[BITEX: oh i see, and now you wont talk anymore|#DC322F|#FDF6E3]\n\n[BITEX: cool|#DC322F|#FDF6E3]"
       }
+    ],
+    "80": [
+      {
+        "type": "text",
+        "value": "[[S] TruthSeeker: Blow up the MOON.|#A349A4]"
+      },
+      {
+        "type": "video",
+        "value": "assets/media/item_1790647593573_idfkyet.mp4"
+      }
     ]
   }
 }
