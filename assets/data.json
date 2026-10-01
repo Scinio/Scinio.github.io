@@ -3475,6 +3475,48 @@
         "type": "video",
         "value": "assets/media/item_1790647593573_idfkyet.mp4"
       }
+    ],
+    "81": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1790868310227_444.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[PENNY: wow ok|#2AA198]\n\n[PENNY: i guess we can go now 😶|#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1790868342379_445.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: hey i have a question for you|#DC322F] \n\n[TRUTHSEEKER:|#192583] Shoot.\n\n[DEAXS: are you like|#DC322F]\n\n[DEAXS: an npc in the game or like a real person or what?|#DC322F]\n\n[TRUTHSEEKER:|#192583] Well, I am TruthSeeker555.\n\n[TRUTHSEEKER:|#192583] I thought everybody knew that.\n\n[TRUTHSEEKER:|#192583] Let me tell you about Harry Potter.\n\n[DEAXS: uh|#DC322F]\n\n[TRUTHSEEKER:|#192583] They won't tell you this, but Hogwarts did 9/11.\n\n[DEAXS: yeah cool|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1790868399190_446.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: hey bitex and schtoogle|#DC322F]\n\n[BITEX: yeah?|#DC322F|#FDF6E3]\n\n[SCHTOOGLE: IM SCHTOOGLE!|#2AA198|#FDF6E3]\n\n[DEAXS: do you guys know anything about truthseeker?|#DC322F]\n\n[DEAXS: like what is he?|#DC322F]\n\n[BITEX: i mean he has to be an npc, but hes not a nucleyph or an evil variant|#DC322F|#FDF6E3]\n\n[BITEX: i think he is just like|#DC322F|#FDF6E3]\n\n[BITEX: some fucking guy|#DC322F|#FDF6E3]\n\n[SCHTOOGLE: HE APPEARS TO BE JUST A RANDOM NPC!|#2AA198|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1790868448548_447.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[ISABEL: hey sort of unrelated, but are we in fucking minecraft now?|#D33682]\n\n[DEAXS: it does appear to be that way|#DC322F]\n\n[SCHTOOGLE: WHAT IS MINECRAFT!|#2AA198|#FDF6E3]\n\n[VRADNEV:|#D33682|#FDF6E3] 🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛\n\n[SCHTOOGLE: OH ITS LIKE SQUARES AND STUFF!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: I BELIEVE I AM BEGINNING TO UNDERSTAND VRADNEV NOW!|#2AA198|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1790868507125_448.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[TRUTHSEEKER:|#192583] Alright everybody, we are almost at the top!\n\n[PENNY: just because you blew up the moon doesn't mean you are the leader now 🌕|#2AA198]"
+      }
     ]
   }
 }
