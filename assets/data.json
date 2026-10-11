@@ -3517,6 +3517,346 @@
         "type": "dialogue",
         "value": "[TRUTHSEEKER:|#192583] Alright everybody, we are almost at the top!\n\n[PENNY: just because you blew up the moon doesn't mean you are the leader now 🌕|#2AA198]"
       }
+    ],
+    "82": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1791750165540_449.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: so we really are just in minecraft now, huh|#DC322F]\n\n[PENNY: yea and i can't be the only one who recognizes this world|#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791750195995_450.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[RILETTA: hey riles, look over there!|#B58900]\n\n[RILETTA: It's the Gridders!|#B58900]\n\n[RILES NOOK: so it is, man|#FE7512]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791750225014_451.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[RILETTA: it's so crazy to see all of you guys|#B58900]\n\n[DEAXS: i mean, not me right?|#DC322F]\n\n[DEAXS: we are neighbors, so we've already seen each other and stuff|#DC322F]\n\n[RILETTA: That's true, but the rest of you guys!|#B58900]\n\n[RILETTA: this is so cool|#B58900]\n\n[PENNY: yea!|#2AA198]\n\n[ISABEL: :]|#D33682]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791750323086_452.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[PENNY: are we gonna talk about the fact that this is just your minecraft world? 🤔 |#2AA198]\n\n[RILETTA: No, actually.|#B58900]\n\n[RILETTA: i was trying to ignore that|#B58900]\n\n[PENNY: oh, sorry|#2AA198]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791750361645_453.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[ISABEL: ok but what we ACTUALLY need to talk about is this clone of yours|#D33682]\n\n[DEAXS: are you account sharing or something?|#DC322F]\n\n[RILES NOOK: Oh, I am Riles Nook, man.|#FE7512]\n\n[ISABEL: that doesnt explain anything|#D33682]\n\n[RILES NOOK: i'm riletta's evil variant|#FE7512]\n\n[BITEX: what the hell kill this fucking guy!!!|#DC322F|#FDF6E3]\n\n[RILES NOOK: No no no, I'm like chill, man.|#FE7512]\n\n[RILETTA: Yeah, he isn't actually evil.|#B58900]\n\n[RILETTA: it's just a label|#B58900]\n\n[RILETTA: And you can't always just put labels on everything.|#B58900]\n\n[BITEX: alright, but ive got my eye on you|#DC322F|#FDF6E3]\n\n[BITEX: my fuckin ghost eye and shit|#DC322F|#FDF6E3]\n\n[BITEX: type shit|#DC322F|#FDF6E3]\n\n[RILES NOOK: what, man|#FE7512]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791750457238_454.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[RILETTA: since we are doing introductions, i unfortunately have to introduce you to the travesty that is mackeron|#B58900]\n\n[MACKERON: its mee mackeron!|#B58900|#FDF6E3]\n\n[DEAXS: hi?|#DC322F]\n\n[ISABEL: sup|#D33682]\n\n[PENNY: don't worry, i know a couple people who will get along just fine with him 😁"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791750534637_455.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[SCHTOOGLE: WHY HELLO THERE!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: YOU MUST BE MACKERON!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: I AM SCHTOOGLE!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: IT IS MY PLEASURE TO DO THE THING THAT IS REFERRED TO AS INTRODUCING MYSELF!|#2AA198|#FDF6E3]\n\n[MACKERON: yeayssyyaeaehaeyay|#B58900|#FDF6E3]\n\n[VRADNEV:|#D33682|#FDF6E3] 🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛\n\n[MACKERON: yayyyyyy new friens!!!|#B58900|#FDF6E3]\n\n[BITEX: am i the only nucleyph that isnt completely useless?|#DC322F|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791750648125_456.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[TRUTHSEEKER:|#192583] hEY!\n\n[TRUTHSEEKER:|#192583] Did you know that Louis Slotin's death wasn't actually an accident, but a murder that was calculated and conceived by none other than Alvin C. Graves?\n\n[RILES NOOK: Uh, yeah, that's great, man...|#FE7512]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791750723921_457.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[RILETTA: Wait, deaxs, I actually have one more thing to give y-|#B58900]\n\n[BITEX: yo, does anyone else see the sky getting super dark?|#DC322F|#FDF6E3]\n\n[BITEX: i really am just the noticer today|#DC322F|#FDF6E3]\n\n[RILETTA: yeah, what the hell?|#B58900]\n\n[DEAXS: hold on, someone is messaging me in the gridders chat|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791750767357_458.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "THE GRIDDERS\n\n[L: Someone new has just entered the Threshold.|#4F545C|#FDF6E3]\n\n[LOCKY★P: so thats why the sky got all dark|#DC322F]\n\n[LOCKY★P: the new world must be covering the sun or something|#DC322F]\n\n[L: Yes, something like that.|#4F545C|#FDF6E3]\n\n[L: That isn't the strangest part, though.|#4F545C|#FDF6E3]\n\n[L: It appears they have entered on their own, as they don't seem to be connected to another player.|#4F545C|#FDF6E3]\n\n[MACKY✦J: That is pretty weird, but we can worry about them later.|#6C71C4]\n\n[MACKY✦J: Since you guys have entered Riletta's world, you can come see me now.|#6C71C4]\n\n[MisterDoughnut: actually, it's called the world of cubes|#B58900]\n\n[MisterDoughnut: That's what Riles told me, at least.|#B58900]\n\n[MACKY✦J: Yeah, that's right.|#6C71C4]\n\n[MACKY✦J: I just never bothered to mention it.|#6C71C4]\n\n[MACKY✦J: Anyway, ya'll can come and meet me now.|#6C71C4]\n\n[MACKY✦J: I'm waiting for you guys in the END SHIP over by the NETHER PORTAL.|#6C71C4]\n\n[LOCKY★P: alright, me and the gridders are on our way|#DC322F]\n\n[MACKY✦J: Meanwhile, me and Lasdav are gonna do a little Zoom call.|#6C71C4]\n\n[L: We are?|#4F545C|#FDF6E3]\n\n[MACKY✦J: Yep.|#6C71C4]\n\n[L: My computer doesn't have a camera, though.|#4F545C|#FDF6E3]\n\n[MACKY✦J: Don't worry, I can already see you.|#6C71C4]\n\n[L: Of course...|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791750924202_459.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: well, we made it|#DC322F]\n\n[BITEX: took us long enough|#DC322F|#FDF6E3]\n\n[BITEX: im just finally happy to meet the damn guy|#DC322F|#FDF6E3]\n\n[BITEX: i thought we were done being vague about our identities after lasdav but surely now this is the last time|#DC322F|#FDF6E3]\n\n[SCHTOOGLE: I HAVENT BEEN VAGUE ABOUT MY IDENTITY AT ALL!|#2AA198|#FDF6E3]\n\n[SCHTOOGLE: IM SCHTOOGLE!|#2AA198|#FDF6E3]\n\n[BITEX: yes, schtoogle, we know|#DC322F|#FDF6E3]\n\n[PENNY: i'm just curious if this mysterious dude is another real player or an npc like truthseeker… 🤔|#2AA198]\n\n[TRUTHSEEKER:|#192583] I’m just curious if he wants to talk about Harry Potter!\n\n[ISABEL: well, from what i can assume hes probably real!|#D33682]\n\n[ISABEL: lasdav seemed like he didn’t know what this guys deal was, or who chaos valentine is, so i doubt either of them would be game characters…|#D33682]\n\n[RILETTA: Quite frankly, i’m just ready to get home.|#B58900]\n\n[RILETTA: i did NOT expect this game to take so long|#B58900]\n\n[RILETTA: Why did another player have to join now of all times…|#B58900]\n\n[DEAXS: true, we better get a move on|#DC322F]\n\n[DEAXS: alright everybody, lets go meet this “MACKY✦J”...|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791751209595_460.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: hello...?|#DC322F]\n\n[???: Hey there.|#6C71C4]\n\n[???: In here.|#6C71C4]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791751318321_461.png"
+      }
+    ],
+    "83": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1791751360465_462.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[???: It’s nice to finally meet you, deaxs.|#6C71C4]\n\n[DEAXS: w...who are you?|#DC322F]\n\n[DEVECIS: My name is Devecis. I’ve come a long way to finally meet up with you all.|#6C71C4]\n\n[RILETTA: woah, you look like another deaxs!|#B58900]\n\n[PENNY: hey, be nice! 😠|#2AA198]\n\n[DEVECIS: No no, he’s right. You could consider me another deaxs.|#6C71C4]\n\n[DEVECIS: I’m not from here. In fact, I’m from an Alternate Universe.|#6C71C4]\n\n[ISABEL: an alternate WHAT???|#D33682]\n\n[DEVECIS: I know it sounds crazy, but I promise I can explain everything. You all have been left in the dark long enough.|#6C71C4]\n\n[DEVECIS: Now please, listen to my story. My hope is that with you, together we can make it have a happy ending.|#6C71C4]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791751439734_463.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEVECIS: First, I will explain the nature of the multiverse.|#6C71C4]\n\n[DEVECIS: It may come as a surprise to hear you aren’t the only universe to exist, but where I am from, this discovery has been documented for decades. There are 26 universes in total, and based on energy readings and general sensibility, they were labeled from A-Z.|#6C71C4]\n\n[DEVECIS: I am from Universe O, and you, Gridders, are from Universe A.|#6C71C4]\n\n[DEVECIS: These universes all inhabit an area with as of now unknown properties. Time and space themselves seem to work differently in this area between universes.|#6C71C4] \n\n[DEVECIS: Our universe developed the ability to view these universes using, in layman’s terms, really fucking strong magnets and a lot of math. With this, people could witness the happenings across the multiverse with some amount of limitations. We could see, but not communicate.|#6C71C4]\n\n[ISABEL: so if you’re essentially teh “deaxs” of universe O, were there other versions of the rest of us?|#D33682]\n\n[DEVECIS: Yes, but not exactly. I had friends, but it would be unreasonable to assume I and every other “deaxs” would always have the same specific group. I didn’t get to meet anyone particularly similar to all of you.|#6C71C4]\n\n[RILETTA: That's because there's only one person as cool as me.|#B58900]\n\n[RILETTA: and that’s me|#B58900]\n\n[RILES NOOK: and me, man|#FE7512]\n\n[DEAXS: well, clearly you managed to make it here somehow. what exactly caused you to jump between universes?|#DC322F]\n\n[DEVECIS: Right. That would be the one I gave you all warning of.|#6C71C4]\n\n[DEVECIS: Chaos Valentine.|#6C71C4]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791751624669_464.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEVECIS: Chaos Valentine is a monstrous being with the power to effectively render universes entirely null.|#6C71C4]\n\n[DEVECIS: By the time I attempted to leave my universe, I witnessed the destruction myself. Half of the universes were just… empty. It was as if the only thing in the universe was pure black.|#6C71C4]\n\n[DEVECIS: I was unfortunately a witness to how this was done. Chaos Valentine has a darkness clouding itself. This darkness emits from itself at all times and seeps into every crevice it can find, and when it comes to rest, it hardens.|#6C71C4]\n\n[DEVECIS: This black substance then spreads its own clouds of darkness and eventually consumes everything. Entire universes, choked to death in mere hours.|#6C71C4]\n\n[DEAXS: holy shit…|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791751668800_465.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: youre kidding me right? how are we supposed to beat this guy??|#DC322F]\n\n[DEVECIS: I’m not entirely sure, but I believe that with enough of us and as many energy cores as we can obtain, we can win.|#6C71C4]\n\n[DEAXS: so were just leaving all this up to chance?|#DC322F]\n\n[LASDAV: It’s alright deaxs. You’ve shown great ability and power without a core yourself. With as much as Devecis has told me, and the abilities you all have shown… I agree that we can defeat this threat.|#4F545C|#FDF6E3]\n\n[DEAXS: …alright, ill take your word for it, lasdav.|#DC322F]\n\n[DEAXS: wait, what all has devecis told you anyway?|#DC322F]\n\n[LASDAV: The game he played, how he traveled here, and what he’s been up to since arriving.|#4F545C|#FDF6E3]\n\n[LASDAV: Devecis, why don’t you tell them what you told me?|#4F545C|#FDF6E3]\n\n[DEVECIS: Oh yeah, sure.|#6C71C4]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791751792412_466.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEVECIS: Not too long ago, I played my own game, one with a very similar nature to RSIDNT.|#6C71C4]\n\n[DEVECIS: The game was called HBITNT. The game played quite similarly, with me entering into a new world and going on a quest with the help of friends.|#6C71C4]\n\n[DEVECIS: In fact, the structure of the game’s ability to transport real people in and out seems to be completely identical to this game.|#6C71C4]\n\n[DEVECIS: This proved to have consequences, both good and bad, for my plan to travel out of Universe O as it was being consumed by the dark.|#6C71C4]\n\n[DEVECIS: Now, multiversal travel had been theorized, but it would’ve required such a massive energy source that nobody had tried it.|#6C71C4]\n\n[DEVECIS: Thankfully, I just so happened to have played a game in which its reality allowed for such a massive power. My game had Energy Cores much like yours does, and it turns out they hold truly unimaginable power. As soon as I understood just how powerful these Cores were, I got to work creating a vessel that could allow me to withstand and travel to your universe.|#6C71C4]\n\n[DEVECIS: Using my engineering degree and a very convenient nearby workshop, I put together my best work in the little time I had. I created… The Lightsplitter.|#6C71C4]\n\n[DEVECIS: It was finally time to give it a shot. To attempt the first ever travel between universes.|#6C71C4]\n\n[BITEX: (theres no fucking way he couldve made it that fast)|#DC322F|#FDF6E3]\n\n[TRUTHSEEKER:|#192583] (When you believe in magic, anything is possible.)"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791751904310_467.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEVECIS: The theoretical method involved a lot of complicated moving parts and extremely technical knowledge, so I’ll try to explain it as basically as I can.|#DC322F]\n\n[DEVECIS: Essentially, I can’t pass through the space between universes without creating a localized bubble of space-time. So, instead of spending millennia in cryosleep using a bunch of energy to force myself to exist, we’re gonna cheat.|#DC322F]\n\n[DEVECIS: Effectively, I’m gonna transport myself directly through the gap and exist in the moment I’m looking at by tunneling my mass backwards through the light.|#DC322F]\n\n[DEVECIS: If none of that made sense, that’s okay, basically I’m both traveling across space and also traveling back in time, due to the fact that the light I can see from across the universe is from the past, since light has a travel time.|#DC322F]\n\n[PENNY: yea i'm not gonna lie i did not understand any of that 🤕|#2AA198]\n\n[DEVECIS: Well anyways, I chose your universe for a few reasons.|#DC322F]\n\n[DEVECIS: One is common sense, the darkness started spreading from Z and moved from Y onward.|#DC322F]\n\n[DEVECIS: And the other is that due to the fact that I was in the game at the time, I couldn’t travel to anywhere in another universe that wasn’t inside the game architecture.|#DC322F]\n\n[DEVECIS: I chose your universe as well because the only person in the game at the time was little ol’ Lasdav here. I wanted to lay low wherever I ended up so as to not cause too much panic, assuming where I landed didn’t already know that Chaos was coming.|#DC322F]\n\n[RILETTA: Kinda hard NOT to make people panic about the multiverse ending threat, huh?|#B58900]\n\n[ISABEL: come on riletta be nice, hes helped us prepare this far!|#D33682]\n\n[RILETTA: sorry, you’re right. Just feeling a bit in over my head with the idea that I’m gonna die slowly being choked to death.|#B58900]\n\n[RILETTA: that and… other things|#B58900]\n\n[ISABEL: itll be alright :] what were you saying, devecis?|#D33682]\n\n[DEVECIS: Well, at this point in the story, I didn’t even know if it was gonna work. |#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791752015815_468.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEVECIS: I just had to hope it would work out. I fired everything up and held my breath…|#6C71C4]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791752220495_468.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEVECIS: And it worked like a fuckin’ charm.|#6C71C4]\n\n[DEVECIS: Unfortunately, it completely burnt through the Energy Cores power, and left my ship running on empty.|#6C71C4]\n\n[DEVECIS: I wasn’t dumb enough to forget a back-up generator however, but I had no real way to pilot the ship anywhere, so I was fine, but stranded.|#6C71C4]\n\n[DEVECIS: Lucky enough for me, Lasdav didn’t get far enough in development to put in any good security measures, so using my computer science degree, I managed to spectate all the respawn slabs for the game. I’ve been watching all of you this whole time, so you can imagine I was looking forward to this quite a bit.|#6C71C4]\n\n[DEAXS: so you were just sitting around watching us the whole time then?|#DC322F]\n\n[DEVECIS: Not exactly. I’ve been messaging you for a bit now, obviously, but I also got up to some fun with THIS.|#6C71C4]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791752318702_469.png"
+      },
+      {
+        "type": "text",
+        "value": "You decide to finally show everyone what you’ve been up to this entire time. You gracefully trance about the keyboard and flex on these losers with your epic prose and massive vocabulary. Every single Gridder is so goddamned impressed they bow to your feet and praise you."
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEVECIS: I’ve been typing away here narrating all of what you’ve been up to.|#6C71C4]\n\n[DEAXS: …oh. okay. thats cool i guess.|#DC322F]\n\n[DEVECIS: What, that isn’t very interesting to you?|#6C71C4]\n\n[RILES NOOK: It's kinda fricking boring, man.|#FE7512]\n\n[DEVECIS: Well I had to use my Narrative Language degree somehow.|#6C71C4]\n\n[BITEX: yeah that isnt fucking real ive been around long enough to know that is not a real thing you can get|#DC322F|#FDF6E3]\n\n[DEVECIS: lol anyways|#6C71C4]\n\n[DEVECIS: That’s pretty much most of my whole deal. Pretty crazy right?|#6C71C4]"
+      }
+    ],
+    "84": [
+      {
+        "type": "text",
+        "value": " [[S] DEAXS ADVENTURE Reader: Mental Breakdown.|#6C71C4]"
+      },
+      {
+        "type": "video",
+        "value": "assets/media/item_1791752451170_8mb.video-kPE-08Tg2wZR.mp4"
+      }
+    ],
+    "85": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1791752481287_471.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEVECIS: We should probably start talking about what all our plans are.|#6C71C4]\n\n[LASDAV: Right, we need to… excuse me?|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "text",
+        "value": "MY NAME IS SCHTOOGLE AND I HAVE A NARRATIVE LITERATURE DEGREE!!! waow me too…….. i wnet to unviesnrty and won at soprts ball! THAT IS SO IMPRESSIVE MACKERON! YOU ARE THE MOST COOLEST PERSON I HAVE EVER BEEN ABLE TO MEET!!"
+      },
+      {
+        "type": "dialogue",
+        "value": "[LASDAV: Excuse me you two, can you move away from the laptop? I’m trying to have a conversation with the rest of the Gridders.|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "text",
+        "value": "IT APPEARS WE ARE NARRATING OVER OUR GOOD FRIEND LASDAV! WHO APPEARS TO BE FLUMMOXED AT OUR NARRATION! IT SEEMS LIKE HE WANTS US TO MOVE AWAY FROM THE LAPTOP BUT THEN WE WONT BE ABLE TO NARRATE! tahts so frkcining truu scothogle we reall aer gtetting in teh way of sladav… what shuld we doo scootle?????"
+      },
+      {
+        "type": "dialogue",
+        "value": "[LASDAV: You can move, for one…|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791752603177_472.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEVECIS: We have a few things on the agenda. For one, the new player who joined.|#6C71C4]\n\n[DEVECIS: That throws a wrench into the plan to reach Lasdav and get him out of the game.|#6C71C4]\n\n[DEAXS: true, but seeing as we all have our energy cores and i can fly, getting through the new world shouldnt take very long.|#DC322F]\n\n[ISABEL: it might end up being a good thing actually since now we can get one more core from teh new players world!|#D33682]\n\n[DEVECIS: That’s a good point, Isabel! One more core would certainly help in preparing for Chaos Valentine…|#6C71C4]"
+      },
+      {
+        "type": "text",
+        "value": "NOW THAT OUR HEROES HAVE BEGUN TO FORM PLANS FOR ACHIEVING ALL THEIR GOALS, IT BECAME TIME FOR A NARRATIVE PAUSE! THIS TIMING ALLOWED OUR TWO GREAT NARRATORS TO ENTER THE SCENE AND TYPE AWAY AT THE LAPTOP BELONGING TO DEVECIS! whit our awseum new Narrative Language degrese we fnially startedd teh next chpater of DECKLES ADVENTUR….."
+      },
+      {
+        "type": "dialogue",
+        "value": "[LASDAV: Can you two just please move away from the laptop? They are having an important conversation and I would like to be a part of it.|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "text",
+        "value": "hey shtcoogel do u wannna se how muhc i can tpye in 30 secnds???? WHY YES MACKERON THAT SOUNDS LIKE GREAT FUN! I WOULD LOVE TO SEE HOW MUCH YOU CAN TYPE IN 30 SECONDS, ALSO KNOWN AS HALF A MINUTE, ALSO KNOWN AS ONE ONE-HUNDRED-AND-TWENTYTH OF AN HOUR! okk,... wathc this!!!! fjheduiwokpafjeawiujropfhjewuipofhehwufhwejuikfchbnsdhujifhnsdjkfohsfujioehfujieshsjifhjasdjdfioawehujifoewhjufcioewshjfdcuijcewahdfujipewhjfjiwseohjfjueiwoafdhjjueidswhfcsjdeuiolfdhjuiwofhjejuwihjfaujisdoijhifwehjfuiwhfuiosdhnfueirwoncujiocuweiopafvnvujrdewiofghrewuyjifhedfujfweanhjujfiwsdeahfujisedfhujerwiofnjhikolcndsujioafoherwujiofrhwejkofehwujiofdsajipfhjewujiaopfhedrujiopafhjndsjipfnsdjifasjdhnujifewhjufiahfuieoafndsjicfnmdsuijafpjweuiopfgwjiufdewsaopjnfiodsajfaskidop"
+      },
+      {
+        "type": "dialogue",
+        "value": "[LASDAV: Sigh…|#4F545C|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791752716496_473.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEVECIS: So then, the final plan is this.|#6C71C4]\n\n[DEVECIS: Once we enter the new world, we’ll meet this new person, take out their variant, and go hunting for the cores.|#6C71C4]\n\n[DEAXS: ill try to make a good first impression for our new player|#DC322F]\n\n[PENNY: i call dibs on fighting the variant! 😄|#2AA198]\n\n[ISABEL: and ill coordinate looking for the energy core!|#D33682]\n\n[RILES NOOK: what should we do, man?|#FE7512]\n\n[RILETTA: …|#B58900]\n\n[RILES NOOK: O K man.|#FE7512]\n\n[BITEX: i guess were all just on backup then|#DC322F|#FDF6E3]\n\n[VRADNEV:|#D33682|#FDF6E3] 🟪⬛🟪⬛🟪⬛🟪⬛🟪⬛\n\n[TRUTHSEEKER:|#192583] When am I allowed to do something again?\n\n[BITEX: buddy you can do whatever youd like whenever youd like to|#DC322F|#FDF6E3]\n\n[DEVECIS: Once all that’s done, we head up to Lasdav’s place and get him out.|#6C71C4]\n\n[DEVECIS: Then, we’ll all spend the rest of the time we have training and preparing for Chaos.|#6C71C4]\n\n[DEAXS: sounds good. i honestly think we have a real shot at th… huh?|#DC322F]\n\n[DEAXS: whats that little thing in the corner?|#DC322F]\n"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791752879085_474.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEVECIS: Oh, right. That’s my nucleyph. It doesn’t really do much or speak, but its pretty friendly once it gets to know people.|#6C71C4]\n\n[DEVECIS: I never really named it TBH.|#6C71C4]\n\n[DEAXS: well i guess TBH works as a name then lol|#DC322F]\n\n[DEVECIS: Better than nothing. Come here TBH!|#6C71C4]"
+      },
+      {
+        "type": "text",
+        "value": "tbh starts running over, but not to devecis, but deaxs instead! 😲 it leaps into their arms and they start cradling the little guy 😊"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: woah! well hey there buddy.|#DC322F]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791752979656_475.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[ISABEL: aww, they like you!! :]|#D33682]\n\n[DEVECIS: If you’d like, you can keep ‘em.|#6C71C4]\n\n[DEAXS: really? i think id like that to be honest|#DC322F]\n\n[DEVECIS: Sounds good. Alright then, let’s Grid-out everyone!|#6C71C4]\n\n[BITEX: finally, we can get some fucking action again|#DC322F|#FDF6E3]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791753040431_476.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[PENNY: hey devecis❓i have a question for you|#2AA198]\n\n[DEVECIS: Yeah?|#6C71C4]\n\n[PENNY: how did you end up here on riletta's world specifically? 🤔|#2AA198]\n\n[DEVECIS: Oh yeah. My ship just fell to the ground when the WORLD OF CUBES loaded in. Since Lasdav’s world is above everything, once the world spawned, gravity just pulled it down.|#6C71C4]\n\n[RILETTA: Makes sense. But when did you get the laptop? I thought it was a console in your ship.|#B58900]\n\n[DEVECIS: Oh I just took the console apart and put all its major internals in a laptop shell.|#6C71C4]\n\n[RILETTA: with your engineering degree, of course|#B58900]\n\n[DEVECIS: Now you get it!|#6C71C4]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791753102642_477.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "[DEAXS: lets go meet this new player then…|#DC322F]"
+      }
+    ],
+    "86": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1791753137581_478.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791753142075_479.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791753147357_480.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791753153805_481.gif"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791753158569_482.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791753162896_483.png"
+      }
+    ],
+    "87": [
+      {
+        "type": "text",
+        "value": "[END OF ACT 3|#00AFEF]"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1791753346036_484.png"
+      }
+    ],
+    "88": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1791753355038_485.png"
+      }
+    ],
+    "89": [
+      {
+        "type": "text",
+        "value": "[[S] Credits|#00AFEF]"
+      },
+      {
+        "type": "video",
+        "value": "assets/media/item_1791753388978_486_-_[S]_Credits.mp4"
+      }
     ]
   }
 }
