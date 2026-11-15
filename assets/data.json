@@ -3857,6 +3857,100 @@
         "type": "video",
         "value": "assets/media/item_1791753388978_486_-_[S]_Credits.mp4"
       }
+    ],
+    "90": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1794712054986_487.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1794712065587_488.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1794712070102_489.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1794712074228_490.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1794712078612_491.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1794712083012_492.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1794712087845_493.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1794712091729_494.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1794712095396_495.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1794712099205_496.png"
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1794712103295_497.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "Begin log. This is Reginald. Today is 2/12/2021. The following logs pertain to classified information. Do not read unless you have security clearance from █████. Project DXS has breached containment. Specimen hasn't left the island, but has put a hole in the wall and left the premesis. Prototype \"Bug Drone\" has been dispatched to monitor the specimen. There isn't much to do beyond monitoring as the combined might of the AUCS military wouldn't be enough to stop it."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1794712183006_498.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "For future indexing purposes, I will briefly describe the nature of Project DXS. Project DXS is a sentient, sapient humanoid artificial life-form bioweapon intended to protect the AUCS from military threats. It was designed to be the strongest thing alive and capable of handling large-scale war efforts from the AUCS' enemies. It was specifically created in the image of an ancient art piece known as The Fight for Life."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1794712211668_499.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "This ancient mural is displayed here on the island where Project DXS was developed. It depicts a hero of light facing an evil darkness. Project DXS was formed in the shape of the hero, as it is designed to be a means of bringing peace. Unfortunately, the project never panned out. By the time the men upstairs pulled out of the project, it was too late to remove the specimen."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1794712239205_500.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "The specimen was placed into a deep stasis tank and put under a medically induced coma. Brain activity never slowed, so it's speculated it was never asleep. It was under stasis for 50 years, 1 month, 2 days and 4 hours."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1794712257423_501.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "Specimen has destroyed the mural. That should be enough pre-amble. Beginning proper logging."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1794712284968_502.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "Specimen will be referred to by the abbreviation DXS from here on. DXS has flown into the sky and seems to be monitoring the island."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1794712345148_503.gif"
+      }
     ]
   }
 }
