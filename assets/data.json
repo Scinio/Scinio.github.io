@@ -3993,6 +3993,48 @@
         "type": "dialogue",
         "value": "There's a chance that might end up putting DXS off from playing the game, which would be unfortunate, as then I don't have anything interesting to document. Yet, seeing as our subject hasn't done one thing worthy of enjoyment in three quarters of a year, there's still a chance we might get to look at something fun for once. I'm holding my breath for this one. How might DXS acquire the means to even play a computer game? Not like the subject owns any property."
       }
+    ],
+    "92": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1795488097792_509.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "I guess we don't need to own anything if we just break into someone's house! Subject has defenestrated into an empty bedroom with a computer that has the game CTIZN installed. Thankfully the little kid isn't home right now as it's currently school hours. The signal on the drone is weakening, so the image quality will be of lower detail while the connection isn't strong. Subject is inspecting the room carefully, choosing to do it only now after breaking and entering. Oh yeah, this is the first crime DXS has committed in a while. "
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1795488120640_510.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "While the subject looking around, I guess I might as well update some information on file for Project DXS.\n\nAs of recently, the subject has chosen a new identity to live under now that they live in the general public. The name they have chosen to go by is \"Defecxs\", a sarcastic portmanteau of the word \"defect\" and the acronym \"DXS\". They've also chosen to be identified with masculine pronouns, despite the fact they were created without gender.\n\nFrom this point in the logs, I will begin respecting these wishes, as I have come to view Defecxs as a person in the same way civilization has. He still doesn't have a damn hobby but he's his own person at least."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1795488139584_511.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "Defecxs has started using the computer, presumably in an attempt to open the game and enter it. It's unknown just how much he understands the use of a computer or any kind of computer software or operating system, but as the game CTIZN is one marketed to all ages including children, he should manage."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1795488158225_512.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "The subject - sorry, Defecxs has successfully opened a portal into the game world. The portal is created in the room through a holographic projection coming from the front light on the computer's built-in camera. He's eyeing the portal now, likely pondering whether to enter or not."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1795488186579_513.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "Looks like we've got our answer. Defecxs slowly reaches through the translucent yet opaque portal and enters the game. Hopefully the drone can go through as well, as otherwise we won't be able to track him while he's inside of the game."
+      }
     ]
   }
 }
