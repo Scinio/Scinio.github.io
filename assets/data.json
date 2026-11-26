@@ -4035,6 +4035,48 @@
         "type": "dialogue",
         "value": "Looks like we've got our answer. Defecxs slowly reaches through the translucent yet opaque portal and enters the game. Hopefully the drone can go through as well, as otherwise we won't be able to track him while he's inside of the game."
       }
+    ],
+    "93": [
+      {
+        "type": "image",
+        "value": "assets/media/item_1795664165688_514.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "Hallelujah, we are officially in. It seems like the game opens in a white void to get the user acclimated to the environment."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1795664180730_515.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "The game has spawned in a pulsating green orb. An online guide describes it as a Nucleorb, which will hatch into a Nucleyph, and the Nucleyph will serve as a player's guide and companion. This should prove quite helpful to Defecxs."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1795664195702_516.gif"
+      },
+      {
+        "type": "dialogue",
+        "value": "...Or not."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1795664212792_517.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "Now that Defecxs has made a Nucleorb omelette, I'm not sure what might happen. The guide states that the game should next spawn a door after the player has acquainted with their Nucleyph. If only he wasn't so quick to make enemies of everything... hard to blame him for that, though."
+      },
+      {
+        "type": "image",
+        "value": "assets/media/item_1795664244122_518.png"
+      },
+      {
+        "type": "dialogue",
+        "value": "The door has successfully spawned despite the lack of a Nucleyph. It's time for Defecxs to enter the game proper."
+      }
     ]
   }
 }
