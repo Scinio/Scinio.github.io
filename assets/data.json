@@ -4077,6 +4077,16 @@
         "type": "dialogue",
         "value": "The door has successfully spawned despite the lack of a Nucleyph. It's time for Defecxs to enter the game proper."
       }
+    ],
+    "94": [
+      {
+        "type": "text",
+        "value": "[Defecxs: Enter|7A9946#]"
+      },
+      {
+        "type": "video",
+        "value": "assets/media/item_1795802970545_519_-_Defecxs_Enter.mp4"
+      }
     ]
   }
 }
